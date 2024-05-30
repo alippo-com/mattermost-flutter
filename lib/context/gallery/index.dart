@@ -108,11 +108,6 @@ final galleryManager = GalleryManager();
 Gallery useGallery(String galleryIdentifier) {
   final gallery = galleryManager.get(galleryIdentifier);
 
-  if (gallery == null) {
-    throw Exception(
-        'Cannot retrieve gallery manager from the context. Did you forget to wrap the app with GalleryProvider?');
-  }
-
   return gallery;
 }
 

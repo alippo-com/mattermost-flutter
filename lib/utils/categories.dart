@@ -2,11 +2,9 @@
 // See LICENSE.txt for license information.
 
 import 'package:mattermost_flutter/constants/general.dart';
-import 'package:mattermost_flutter/constants/preferences.dart';
 import 'package:mattermost_flutter/constants/categories.dart';
 import 'package:mattermost_flutter/helpers/api/preference.dart';
 import 'package:mattermost_flutter/utils/channel.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 import 'package:mattermost_flutter/types/channel.dart';
 import 'package:mattermost_flutter/types/my_channel.dart';
 import 'package:mattermost_flutter/types/preference.dart';

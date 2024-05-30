@@ -1,26 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter_webrtc/flutter_webrtc.dart';
-import 'package:provider/provider.dart';
-import 'package:mattermost_flutter/components/audio_device_button.dart';
-import 'package:mattermost_flutter/components/call_duration.dart';
 import 'package:mattermost_flutter/components/call_notification.dart';
 import 'package:mattermost_flutter/components/calls_badge.dart';
 import 'package:mattermost_flutter/components/captions.dart';
 import 'package:mattermost_flutter/components/emoji_list.dart';
 import 'package:mattermost_flutter/components/formatted_text.dart';
-import 'package:mattermost_flutter/components/message_bar.dart';
-import 'package:mattermost_flutter/components/reaction_bar.dart';
 import 'package:mattermost_flutter/components/unavailable_icon_wrapper.dart';
 import 'package:mattermost_flutter/screens/participant_card.dart';
 import 'package:mattermost_flutter/screens/raised_hand_banner.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
-import 'package:mattermost_flutter/hooks/android_back_handler.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/utils/navigation.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/types.dart';
 

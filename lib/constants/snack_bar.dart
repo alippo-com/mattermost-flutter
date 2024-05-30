@@ -2,7 +2,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:mattermost_flutter/i18n.dart';
-import 'package:mattermost_flutter/utils/key_mirror.dart';
 
 class SnackBarType {
   static const ADD_CHANNEL_MEMBERS = 'ADD_CHANNEL_MEMBERS';

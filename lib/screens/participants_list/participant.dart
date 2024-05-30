@@ -8,7 +8,6 @@ import 'package:mattermost_flutter/components/tag.dart';
 import 'package:mattermost_flutter/context/theme.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 
 const PROFILE_SIZE = 32.0;
 

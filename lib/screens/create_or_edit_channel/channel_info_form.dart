@@ -2,7 +2,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter_intl/intl.dart';
 import 'package:mattermost/constants/general.dart';
@@ -235,7 +234,7 @@ class ChannelInfoForm extends HookWidget {
             onTap: blur,
             child: Column(
               children: [
-                if (displayError != null) displayError,
+                displayError,
                 if (showSelector)
                   OptionItem(
                     label: makePrivateLabel,

@@ -135,7 +135,7 @@ class DocumentFile extends HookWidget {
     }
 
     final icon = FileIcon(
-      backgroundColor: backgroundColor,
+      backgroundColor: colorScheme.background,
       file: file,
     );
 

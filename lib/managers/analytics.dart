@@ -4,8 +4,6 @@
 import 'package:flutter/material.dart';
 import 'package:device_info/device_info.dart';
 import 'package:mattermost_flutter/assets/config.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 
 class Analytics {
   RudderClient? analytics;
@@ -27,7 +25,7 @@ class Analytics {
     }
 
     if (analytics != null) {
-      final size = MediaQueryData.fromWindow(WidgetsBinding.instance.window).size;
+      final size = MediaQueryData.fromView(WidgetsBinding.instance.window).size;
       diagnosticId = config.diagnosticId;
 
       if (diagnosticId != null) {

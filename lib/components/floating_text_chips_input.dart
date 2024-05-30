@@ -1,6 +1,5 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/components/selected_chip.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
@@ -72,7 +71,7 @@ class FloatingTextChipsInput extends HookWidget {
           color: focused.value
               ? theme.buttonColor
               : shouldShowError
-              ? theme.errorColor
+              ? theme.colorScheme.error
               : changeOpacity(theme.centerChannelColor, 0.16),
         ),
       ),
@@ -100,7 +99,7 @@ class FloatingTextChipsInput extends HookWidget {
                 style: TextStyle(
                   fontSize: placeholder != null || hasValues ? 12 : 16,
                   color: shouldShowError
-                      ? theme.errorColor
+                      ? theme.colorScheme.error
                       : focused.value
                       ? theme.buttonColor
                       : changeOpacity(theme.centerChannelColor, 0.64),
@@ -155,7 +154,7 @@ class FloatingTextChipsInput extends HookWidget {
                   if (showErrorIcon && errorIcon != null)
                     Icon(
                       Icons.error_outline,
-                      color: theme.errorColor,
+                      color: theme.colorScheme.error,
                     ),
                   Text(
                     error ?? '',

@@ -9,7 +9,6 @@ import 'package:mattermost_flutter/client/constants.dart' as ClientConstants;
 import 'package:mattermost_flutter/client/error.dart';
 import 'package:mattermost_flutter/constants/network.dart';
 import 'package:mattermost_flutter/i18n.dart';
-import 'package:mattermost_flutter/init/managed_app.dart';
 import 'package:mattermost_flutter/utils/log.dart';
 import 'package:mattermost_flutter/utils/security.dart';
 import 'package:mattermost_flutter/types.dart';

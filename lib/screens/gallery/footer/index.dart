@@ -7,7 +7,6 @@ import 'package:mattermost_flutter/queries/system.dart';
 import 'package:mattermost_flutter/queries/user.dart';
 import 'package:mattermost_flutter/types/gallery.dart';
 import 'package:mattermost_flutter/widgets/footer.dart';
-import 'package:provider/provider.dart';
 import 'package:rxdart/rxdart.dart';
 
 class FooterProps {

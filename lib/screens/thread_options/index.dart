@@ -5,7 +5,6 @@ import 'package:mattermost_flutter/utils/database.dart';
 import 'package:mattermost_flutter/models/thread_model.dart';
 import 'package:mattermost_flutter/queries/post.dart';
 import 'package:mattermost_flutter/queries/team.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 
 class ThreadOptionsWrapper extends HookConsumerWidget {
   final ThreadModel thread;

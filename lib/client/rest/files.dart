@@ -25,28 +25,22 @@ mixin ClientFiles<TBase extends ClientBase> on TBase implements ClientFilesMix {
   @override
   String getFileUrl(String fileId, int timestamp) {
     var url = '${this.apiClient.baseUrl}${this.getFileRoute(fileId)}';
-    if (timestamp != null) {
-      url += '?$timestamp';
-    }
-    return url;
+    url += '?$timestamp';
+      return url;
   }
 
   @override
   String getFileThumbnailUrl(String fileId, int timestamp) {
     var url = '${this.apiClient.baseUrl}${this.getFileRoute(fileId)}/thumbnail';
-    if (timestamp != null) {
-      url += '?$timestamp';
-    }
-    return url;
+    url += '?$timestamp';
+      return url;
   }
 
   @override
   String getFilePreviewUrl(String fileId, int timestamp) {
     var url = '${this.apiClient.baseUrl}${this.getFileRoute(fileId)}/preview';
-    if (timestamp != null) {
-      url += '?$timestamp';
-    }
-    return url;
+    url += '?$timestamp';
+      return url;
   }
 
   @override

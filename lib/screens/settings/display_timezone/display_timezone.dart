@@ -1,16 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:mattermost_flutter/constants/screens.dart';
 import 'package:mattermost_flutter/utils/timezone.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 import 'package:mattermost_flutter/components/settings/container.dart';
 import 'package:mattermost_flutter/components/settings/option.dart';
 import 'package:mattermost_flutter/components/settings/separator.dart';
 import 'package:mattermost_flutter/utils/tap.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
-import 'package:mattermost_flutter/actions/remote/user.dart';
 import 'package:mattermost_flutter/context/server.dart';
-import 'package:mattermost_flutter/hooks/android_back_handler.dart';
 import 'package:mattermost_flutter/hooks/navigate_back.dart';
 
 class DisplayTimezone extends StatefulWidget {

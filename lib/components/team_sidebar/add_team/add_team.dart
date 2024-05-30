@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/components/touchable_with_feedback.dart';
-import 'package:mattermost_flutter/constants/screens.dart';
 import 'package:mattermost_flutter/context/theme.dart';
 import 'package:mattermost_flutter/utils/tap.dart';
 import 'package:mattermost_flutter/utils/theme.dart';

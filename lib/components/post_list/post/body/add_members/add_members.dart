@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:mattermost_flutter/components/formatted_text.dart';
-import 'package:mattermost_flutter/components/markdown/at_mention.dart';
 import 'package:mattermost_flutter/constants/general.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/i18n.dart';

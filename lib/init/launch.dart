@@ -70,9 +70,6 @@ Future<void> launchApp(LaunchProps props) async {
         final extra = props.extra as DeepLinkWithData;
         serverUrl = DatabaseManager.searchUrl(extra.data.serverUrl);
         props.serverUrl = serverUrl ?? extra.data.serverUrl;
-        if (serverUrl == null) {
-          props.launchError = true;
-        }
       }
       break;
     case LaunchType.notification:

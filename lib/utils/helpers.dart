@@ -2,12 +2,9 @@
 // See LICENSE.txt for license information.
 
 import 'package:intl/intl.dart';
-import 'package:flutter/material.dart';
-import 'package:mattermost_flutter/constants/custom_status.dart';
 import 'package:mattermost_flutter/constants/view.dart';
 import 'package:mattermost_flutter/types/types.dart';
 
-import 'package:flutter/services.dart';
 import 'package:mattermost_flutter/utils/device.dart';
 
 class Helpers {

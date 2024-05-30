@@ -99,8 +99,8 @@ class JumboEmoji extends StatelessWidget {
   Map<String, TextStyle> getStyleSheet(ThemeData theme) {
     final editedOpacity = defaultTargetPlatform == TargetPlatform.iOS ? 0.3 : 1.0;
     final editedColor = defaultTargetPlatform == TargetPlatform.iOS
-        ? theme.colorScheme.onBackground
-        : blendColors(theme.backgroundColor, theme.colorScheme.onBackground, 0.3);
+        ? theme.colorScheme.onSurface
+        : blendColors(theme.colorScheme.surface, theme.colorScheme.onSurface, 0.3);
 
     return {
       'block': TextStyle(

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
-import 'package:intl/intl.dart';
 import 'package:moment/moment.dart';
 
 class CallNotification extends HookWidget {

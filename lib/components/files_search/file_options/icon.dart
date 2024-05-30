@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/components/files/file_icon.dart';
-import 'package:mattermost_flutter/components/files/image_file.dart';
 import 'package:mattermost_flutter/components/files/video_file.dart';
 import 'package:mattermost_flutter/utils/file.dart';
 import 'package:mattermost_flutter/types/file_info.dart';

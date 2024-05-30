@@ -1,10 +1,8 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:mattermost_flutter/components/file.dart'; // Custom component
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/context/gallery.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/hooks/files.dart';
 import 'package:mattermost_flutter/utils/file.dart';
 import 'package:mattermost_flutter/utils/gallery.dart';
@@ -57,7 +55,7 @@ class _FilesState extends State<Files> {
     nonImageAttachments = attachments['nonImages'];
     filesForGallery = [...imageAttachments, ...nonImageAttachments];
 
-    WidgetsBinding.instance?.addPostFrameCallback((_) {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
       DeviceEventEmitter().addListener(Events.ITEM_IN_VIEWPORT, (viewableItems) {
         if (viewableItems.containsKey('${widget.location}-${widget.postId}')) {
           setState(() {

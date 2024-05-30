@@ -5,14 +5,9 @@ import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/actions/user_actions.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/components/markdown.dart';
-import 'package:mattermost_flutter/components/button.dart';
 import 'package:mattermost_flutter/context/server_context.dart';
 import 'package:mattermost_flutter/context/theme_context.dart';
 import 'package:mattermost_flutter/hooks/did_update.dart';
-import 'package:mattermost_flutter/hooks/navigation_button_pressed.dart';
-import 'package:mattermost_flutter/utils/apps.dart';
-import 'package:mattermost_flutter/utils/button_styles.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/utils/markdown.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/types/navigation.dart';
@@ -229,14 +224,14 @@ Map<String, dynamic> getStyleFromTheme(ThemeData theme) {
     ),
     'errorContainer': BoxDecoration(
       margin: EdgeInsets.all(16),
-      color: theme.errorColor,
+      color: theme.colorScheme.error,
     ),
     'scrollView': BoxDecoration(
       margin: EdgeInsets.symmetric(vertical: 8),
     ),
     'errorLabel': TextStyle(
       fontSize: 14,
-      color: theme.errorColor,
+      color: theme.colorScheme.error,
     ),
     'buttonContainer': BoxDecoration(
       padding: EdgeInsets.all(16),

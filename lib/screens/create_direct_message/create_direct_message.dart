@@ -6,16 +6,11 @@ import 'package:mattermost_flutter/components/search.dart';
 import 'package:mattermost_flutter/components/selected_users.dart';
 import 'package:mattermost_flutter/components/server_user_list.dart';
 import 'package:mattermost_flutter/constants.dart';
-import 'package:mattermost_flutter/hooks/android_back_handler.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/hooks/navigation_button_pressed.dart';
 import 'package:mattermost_flutter/services/channel_service.dart';
 import 'package:mattermost_flutter/services/user_service.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
-import 'package:mattermost_flutter/utils/user.dart';
-import 'package:provider/provider.dart';
 import 'package:react_intl/react_intl.dart';
 import 'package:sqflite/sqflite.dart';
 

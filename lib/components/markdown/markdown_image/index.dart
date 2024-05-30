@@ -9,11 +9,8 @@ import 'package:mattermost_flutter/state/calls_state.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
 import 'package:mattermost_flutter/queries/servers/drafts.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
-import 'package:mattermost_flutter/queries/servers/team.dart';
 import 'package:mattermost_flutter/components/channel_item/channel_item.dart';
 
-import 'package:mattermost_flutter/types/database/database.dart';
 import 'package:mattermost_flutter/types/database/models/servers/channel.dart' as ChannelModel;
 
 class EnhanceProps {

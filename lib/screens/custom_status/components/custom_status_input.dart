@@ -2,7 +2,6 @@
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/i18n.dart';
 import 'package:mattermost_flutter/components/custom_status/clear_button.dart';
-import 'package:mattermost_flutter/constants/custom_status.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'custom_status_emoji.dart';
 
@@ -36,7 +35,7 @@ class CustomStatusInput extends StatelessWidget {
         Container(
           height: 48,
           decoration: BoxDecoration(
-            color: theme.backgroundColor,
+            color: theme.colorScheme.surface,
           ),
           child: Row(
             children: [
@@ -115,7 +114,7 @@ class CustomStatusInput extends StatelessWidget {
         justifyContent: 'center',
         alignItems: 'center',
         height: 48,
-        color: theme.backgroundColor,
+        color: theme.colorScheme.surface,
         flexDirection: 'row',
       ),
     };

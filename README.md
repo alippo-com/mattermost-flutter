@@ -1,4 +1,4 @@
-# mattetmostflutter
+# mattermostflutter
 
 A new Flutter project.
 

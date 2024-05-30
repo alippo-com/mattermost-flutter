@@ -3,7 +3,6 @@ import 'package:mattermost_flutter/components/autocomplete_selector.dart';
 import 'package:mattermost_flutter/components/bool_setting.dart';
 import 'package:mattermost_flutter/components/radio_setting.dart';
 import 'package:mattermost_flutter/components/text_setting.dart';
-import 'package:mattermost_flutter/utils/integrations.dart';
 import 'package:mattermost_flutter/types/interactive_dialog_element_type.dart';
 import 'package:mattermost_flutter/types/interactive_dialog_text_subtype.dart';
 import 'package:mattermost_flutter/types/post_action_option.dart';

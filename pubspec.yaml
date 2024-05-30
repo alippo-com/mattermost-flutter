@@ -51,100 +51,12 @@ dependencies:
   tinycolor2: ^3.0.1
   just_the_tooltip: ^0.0.12
   simple_tooltip: ^1.2.0
-
-  flutter_gen: any
-  flutter_hooks: any
-  flutter_linear_gradient: any
-  sqflite: any
-  moor: any
-  watermelondb: any
-  drift: any
-  flutter_mattermost: any
-  flutter_test: any
-  nozbe_watermelondb: any
-  test: any
-  mockito: any
-  nozbe: any
-  watermelon_db: any
-  rxdart: any
-  flutter_reanimated: any
-  flutter_foreground_task: any
-  events: any
-  msgpack_dart: any
-  web_socket_channel: any
-  bottom_sheet: any
-  flutter_safe_area: any
-  device_info: any
-  flutter_redux: any
-  intl: any
-  flutter_rx: any
-  incall_manager: any
-  flutter_native_timezone: any
-  rx_dart: any
-  mime_type: any
-  sentry_flutter: any
-  momentum: any
-  path_drawing: any
-  emoji_regex: any
-  deep_equal: any
-  deepmerge: any
-  in_app_review: any
-  flutter_native: any
-  react_intl: any
-  flutter_translate: any
-  share: any
-  fluttertoast: any
-  your_flutter_project: any
-  redux: any
-  flutter_reaction: any
-  hooks_riverpod: any
-  flutter_riverpod: any
-  gorhom_bottom_sheet: any
-  flutter_slidable: any
-  safe_area: any
-  flutter_watermelondb: any
-  flutter_platform_widgets: any
-  internationalization: any
-  rx_notifier: any
-  reactive_forms: any
-  clipboard: any
-  moment: any
-  flutter_animate: any
-  fast_image: any
-  flutter_keyboard_visibility: any
-  camera_roll: any
-  file_viewer: any
-  file_system: any
-  animated_widgets: any
-  some_package: any
-  reorderables_flutter: any
-  flutter_intl: any
-  flutter_i18n: any
-  lodash: any
-  fuse: any
-  react_native_emm: any
-  react_native_safe_area_context: any
-  flutter_bloc: any
-  reanimated: any
-  unique_id: any
-  my_flutter_app: any
-  regexpattern: any
-  debounce_throttle: any
-  flutter_spinkit: any
-  flutter_reactive_hooks: any
-  commonmark: any
-  flutter_math_view: any
-  flutter_syntax_view: any
-  flutter_bottom_sheet: any
-  timeago: any
-  types: any
-  xregexp: any
 dev_dependencies:
   integration_test:
     sdk: flutter
   build_runner: ^2.4.10
   freezed: ^2.5.2
 
-  mattetmostflutter: any
+#  mattermostflutter: any
 flutter:
   uses-material-design: true

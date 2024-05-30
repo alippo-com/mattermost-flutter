@@ -6,8 +6,6 @@ import 'package:rxdart/rxdart.dart';
 import 'package:mattermost_flutter/constants/database.dart';
 import 'package:mattermost_flutter/database/manager.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
-import 'package:mattermost_flutter/queries/servers/team.dart';
-import 'package:mattermost_flutter/queries/servers/thread.dart';
 import 'package:mattermost_flutter/types/channel_notify_props.dart';
 
 class MyChannelModel {

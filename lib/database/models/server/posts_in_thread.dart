@@ -5,7 +5,6 @@ import 'package:watermelondb/watermelondb.dart';
 import 'package:watermelondb/decorators.dart';
 import 'package:mattermost_flutter/constants/database.dart';
 import 'package:mattermost_flutter/types/database/models/servers/post.dart';
-import 'package:mattermost_flutter/types/database/models/servers/posts_in_thread.dart';
 
 const POST = MM_TABLES.SERVER['POST'];
 const POSTS_IN_THREAD = MM_TABLES.SERVER['POSTS_IN_THREAD'];

@@ -4,9 +4,7 @@ import 'package:mattermost_flutter/components/user_profile_avatar.dart';
 import 'package:mattermost_flutter/components/user_profile_tag.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 import 'package:mattermost_flutter/constants.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/services/network_manager.dart';
 import 'package:mattermost_flutter/utils/gallery.dart';
 

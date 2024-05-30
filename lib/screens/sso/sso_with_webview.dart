@@ -5,7 +5,6 @@ import 'package:cookie_jar/cookie_jar.dart';
 import 'package:cookie_manager/cookie_manager.dart';
 
 import 'package:mattermost_flutter/components/loading.dart';
-import 'package:mattermost_flutter/constants/sso.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 
 class SSOWithWebView extends StatefulWidget {

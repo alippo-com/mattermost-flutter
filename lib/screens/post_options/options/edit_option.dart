@@ -1,8 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:provider/provider.dart'; // Equivalent for context
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/components/common_post_options.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/constants.dart';

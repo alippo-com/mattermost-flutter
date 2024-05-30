@@ -4,8 +4,6 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:timezone/timezone.dart' as tz;
-import 'package:intl/intl.dart';
-import 'package:flutter/services.dart';
 
 const CUSTOM_STATUS_TIME_PICKER_INTERVALS_IN_MINUTES = 15;
 const STATUS_BAR_HEIGHT = 20.0;

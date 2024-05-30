@@ -102,9 +102,6 @@ Future<Map<String, dynamic>> markThreadAsRead(String serverUrl, String teamId, S
 
     // DM/GM doesn't have a teamId, so we pass the current team id
     var threadTeamId = teamId;
-    if (threadTeamId == null) {
-      threadTeamId = await getCurrentTeamId(database);
-    }
     final data = await client.markThreadAsRead('me', threadTeamId, threadId, timestamp);
 
     // Update locally
@@ -139,9 +136,6 @@ Future<Map<String, dynamic>> markThreadAsUnread(String serverUrl, String teamId,
 
     // DM/GM doesn't have a teamId, so we pass the current team id
     var threadTeamId = teamId;
-    if (threadTeamId == null) {
-      threadTeamId = await getCurrentTeamId(database);
-    }
 
     final data = await client.markThreadAsUnread('me', threadTeamId, threadId, postId);
 
@@ -169,9 +163,6 @@ Future<Map<String, dynamic>> updateThreadFollowing(String serverUrl, String team
 
     // DM/GM doesn't have a teamId, so we pass the current team id
     var threadTeamId = teamId;
-    if (threadTeamId == null) {
-      threadTeamId = await getCurrentTeamId(database);
-    }
 
     final data = await client.updateThreadFollow('me', threadTeamId, threadId, state);
 
@@ -237,7 +228,7 @@ Future<Map<String, dynamic>> fetchThreads(
 
       threadsData.addAll(threads);
 
-      if (threads.length == perPage && (pages == null || currentPage < pages)) {
+      if (threads.length == perPage && (currentPage < pages)) {
         final newOptions = {
           'perPage': perPage,
           'deleted': deleted,

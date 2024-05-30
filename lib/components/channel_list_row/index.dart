@@ -113,7 +113,7 @@ class ChannelListRow extends StatelessWidget {
   Map<String, TextStyle> getStyleFromTheme(ThemeData theme) {
     return {
     'displayName': TextStyle(
-    color: theme.textTheme.bodyText1!.color,
+    color: theme.textTheme.bodyLarge!.color,
     ...typography('Body', 200),
     ),
     'icon': TextStyle(
@@ -121,7 +121,7 @@ class ChannelListRow extends StatelessWidget {
     color: theme.iconTheme.color!.withOpacity(0.56),
     ),
     'purpose': TextStyle(
-    color: theme.textTheme.bodyText1!.color!.withOpacity(0.64),
+    color: theme.textTheme.bodyLarge!.color!.withOpacity(0.64),
     ...typography('Body', 75),
     ),
     };

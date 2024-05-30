@@ -112,7 +112,7 @@ class CustomStatusSuggestions extends StatelessWidget {
       'title': TextStyle(
         fontSize: 17,
         marginBottom: 12,
-        color: changeOpacity(theme.textTheme.headline1!.color!, 0.5),
+        color: changeOpacity(theme.textTheme.displayLarge!.color!, 0.5),
         marginLeft: 16,
         textTransform: 'uppercase',
       ),

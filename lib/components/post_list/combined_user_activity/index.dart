@@ -9,7 +9,6 @@ import 'package:mattermost_flutter/queries/system.dart';
 import 'package:mattermost_flutter/queries/user.dart';
 import 'package:mattermost_flutter/utils/post_list.dart';
 import 'package:mattermost_flutter/components/combined_user_activity.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 
 class CombinedUserActivityContainer extends StatelessWidget {
   final Database database;

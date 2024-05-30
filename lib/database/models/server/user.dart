@@ -10,7 +10,6 @@ import 'package:mattermost_flutter/types/reaction.dart';
 import 'package:mattermost_flutter/types/team_membership.dart';
 import 'package:mattermost_flutter/types/thread_participant.dart';
 import 'package:mattermost_flutter/types/user.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 
 class UserModel {
   static const String table = 'USER';

@@ -4,7 +4,6 @@ import 'package:mattermost_flutter/actions/local/post.dart';
 import 'package:mattermost_flutter/actions/remote/channel.dart';
 import 'package:mattermost_flutter/actions/remote/post.dart';
 import 'package:mattermost_flutter/actions/remote/role.dart';
-import 'package:mattermost_flutter/actions/remote/user.dart';
 import 'package:mattermost_flutter/calls/actions/calls.dart';
 import 'package:mattermost_flutter/calls/errors.dart';
 import 'package:mattermost_flutter/calls/state.dart';

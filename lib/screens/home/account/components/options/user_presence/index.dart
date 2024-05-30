@@ -12,11 +12,9 @@ import 'package:mattermost_flutter/context/server_context.dart';
 import 'package:mattermost_flutter/context/theme_context.dart';
 import 'package:mattermost_flutter/hooks/device_hooks.dart';
 import 'package:mattermost_flutter/screens/bottom_sheet_content.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/utils/tap.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 
 import 'package:mattermost_flutter/types/user_model.dart';
 

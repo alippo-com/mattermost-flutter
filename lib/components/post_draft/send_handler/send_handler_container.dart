@@ -12,7 +12,6 @@ import 'package:mattermost_flutter/queries/drafts.dart';
 import 'package:mattermost_flutter/queries/role.dart';
 import 'package:mattermost_flutter/queries/system.dart';
 import 'package:mattermost_flutter/queries/user.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 
 import 'send_handler.dart';
 

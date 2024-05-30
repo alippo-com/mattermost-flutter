@@ -11,7 +11,6 @@ import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/components/file_icon.dart';
 
 import 'package:flutter/services.dart';
-import 'dart:ui' as ui;
 
 class VideoFile extends StatefulWidget {
   final int index;
@@ -68,21 +67,19 @@ class _VideoFileState extends State<VideoFile> {
       final exists = data.miniPreview != null ? await fileExists(data.miniPreview!) : false;
       if (data.miniPreview == null || !exists) {
         final videoUrl = buildFileUrl(useServerUrl(), data.id);
-        if (videoUrl != null) {
-          final thumbnailData = await _createThumbnail(videoUrl);
-          data.miniPreview = thumbnailData.uri;
-          data.height = thumbnailData.height;
-          data.width = thumbnailData.width;
-          updateLocalFile(useServerUrl(), data);
+        final thumbnailData = await _createThumbnail(videoUrl);
+        data.miniPreview = thumbnailData.uri;
+        data.height = thumbnailData.height;
+        data.width = thumbnailData.width;
+        updateLocalFile(useServerUrl(), data);
 
-          if (mounted) {
-            setState(() {
-              video = data;
-              failed = false;
-            });
-          }
+        if (mounted) {
+          setState(() {
+            video = data;
+            failed = false;
+          });
         }
-      }
+            }
     } catch (error) {
       data.miniPreview = buildFilePreviewUrl(useServerUrl(), data.id);
       if (mounted) {
