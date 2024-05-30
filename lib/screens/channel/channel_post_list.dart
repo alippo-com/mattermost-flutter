@@ -7,7 +7,6 @@ import 'package:mattermost_flutter/actions/remote/post.dart';
 import 'package:mattermost_flutter/components/post_list.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/context/server.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/hooks/did_update.dart';
 import 'package:mattermost_flutter/store/ephemeral_store.dart';
 import 'package:mattermost_flutter/utils/debounce.dart';

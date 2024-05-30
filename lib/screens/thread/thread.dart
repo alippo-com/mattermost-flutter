@@ -9,12 +9,8 @@ import 'package:mattermost_flutter/components/freeze_screen.dart';
 import 'package:mattermost_flutter/components/post_draft.dart';
 import 'package:mattermost_flutter/components/rounded_header_context.dart';
 import 'package:mattermost_flutter/constants.dart';
-import 'package:mattermost_flutter/hooks/android_back_handler.dart';
 import 'package:mattermost_flutter/hooks/did_update.dart';
-import 'package:mattermost_flutter/hooks/keyboard_tracking.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/store/ephemeral_store.dart';
-import 'package:mattermost_flutter/store/navigation_store.dart';
 import 'package:mattermost_flutter/types.dart';
 import 'package:mattermost_flutter/screens/thread/thread_post_list.dart';
 

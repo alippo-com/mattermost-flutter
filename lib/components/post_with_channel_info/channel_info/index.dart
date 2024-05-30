@@ -3,14 +3,11 @@
 // See LICENSE.txt for license information.
 
 import 'package:watermelon_db/watermelon_db.dart';
-import 'package:rxdart/rxdart.dart';
 import 'package:flutter/widgets.dart';
 
 import 'package:mattermost_flutter/queries/servers/channel.dart';
-import 'package:mattermost_flutter/queries/servers/team.dart';
 import 'package:mattermost_flutter/components/post_with_channel_info/channel_info/channel_info.dart';
 
-import 'package:mattermost_flutter/types/database/database.dart';
 import 'package:mattermost_flutter/types/database/models/servers/post.dart';
 
 class ChannelInfoContainer extends StatelessWidget {

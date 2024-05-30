@@ -1,18 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_platform_widgets/flutter_platform_widgets.dart';
-import 'package:provider/provider.dart';
 
 import 'package:mattermost_flutter/actions/app/global.dart';
-import 'package:mattermost_flutter/constants/screens.dart';
 import 'package:mattermost_flutter/screens/background.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 
 import 'footer_buttons.dart';
 import 'paginator.dart';
 import 'slide.dart';
-import 'slides_data.dart';
 
 class OnboardingProps {
   final ThemeData theme;
@@ -49,7 +44,7 @@ class _OnboardingState extends State<Onboarding> {
       scrollX.value = scrollController.offset;
     });
 
-    WidgetsBinding.instance?.addPostFrameCallback((_) {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
       // Add any additional initialization logic here
     });
 

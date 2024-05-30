@@ -3,9 +3,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
 import 'package:mattermost_flutter/components/profile_picture.dart';
-import 'package:mattermost_flutter/components/touchable_with_feedback.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
-import 'package:mattermost_flutter/constants/screens.dart';
 import 'package:mattermost_flutter/types/theme.dart';
 import 'package:mattermost_flutter/types/user_model.dart';
 

@@ -82,7 +82,7 @@ class EphemeralStore {
     websocketEditingPost.putIfAbsent(serverUrl, () => {});
     var serverEditing = websocketEditingPost[serverUrl]!;
 
-    lastEdit?.timeout?.cancel();
+    lastEdit?.timeout.cancel();
 
     final timeout = Future.delayed(Duration(milliseconds: TIME_TO_CLEAR_WEBSOCKET_ACTIONS), () {
       serverEditing.remove(post.id);

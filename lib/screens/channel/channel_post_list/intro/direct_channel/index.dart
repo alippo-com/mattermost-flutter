@@ -5,13 +5,9 @@ import 'package:watermelondb/watermelondb.dart';
 import 'package:mattermost_flutter/constants/general.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
 import 'package:mattermost_flutter/queries/servers/features.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 import 'package:mattermost_flutter/screens/channel/channel_post_list/intro/direct_channel/direct_channel.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 import 'package:mattermost_flutter/types/database/models/servers/channel.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 
 class EnhancedDirectChannel extends StatelessWidget {
   final ChannelModel channel;

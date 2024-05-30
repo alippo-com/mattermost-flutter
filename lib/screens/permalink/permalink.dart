@@ -2,7 +2,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:mattermost_flutter/actions/local/post.dart';
 import 'package:mattermost_flutter/actions/remote/channel.dart';
 import 'package:mattermost_flutter/actions/remote/post.dart';
@@ -11,15 +10,10 @@ import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/components/formatted_text.dart';
 import 'package:mattermost_flutter/components/loading.dart';
 import 'package:mattermost_flutter/components/post_list.dart';
-import 'package:mattermost_flutter/constants/screens.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/context/theme.dart';
 import 'package:mattermost_flutter/database/manager.dart';
-import 'package:mattermost_flutter/hooks/android_back_handler.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
-import 'package:mattermost_flutter/utils/button_styles.dart';
 import 'package:mattermost_flutter/utils/permalink.dart';
 import 'package:mattermost_flutter/utils/tap.dart';
 import 'package:mattermost_flutter/utils/theme.dart';

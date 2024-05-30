@@ -10,9 +10,9 @@ class DeviceHooks {
   }
 
   static ValueNotifier<AppLifecycleState> useAppState() {
-    final appState = ValueNotifier<AppLifecycleState>(WidgetsBinding.instance?.lifecycleState ?? AppLifecycleState.resumed);
+    final appState = ValueNotifier<AppLifecycleState>(WidgetsBinding.instance.lifecycleState ?? AppLifecycleState.resumed);
 
-    WidgetsBinding.instance?.addObserver(
+    WidgetsBinding.instance.addObserver(
       LifecycleEventHandler(
         detachedCallBack: () async => appState.value = AppLifecycleState.detached,
         inactiveCallBack: () async => appState.value = AppLifecycleState.inactive,
@@ -75,10 +75,10 @@ class DeviceHooks {
     final isTablet = useIsTablet(context);
     final height = useKeyboardHeight();
 
-    WidgetsBinding.instance?.addPostFrameCallback((_) {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
       if (Platform.isIOS && isTablet) {
         final box = viewRef.currentContext?.findRenderObject() as RenderBox?;
-        final position = box?.localToGlobal(Offset.zero)?.dy;
+        final position = box?.localToGlobal(Offset.zero).dy;
         if (position != null && position != modalPosition.value) {
           modalPosition.value = position;
         }

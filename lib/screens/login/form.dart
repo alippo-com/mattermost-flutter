@@ -1,13 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:mattermost_flutter/actions/remote/session.dart';
-import 'package:mattermost_flutter/constants/screens.dart';
-import 'package:mattermost_flutter/utils/button_styles.dart';
 import 'package:mattermost_flutter/utils/errors.dart';
 import 'package:mattermost_flutter/utils/tap.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/utils/url.dart';
-import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/typings/launch.dart';
 
 class LoginForm extends StatefulWidget {

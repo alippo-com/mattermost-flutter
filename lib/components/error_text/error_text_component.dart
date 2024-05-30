@@ -2,7 +2,6 @@
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/errors.dart';
-import 'package:intl/intl.dart';
 
 class ErrorTextComponent extends StatelessWidget {
   final dynamic error;
@@ -34,7 +33,7 @@ class ErrorTextComponent extends StatelessWidget {
   _ErrorTextStyle getStyleSheet(ThemeData theme) {
     return _ErrorTextStyle(
       errorLabel: TextStyle(
-        color: theme.errorColor ?? Color(0xFFDA4A4A),
+        color: theme.colorScheme.error ?? Color(0xFFDA4A4A),
         fontSize: 12,
         textAlign: TextAlign.left,
       ),

@@ -11,7 +11,6 @@ import 'package:mattermost_flutter/widgets/custom_status/custom_status_expiry.da
 import 'package:mattermost_flutter/widgets/formatted_text.dart';
 import 'package:mattermost_flutter/widgets/custom_status/custom_status_text.dart';
 import 'package:mattermost_flutter/widgets/option_item.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/utils/tap.dart';
 import 'package:mattermost_flutter/screens/channel_add_members/channel_add_members.dart';
 

@@ -3,8 +3,6 @@ import 'package:flutter/services.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/context/theme.dart';
 import 'package:mattermost_flutter/store/ephemeral_store.dart';
-import 'package:mattermost_flutter/store/navigation_store.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/utils/log.dart';
 import 'package:mattermost_flutter/utils/navigation.dart';
 import 'package:mattermost_flutter/utils/theme.dart';

@@ -10,10 +10,7 @@ import 'package:mattermost_flutter/constants/categories.dart';
 import 'package:mattermost_flutter/helpers/api/preference.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
 import 'package:mattermost_flutter/queries/servers/preference.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';
-import 'package:mattermost_flutter/utils/categories.dart';
-import 'package:mattermost_flutter/types/screens/navigation.dart';
 import 'package:mattermost_flutter/components/category_body.dart';
 
 class EnhanceProps {

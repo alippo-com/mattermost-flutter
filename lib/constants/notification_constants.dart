@@ -2,7 +2,6 @@
 // See LICENSE.txt for license information.
 
 // Import statements can be adjusted according to actual project structure in Flutter
-import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/types/localization.dart';
 
 // Needed for localization on iOS native side

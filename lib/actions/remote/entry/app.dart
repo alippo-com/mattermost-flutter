@@ -2,10 +2,7 @@
 // See LICENSE.txt for license information.
 
 import 'package:mattermost_flutter/actions/local/systems.dart';
-import 'package:mattermost_flutter/actions/remote/systems.dart';
 import 'package:mattermost_flutter/database/manager.dart';
-import 'package:mattermost_flutter/managers/websocket_manager.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:mattermost_flutter/utils/file.dart';
 
 import 'common.dart';

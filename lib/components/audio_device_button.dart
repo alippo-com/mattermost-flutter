@@ -5,7 +5,6 @@ import 'package:mattermost_flutter/state/calls.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/components/slide_up_panel_item.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:provider/provider.dart';
 
 const ITEM_HEIGHT = 50.0;

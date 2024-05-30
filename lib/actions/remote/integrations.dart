@@ -3,12 +3,9 @@
 
 import 'package:mattermost_flutter/database/manager.dart';
 import 'package:mattermost_flutter/managers/integrations_manager.dart';
-import 'package:mattermost_flutter/managers/network_manager.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:mattermost_flutter/utils/errors.dart';
 import 'package:mattermost_flutter/utils/log.dart';
 
-import 'session.dart';
 
 Future<Map<String, dynamic>> submitInteractiveDialog(String serverUrl, DialogSubmission submission) async {
   try {
@@ -32,7 +29,7 @@ Future<Map<String, dynamic>> postActionWithCookie(String serverUrl, String postI
 
     final data = await client.doPostActionWithCookie(postId, actionId, actionCookie, selectedOption);
     if (data?.triggerId != null) {
-      IntegrationsManager.getManager(serverUrl)?.setTriggerId(data.triggerId);
+      IntegrationsManager.getManager(serverUrl).setTriggerId(data.triggerId);
     }
 
     return {'data': data};

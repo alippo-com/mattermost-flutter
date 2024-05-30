@@ -13,7 +13,6 @@ import 'package:mattermost_flutter/components/load_categories_error.dart';
 import 'package:mattermost_flutter/components/category_header.dart';
 import 'package:mattermost_flutter/components/unread_categories.dart';
 import 'package:mattermost_flutter/utils/server.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/hooks/team_switch.dart';
 
 class Categories extends HookWidget {

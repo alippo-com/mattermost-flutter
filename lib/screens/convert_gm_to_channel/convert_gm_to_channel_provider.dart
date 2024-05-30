@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';
-import 'package:mattermost_flutter/screens/convert_gm_to_channel/convert_gm_to_channel_form.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 
 class ConvertGMToChannelProvider extends StatelessWidget {
   final Widget child;

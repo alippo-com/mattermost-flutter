@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:rxdart/rxdart.dart';
 import 'package:mattermost_flutter/constants/autocomplete.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 import 'package:mattermost_flutter/components/autocomplete/channel_mention/channel_mention.dart';
 
 class ChannelMentionProvider extends StatelessWidget {

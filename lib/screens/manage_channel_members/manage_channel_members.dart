@@ -1,19 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:mattermost_flutter/actions/remote/channel.dart';
-import 'package:mattermost_flutter/actions/remote/user.dart';
 import 'package:mattermost_flutter/components/search.dart';
 import 'package:mattermost_flutter/components/user_list.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/hooks/android_back_handler.dart';
-import 'package:mattermost_flutter/hooks/navigation_button_pressed.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
-import 'package:mattermost_flutter/store/navigation_store.dart';
 import 'package:mattermost_flutter/utils/snack_bar.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 import 'package:provider/provider.dart';
 
 class ManageChannelMembers extends StatefulWidget {

@@ -6,10 +6,7 @@ import 'package:mattermost_flutter/constants/general.dart';
 import 'package:mattermost_flutter/constants/permissions.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
 import 'package:mattermost_flutter/queries/servers/drafts.dart';
-import 'package:mattermost_flutter/queries/servers/role.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 import 'package:mattermost_flutter/components/post_draft.dart';
 
 class PostDraftProvider extends StatelessWidget {

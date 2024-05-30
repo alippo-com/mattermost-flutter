@@ -7,11 +7,9 @@ import 'package:mattermost_flutter/components/search.dart';
 import 'package:mattermost_flutter/constants/general.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/utils/file.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 
-import 'header.dart';
 
 class ChannelFiles extends StatefulWidget {
   final ChannelModel channel;

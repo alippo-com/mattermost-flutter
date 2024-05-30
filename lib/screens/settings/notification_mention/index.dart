@@ -5,8 +5,6 @@
 import 'package:flutter/material.dart';
 
 import 'package:mattermost_flutter/components/settings/container.dart';
-import 'mention_settings.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 import 'package:mattermost_flutter/types/screens/navigation.dart';
 
 class NotificationMention extends StatelessWidget {

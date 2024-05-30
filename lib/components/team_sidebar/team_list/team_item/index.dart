@@ -5,7 +5,6 @@
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/database/database.dart';
 import 'package:mattermost_flutter/models/team_item.dart';
-import 'package:rxdart/rxdart.dart';
 
 class TeamItemWrapper extends StatelessWidget {
   final MyTeamModel myTeam;

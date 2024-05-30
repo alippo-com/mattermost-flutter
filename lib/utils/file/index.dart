@@ -1,12 +1,9 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import 'package:mime/mime.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:device_info/device_info.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:mime_type/mime_type.dart';
 
@@ -205,7 +202,7 @@ String? getExtensionFromMime(String type) {
     populateMaps();
   }
 
-  if (type.isEmpty || type is! String) {
+  if (type.isEmpty) {
     return null;
   }
 
@@ -252,7 +249,7 @@ bool isGif(FileInfo? file) {
   }
 
   String? mime = file.mimeType;
-  if (mime != null && mime.contains(';')) {
+  if (mime.contains(';')) {
     mime = mime.split(';')[0];
   } else if (mime == null && file.name != null) {
     mime = lookupMimeType(file.name);
@@ -271,11 +268,8 @@ bool isImage(FileInfo? file) {
   }
 
   String? mimeType = file.mimeType;
-  if (mimeType == null) {
-    mimeType = lookupMimeType(file.extension) ?? lookupMimeType(file.name);
-  }
 
-  return mimeType != null && mimeType.startsWith('image/');
+  return mimeType.startsWith('image/');
 }
 
 bool isDocument(FileInfo? file) {
@@ -284,7 +278,7 @@ bool isDocument(FileInfo? file) {
   }
 
   String? mime = file.mimeType;
-  if (mime != null && mime.contains(';')) {
+  if (mime.contains(';')) {
     mime = mime.split(';')[0];
   } else if (mime == null && file.name != null) {
     mime = lookupMimeType(file.name);
@@ -299,7 +293,7 @@ bool isVideo(FileInfo? file) {
   }
 
   String? mime = file.mimeType;
-  if (mime != null && mime.contains(';')) {
+  if (mime.contains(';')) {
     mime = mime.split(';')[0];
   } else if (mime == null && file.name != null) {
     mime = lookupMimeType(file.name);

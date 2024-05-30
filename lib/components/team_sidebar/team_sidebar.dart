@@ -3,7 +3,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:flutter/material.dart';
-import 'package:flutter/animation.dart';
 
 import 'package:mattermost_flutter/constants/view.dart';
 import 'package:mattermost_flutter/context/theme.dart';

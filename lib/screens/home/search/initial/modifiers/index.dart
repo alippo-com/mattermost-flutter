@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:provider/provider.dart';
 
 import 'package:mattermost_flutter/components/formatted_text.dart';
 import 'package:mattermost_flutter/context/theme.dart';
@@ -10,7 +9,6 @@ import 'package:mattermost_flutter/utils/typography.dart';
 import 'modifier.dart';
 import 'show_more.dart';
 
-import 'package:mattermost_flutter/types/database/models/servers/team.dart';
 import 'package:mattermost_flutter/types/search.dart';
 
 const MODIFIER_LABEL_HEIGHT = 48.0;

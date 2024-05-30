@@ -10,7 +10,6 @@ import 'package:mattermost_flutter/queries/remote/file.dart';
 import 'package:mattermost_flutter/types/screens/gallery.dart';
 import 'package:mattermost_flutter/components/toast.dart';
 import 'package:mattermost_flutter/hooks/use_safe_area_insets.dart';
-import 'package:rxdart/rxdart.dart';
 
 class CopyPublicLink extends HookWidget {
   final GalleryItemType item;
@@ -52,7 +51,7 @@ class CopyPublicLink extends HookWidget {
 
     Future<void> copyLink() async {
       try {
-        final publicLink = await fetchPublicLink(serverUrl, item.id!);
+        final publicLink = await fetchPublicLink(serverUrl, item.id);
         if (publicLink.containsKey('link')) {
           Clipboard.setData(ClipboardData(text: publicLink['link']));
         } else {

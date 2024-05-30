@@ -2,7 +2,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:mattermost_flutter/database/manager.dart';
-import 'package:mattermost_flutter/queries/servers/team.dart';
 import 'package:mattermost_flutter/utils/log.dart';
 import 'package:watermelondb/watermelondb.dart';
 

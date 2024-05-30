@@ -6,7 +6,6 @@ import 'package:intl/intl.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/widgets/option_item.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/utils/tap.dart';
 
 class ChannelFiles extends StatelessWidget {

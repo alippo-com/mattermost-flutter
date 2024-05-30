@@ -2,14 +2,11 @@
 // See LICENSE.txt for license information.
 
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:mattermost_flutter/actions/local/post.dart';
 import 'package:mattermost_flutter/actions/remote/post.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/components/slide_up_panel_item.dart';
 import 'package:mattermost_flutter/context/server.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/types/database/models/servers/post.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:provider/provider.dart';
@@ -76,7 +73,7 @@ class Failed extends StatelessWidget {
         child: CompassIcon(
           name: Icons.info_outline,
           size: 26,
-          color: theme.errorColor,
+          color: theme.colorScheme.error,
         ),
       ),
     );

@@ -5,7 +5,6 @@ import 'package:watermelondb/watermelondb.dart';
 import 'package:watermelondb/decorators.dart';
 import 'package:mattermost_flutter/constants/database.dart';
 import 'package:mattermost_flutter/types/database/models/servers/channel.dart';
-import 'package:mattermost_flutter/types/database/models/servers/posts_in_channel.dart';
 
 const CHANNEL = MM_TABLES.SERVER['CHANNEL'];
 const POSTS_IN_CHANNEL = MM_TABLES.SERVER['POSTS_IN_CHANNEL'];

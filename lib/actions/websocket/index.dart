@@ -8,7 +8,6 @@ import 'package:mattermost_flutter/actions/remote/channel.dart';
 import 'package:mattermost_flutter/actions/remote/entry/common.dart';
 import 'package:mattermost_flutter/actions/remote/post.dart';
 import 'package:mattermost_flutter/actions/remote/preference.dart';
-import 'package:mattermost_flutter/actions/remote/user.dart';
 import 'package:mattermost_flutter/calls/actions/calls.dart';
 import 'package:mattermost_flutter/calls/connection/websocket_event_handlers.dart';
 import 'package:mattermost_flutter/calls/utils.dart';
@@ -17,27 +16,18 @@ import 'package:mattermost_flutter/constants/database.dart';
 import 'package:mattermost_flutter/database/manager.dart';
 import 'package:mattermost_flutter/managers/apps_manager.dart';
 import 'package:mattermost_flutter/queries/servers/post.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
-import 'package:mattermost_flutter/queries/servers/thread.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';
 import 'package:mattermost_flutter/store/ephemeral_store.dart';
-import 'package:mattermost_flutter/store/navigation_store.dart';
 import 'package:mattermost_flutter/store/team_load_store.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/utils/log.dart';
 
 import 'category.dart';
-import 'channel.dart';
-import 'group.dart';
 import 'integrations.dart';
-import 'posts.dart';
 import 'preferences.dart';
 import 'reactions.dart';
-import 'roles.dart';
 import 'system.dart';
 import 'teams.dart';
 import 'threads.dart';
-import 'users.dart';
 
 Future<void> handleFirstConnect(String serverUrl) async {
   registerDeviceToken(serverUrl);

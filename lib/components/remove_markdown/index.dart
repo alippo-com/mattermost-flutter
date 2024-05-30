@@ -4,7 +4,6 @@ import 'package:commonmark/commonmark.dart';
 import 'package:mattermost_flutter/components/emoji.dart';
 import 'package:mattermost_flutter/utils/markdown.dart';
 import 'package:mattermost_flutter/components/at_mention.dart';
-import 'package:mattermost_flutter/types/global/markdown.dart';
 
 class RemoveMarkdown extends StatelessWidget {
   final bool? enableEmoji;

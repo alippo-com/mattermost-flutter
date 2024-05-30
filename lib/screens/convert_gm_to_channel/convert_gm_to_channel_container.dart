@@ -3,7 +3,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/database/database.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';
 import 'package:mattermost_flutter/screens/convert_gm_to_channel/convert_gm_to_channel.dart';
 

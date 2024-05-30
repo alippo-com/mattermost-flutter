@@ -3,8 +3,6 @@ import 'package:mattermost_flutter/components/option_item.dart';
 import 'package:mattermost_flutter/components/slide_up_panel_item.dart';
 import 'package:mattermost_flutter/constants/general.dart';
 import 'package:mattermost_flutter/context/server.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/actions/remote/channel.dart';
 import 'package:mattermost_flutter/actions/remote/preference.dart';
 

@@ -3,7 +3,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
-import 'package:mattermost_flutter/constants/preferences.dart';
 import 'package:mattermost_flutter/utils/intl_test_helper.dart';
 import 'package:mattermost_flutter/utils/test_helper.dart';
 import 'package:mattermost_flutter/screens/integration_selector/custom_list.dart';

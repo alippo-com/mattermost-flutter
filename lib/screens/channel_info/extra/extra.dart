@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:intl/intl.dart';
 import 'package:reactive_forms/reactive_forms.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:mattermost_flutter/components/custom_status_expiry.dart';
@@ -10,12 +9,8 @@ import 'package:mattermost_flutter/components/formatted_text.dart';
 import 'package:mattermost_flutter/components/markdown.dart';
 import 'package:mattermost_flutter/components/slide_up_panel_item.dart';
 import 'package:mattermost_flutter/components/touchable_with_feedback.dart';
-import 'package:mattermost_flutter/constants/screens.dart';
-import 'package:mattermost_flutter/constants/snack_bar.dart';
 import 'package:mattermost_flutter/constants/versions.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/utils/markdown.dart';
 import 'package:mattermost_flutter/utils/snack_bar.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
@@ -188,20 +183,12 @@ class Extra extends StatelessWidget {
                 ),
               ],
             ),
-          if (createdAt != null && createdBy != null)
-            FormattedText(
-              id: 'channel_intro.createdBy',
-              defaultMessage: 'Created by {user} on {date}',
-              style: styles.created,
-              values: created,
-            ),
-          if (createdAt != null && createdBy == null)
-            FormattedText(
-              id: 'channel_intro.createdOn',
-              defaultMessage: 'Created on {date}',
-              style: styles.created,
-              values: created,
-            ),
+          FormattedText(
+            id: 'channel_intro.createdBy',
+            defaultMessage: 'Created by {user} on {date}',
+            style: styles.created,
+            values: created,
+          ),
         ],
       ),
     );

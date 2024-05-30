@@ -3,8 +3,6 @@ import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/managers/network_manager.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/utils/tap.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/components/profile_picture.dart';

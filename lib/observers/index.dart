@@ -6,11 +6,7 @@ import 'package:mattermost_flutter/state/calls.dart';
 import 'package:mattermost_flutter/utils/calls.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/database/manager.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
-import 'package:mattermost_flutter/types/calls.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 
 class LimitRestrictedInfo {
   final bool limitRestricted;

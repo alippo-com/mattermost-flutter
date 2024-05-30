@@ -1,9 +1,6 @@
 import 'package:rx_dart/rx_dart.dart';
-import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/database/manager.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
-import 'package:mattermost_flutter/types/database/models/app/servers.dart';
 
 class ServerQueries {
   static Future<List<ServerModel>> queryServerDisplayName(String serverUrl) async {

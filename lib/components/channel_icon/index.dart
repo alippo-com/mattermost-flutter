@@ -3,11 +3,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:rxdart/rxdart.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 import 'dm_avatar.dart';
 
 class ChannelIcon extends StatelessWidget {

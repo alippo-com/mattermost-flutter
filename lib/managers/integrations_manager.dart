@@ -1,8 +1,6 @@
 // Dart Code: ./mattermost_flutter/lib/managers/integrations_manager.dart
 
-import 'package:mattermost_flutter/actions/remote/command.dart';
 import 'package:mattermost_flutter/constants/screens.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 
 const int timeToRefetchCommands = 60000; // 1 minute
 

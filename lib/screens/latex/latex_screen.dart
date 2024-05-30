@@ -79,15 +79,15 @@ class LatexScreen extends StatelessWidget {
         minHeight: MediaQuery.of(context).size.height,
       ),
       'mathStyle': TextStyle(
-        color: theme.textTheme.bodyText1.color,
+        color: theme.textTheme.bodyLarge.color,
       ),
       'scrollCode': BoxDecoration(
         minHeight: MediaQuery.of(context).size.height,
         padding: EdgeInsets.all(10),
       ),
       'code': EdgeInsets.symmetric(vertical: Platform.isIOS ? 4 : 0, horizontal: 5),
-      'errorText': theme.textTheme.bodyText1.copyWith(
-        color: theme.errorColor,
+      'errorText': theme.textTheme.bodyLarge.copyWith(
+        color: theme.colorScheme.error,
         margin: EdgeInsets.symmetric(horizontal: 5),
       ),
     };

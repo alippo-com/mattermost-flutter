@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/queries/system.dart';
 import 'package:mattermost_flutter/components/team_list/team_list_item.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 
 class TeamListItemWrapper extends StatelessWidget {
   @override

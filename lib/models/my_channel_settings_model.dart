@@ -1,7 +1,7 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import 'package:mattermost_flutter/types/my_channel.dart'; // Adjusted import for Flutter
+// Adjusted import for Flutter
 import 'package:watermelondb/watermelondb.dart';
 import 'package:watermelondb/associations.dart';
 

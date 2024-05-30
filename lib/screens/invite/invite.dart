@@ -1,18 +1,10 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/components/loading.dart';
 import 'package:mattermost_flutter/constants.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
-import 'package:mattermost_flutter/hooks/navigation_button_pressed.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
-import 'package:mattermost_flutter/types/screens/navigation.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/hooks/theme.dart';
 import 'package:mattermost_flutter/hooks/server.dart';
-import 'package:mattermost_flutter/screens/invite/selection.dart';
-import 'package:mattermost_flutter/screens/invite/summary.dart';
 
 class Invite extends StatefulWidget {
   final String componentId;

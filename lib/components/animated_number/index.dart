@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/animation.dart';
 import 'package:mattermost_flutter/types/style_prop.dart'; // Ensure correct path for types
 
 class AnimatedNumber extends StatefulWidget {

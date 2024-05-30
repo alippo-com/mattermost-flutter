@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/types/database.dart';
 import 'package:mattermost_flutter/models/thread.dart';
-import 'package:mattermost_flutter/queries/servers/thread.dart';
 import 'thread_footer.dart';
 
 class EnhancedThreadFooter extends StatelessWidget {

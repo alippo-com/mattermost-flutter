@@ -4,19 +4,16 @@ import 'package:mattermost_flutter/actions/local/team.dart';
 import 'package:mattermost_flutter/actions/remote/channel.dart';
 import 'package:mattermost_flutter/actions/remote/role.dart';
 import 'package:mattermost_flutter/actions/remote/team.dart';
-import 'package:mattermost_flutter/actions/remote/user.dart';
 import 'package:mattermost_flutter/database/manager.dart';
-import 'package:mattermost_flutter/managers/network_manager.dart';
 import 'package:mattermost_flutter/queries/servers/categories.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
-import 'package:mattermost_flutter/queries/servers/team.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';
 import 'package:mattermost_flutter/store/ephemeral_store.dart';
 import 'package:mattermost_flutter/store/team_load_store.dart';
 import 'package:mattermost_flutter/utils/errors.dart';
 import 'package:mattermost_flutter/utils/log.dart';
 
-import 'package:mattermost_flutter/types/screens/navigation.dart'; // Assuming WebSocketMessage and other types are defined here
+// Assuming WebSocketMessage and other types are defined here
 
 import 'package:types/types.dart'; // Assuming Team, TeamMembership, ServerDataOperator, WebSocketMessage, and Model are defined here
 

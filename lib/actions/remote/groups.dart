@@ -1,12 +1,8 @@
 import 'package:mattermost_flutter/database/manager.dart';
-import 'package:mattermost_flutter/managers/network_manager.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
-import 'package:mattermost_flutter/queries/servers/team.dart';
 import 'package:mattermost_flutter/utils/errors.dart';
 import 'package:mattermost_flutter/utils/log.dart';
 
-import 'session.dart';
 
 import '../types/client.dart';
 

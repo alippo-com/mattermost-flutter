@@ -3,8 +3,6 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:mattermost_flutter/actions/remote/permalink.dart';
 import 'package:mattermost_flutter/components/option_item.dart';
 import 'package:mattermost_flutter/context/server.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/types/file_info.dart';
 import 'package:mattermost_flutter/types/gallery_action.dart';
 import 'package:mattermost_flutter/types/typography.dart';

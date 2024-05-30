@@ -2,7 +2,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:mattermost_flutter/constants/general.dart';
-import 'package:mattermost_flutter/managers/network_manager.dart';
 import 'package:mattermost_flutter/utils/errors.dart';
 import 'package:mattermost_flutter/utils/log.dart';
 

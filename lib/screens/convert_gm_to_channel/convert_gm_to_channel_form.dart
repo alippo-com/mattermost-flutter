@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:mattermost_flutter/components/button.dart';
 import 'package:mattermost_flutter/components/loading.dart';
 import 'package:mattermost_flutter/constants/server_errors.dart';
 import 'package:mattermost_flutter/context/server.dart';
@@ -9,7 +8,6 @@ import 'package:mattermost_flutter/utils/errors.dart';
 import 'package:mattermost_flutter/utils/log.dart';
 import 'package:mattermost_flutter/utils/tap.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 
 import 'channel_name_input.dart';
 import 'message_box/message_box.dart';
@@ -129,7 +127,7 @@ class _ConvertGMToChannelFormState extends State<ConvertGMToChannelForm> {
     if (widget.commonTeams.isEmpty) {
       return NoCommonTeamForm(
         containerStyles: BoxDecoration(
-          color: theme.backgroundColor,
+          color: theme.colorScheme.surface,
           padding: EdgeInsets.symmetric(vertical: 24, horizontal: 20),
         ),
       );

@@ -1,7 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-import 'package:mattermost_flutter/types/global/utilities.dart'; // Correct import for @typing
+// Correct import for @typing
 
 class OnboardingItem {
   final String title;

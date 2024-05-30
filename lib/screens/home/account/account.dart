@@ -1,13 +1,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/components/account_options.dart';
 import 'package:mattermost_flutter/components/account_tablet_view.dart';
 import 'package:mattermost_flutter/components/account_user_info.dart';
 import 'package:mattermost_flutter/context/theme.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 
 class AccountScreen extends HookWidget {
   final UserModel? currentUser;

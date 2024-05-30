@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/database/database.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
-import 'package:mattermost_flutter/queries/servers/role.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';
 import 'package:mattermost_flutter/screens/channel/channel_post_list/intro/intro.dart';
 import 'package:mattermost_flutter/utils/types.dart';

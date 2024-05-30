@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:momentum/momentum.dart';
 import 'package:intl/intl.dart';
 import 'package:mattermost_flutter/constants.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/types.dart';
 import 'package:mattermost_flutter/i18n.dart';
 import 'package:mattermost_flutter/init/push_notifications.dart';

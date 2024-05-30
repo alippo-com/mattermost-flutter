@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-import 'package:provider/provider.dart';
 
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/utils/theme.dart';

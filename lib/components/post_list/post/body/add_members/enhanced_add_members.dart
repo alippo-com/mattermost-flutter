@@ -6,8 +6,6 @@ import 'package:provider/provider.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';
-import 'package:mattermost_flutter/components/post_list/post/body/add_members/add_members.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 import 'package:mattermost_flutter/types/database/models/servers/post.dart';
 
 class EnhancedAddMembers extends StatelessWidget {

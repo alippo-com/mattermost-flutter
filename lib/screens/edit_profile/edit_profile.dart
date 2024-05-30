@@ -1,17 +1,13 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/actions/local/user.dart';
-import 'package:mattermost_flutter/actions/remote/user.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/components/tablet_title.dart';
 import 'package:mattermost_flutter/constants/events.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/hooks/android_back_handler.dart';
 import 'package:mattermost_flutter/hooks/navigation_button_pressed.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/utils/tap.dart';
 import 'package:mattermost_flutter/components/profile_form.dart';
 import 'package:mattermost_flutter/components/profile_error.dart';

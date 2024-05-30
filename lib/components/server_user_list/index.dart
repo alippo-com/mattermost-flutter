@@ -3,7 +3,6 @@ import 'package:mattermost_flutter/components/user_list.dart';
 import 'package:mattermost_flutter/constants/general.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/helpers/api/general.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 
 class ServerUserList extends StatefulWidget {
   final String currentUserId;

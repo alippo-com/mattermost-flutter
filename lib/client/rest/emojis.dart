@@ -1,9 +1,6 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import 'package:mattermost_flutter/utils/helpers.dart';
-import 'package:mattermost_flutter/client/rest/constants.dart';
-import 'package:mattermost_flutter/client/rest/base.dart';
 
 abstract class ClientEmojisMix {
   Future<CustomEmoji> getCustomEmoji(String id);

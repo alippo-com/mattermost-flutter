@@ -4,7 +4,6 @@
 import 'package:camera_roll/camera_roll.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter/widgets.dart';
 import 'package:mattermost_flutter/actions/local/file.dart';
 import 'package:mattermost_flutter/actions/remote/file.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';

@@ -3,7 +3,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/components/animated_numbers.dart';
 import 'package:mattermost_flutter/components/emoji.dart';

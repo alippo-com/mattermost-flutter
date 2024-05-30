@@ -1,8 +1,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/components/slide_up_panel_item.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/types/screens/gallery.dart';
 import 'package:mattermost_flutter/types/theme.dart';
 

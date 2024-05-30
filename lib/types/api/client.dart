@@ -27,7 +27,7 @@
   }
   
   class ClientErrorProps {
-    dynamic? details;
+    dynamic details;
     ClientErrorIntl? intl;
     String url;
     String? serverErrorId;

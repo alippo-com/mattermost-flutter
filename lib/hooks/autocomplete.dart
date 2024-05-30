@@ -2,7 +2,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:flutter/material.dart';
-import 'package:flutter/scheduler.dart';
 
 class AutocompleteDefaultAnimatedValues extends StatefulWidget {
   final double position;

@@ -4,12 +4,10 @@ import 'package:mattermost_flutter/constants/database.dart';
 import 'package:mattermost_flutter/database/manager.dart';
 import 'package:mattermost_flutter/init/credentials.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:mattermost_flutter/utils/log.dart';
 import 'package:mattermost_flutter/actions/local/post.dart';
 
 import 'package:mattermost_flutter/types/database/models/servers/post.dart';
-import 'package:mattermost_flutter/actions/remote/systems.dart';
 
 Future<void> storeConfigAndLicense(String serverUrl, ClientConfig config, ClientLicense license) async {
   try {

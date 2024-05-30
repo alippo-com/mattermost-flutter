@@ -1,14 +1,11 @@
 import 'package:mattermost_flutter/constants/database.dart';
 import 'package:mattermost_flutter/database/operator/base_data_operator.dart';
 import 'package:mattermost_flutter/database/operator/server_data_operator/transformers/general.dart';
-import 'package:mattermost_flutter/database/operator/utils/general.dart';
 import 'package:mattermost_flutter/utils/log.dart';
 import 'package:mattermost_flutter/utils/reaction.dart';
 import 'package:mattermost_flutter/database/operator/server_data_operator/transformers/reaction.dart';
 
-import 'package:mattermost_flutter/types/database/database.dart';
 import 'package:mattermost_flutter/types/database/models/servers/custom_emoji.dart';
-import 'package:mattermost_flutter/types/database/models/servers/reaction.dart';
 import 'package:mattermost_flutter/types/database/models/servers/role.dart';
 import 'package:mattermost_flutter/types/database/models/servers/system.dart';
 

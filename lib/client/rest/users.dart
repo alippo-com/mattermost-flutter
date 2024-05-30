@@ -1,7 +1,6 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/error.dart';
 import 'package:mattermost_flutter/base.dart';
@@ -289,10 +288,8 @@ class ClientUsers<TBase extends ClientBase> extends TBase implements ClientUsers
   @override
   String getProfilePictureUrl(String userId, int lastPictureUpdate) {
     var params = {};
-    if (lastPictureUpdate != null) {
-      params['_'] = lastPictureUpdate;
-    }
-    return '\${this.getUserRoute(userId)}/image\${buildQueryString(params)}';
+    params['_'] = lastPictureUpdate;
+      return '\${this.getUserRoute(userId)}/image\${buildQueryString(params)}';
   }
 
   @override
@@ -303,7 +300,7 @@ class ClientUsers<TBase extends ClientBase> extends TBase implements ClientUsers
   @override
   Future<Map<String, dynamic>> autocompleteUsers(String name, String teamId, {String channelId, Map<String, dynamic> options = const {'limit': General.AUTOCOMPLETE_LIMIT_DEFAULT}}) async {
     var query = {'in_team': teamId, 'name': name};
-    if (channelId != null && channelId.isNotEmpty) {
+    if (channelId.isNotEmpty) {
       query['in_channel'] = channelId;
     }
     if (options.containsKey('limit')) {

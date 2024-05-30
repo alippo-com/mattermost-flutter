@@ -1,7 +1,6 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/utils/file.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/actions/remote/file.dart';

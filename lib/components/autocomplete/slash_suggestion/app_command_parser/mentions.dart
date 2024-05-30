@@ -2,7 +2,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:mattermost_flutter/actions/remote/channel.dart';
-import 'package:mattermost_flutter/actions/remote/user.dart';
 import 'package:mattermost_flutter/constants/apps.dart';
 import 'package:mattermost_flutter/types/autocomplete_suggestion.dart';
 import 'package:mattermost_flutter/types/user_profile.dart';

@@ -1,20 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/components/floating_call_container.dart';
 import 'package:mattermost_flutter/components/post_draft.dart';
 import 'package:mattermost_flutter/constants.dart';
-import 'package:mattermost_flutter/hooks/android_back_handler.dart';
 import 'package:mattermost_flutter/hooks/channel_switch.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/hooks/header.dart';
-import 'package:mattermost_flutter/hooks/keyboard_tracking.dart';
 import 'package:mattermost_flutter/hooks/team_switch.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/store/ephemeral_store.dart';
 import 'package:mattermost_flutter/types/screens/navigation.dart';
 import 'package:mattermost_flutter/types/database/models/servers/preference.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 
 import 'channel_post_list.dart';
 import 'header.dart';

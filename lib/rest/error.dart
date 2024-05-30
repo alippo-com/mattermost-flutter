@@ -1,4 +1,3 @@
-import 'package:mattermost_flutter/utils/url.dart';
 
 class ClientError extends Error {
   String url;

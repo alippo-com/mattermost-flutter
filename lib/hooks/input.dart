@@ -2,7 +2,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
 
 typedef void ValueCallback(String value);
 typedef bool BoolCallback(String value);

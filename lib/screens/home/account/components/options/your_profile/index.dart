@@ -7,7 +7,6 @@ import 'package:flutter/services.dart';
 import 'package:mattermost_flutter/components/option_item.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/utils/tap.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/types/theme.dart';
 import 'package:mattermost_flutter/types/system.dart';
 

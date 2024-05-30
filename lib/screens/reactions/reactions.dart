@@ -4,7 +4,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/constants.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/screens/bottom_sheet.dart';
 import 'package:mattermost_flutter/utils/emoji/helpers.dart';
 import 'package:mattermost_flutter/screens/reactions/emoji_aliases.dart';

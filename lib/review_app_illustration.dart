@@ -7,7 +7,7 @@ class ReviewAppIllustration extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: Theme.of(context).primaryColor,
-      child: Text('Review App Illustration', style: TextStyle(color: Theme.of(context).accentColor)),
+      child: Text('Review App Illustration', style: TextStyle(color: Theme.of(context).colorScheme.secondary)),
     );
   }
 }

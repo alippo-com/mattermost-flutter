@@ -6,8 +6,6 @@ import 'package:mattermost_flutter/types/database/models/servers/draft.dart';
 import 'package:mattermost_flutter/types/database/models/servers/my_channel.dart';
 import 'package:mattermost_flutter/types/database/models/servers/post.dart';
 import 'package:mattermost_flutter/types/database/models/servers/posts_in_channel.dart';
-import 'package:mattermost_flutter/types/database/models/servers/team.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 
 /**
  * The Channel model represents a channel in the Mattermost app.

@@ -9,12 +9,9 @@ import 'package:mattermost_flutter/constants/permissions.dart';
 import 'package:mattermost_flutter/data/database.dart';
 import 'package:mattermost_flutter/queries/system.dart';
 import 'package:mattermost_flutter/queries/user.dart';
-import 'package:mattermost_flutter/queries/app/servers.dart';
 import 'package:mattermost_flutter/utils/server.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 import 'package:mattermost_flutter/actions/local/systems.dart';
 import 'package:mattermost_flutter/context/server.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // For localization
 
 class ServerVersion extends StatefulWidget {

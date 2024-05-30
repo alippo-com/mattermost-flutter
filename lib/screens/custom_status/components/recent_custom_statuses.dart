@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/components/formatted_text.dart';
 import 'package:mattermost_flutter/i18n.dart';
-import 'package:mattermost_flutter/screens/custom_status/components/custom_status_suggestion.dart';
+import 'package:mattermost_flutter/screens/custom_status/components/custom_status_suggestion/custom_status_suggestion.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 
 class RecentCustomStatuses extends StatelessWidget {
@@ -63,8 +63,8 @@ class RecentCustomStatuses extends StatelessWidget {
                       key: Key('${status.text}-$index'),
                       handleSuggestionClick: onHandleSuggestionClick,
                       handleClear: onHandleClear,
-                      emoji: status?.emoji,
-                      text: status?.text,
+                      emoji: status.emoji,
+                      text: status.text,
                       theme: theme,
                       separator: index != recentCustomStatuses.length - 1,
                       duration: status.duration,

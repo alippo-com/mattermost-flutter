@@ -1,9 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'dart:io';  // Ensure Platform is imported
-import 'package:mattermost_flutter/hooks/android_back_handler.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/types/screens/navigation.dart';
 
 class TableScreen extends StatelessWidget {

@@ -3,8 +3,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/constants/navigation.dart';
-import 'package:mattermost_flutter/constants/screens.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 
 class Hashtag extends StatelessWidget {
   final String hashtag;

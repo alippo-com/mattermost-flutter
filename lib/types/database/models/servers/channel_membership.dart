@@ -4,7 +4,6 @@
 import 'package:watermelondb/watermelondb.dart';
 import 'package:watermelondb/decorators.dart';
 import 'package:mattermost_flutter/types/database/models/servers/channel.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 import 'package:mattermost_flutter/types/database/models/servers/channel_membership_interface.dart';
 
 /**

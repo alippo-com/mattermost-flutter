@@ -2,7 +2,7 @@
     final sendActionDisabled = !canSend || mentionsData['noMentionsError'];
 
     return Column(
-      children: [
+      children = [
         Typing(channelId: channelId, rootId: rootId),
         SafeArea(
           left: true,

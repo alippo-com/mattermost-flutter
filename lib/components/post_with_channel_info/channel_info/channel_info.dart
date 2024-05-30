@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'package:mattermost_flutter/types/database/models/servers/channel.dart';
-import 'package:mattermost_flutter/types/database/models/servers/team.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
 import 'package:mattermost_flutter/utils/change_opacity.dart';

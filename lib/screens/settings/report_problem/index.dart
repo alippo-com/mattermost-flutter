@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/database.dart';
 import 'package:mattermost_flutter/observables.dart';
 import 'package:mattermost_flutter/screens/settings/report_problem/report_problem.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 
 class EnhancedReportProblem extends StatelessWidget {
   final Database database;

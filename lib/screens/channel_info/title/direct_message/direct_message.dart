@@ -4,7 +4,6 @@
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/components/profile_picture.dart';
 import 'package:mattermost_flutter/components/tag.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
 
@@ -91,10 +90,10 @@ class DirectMessage extends StatelessWidget {
   Map<String, TextStyle> _getStyleSheet(ThemeData theme) {
     return {
       'container': BoxDecoration(
-        color: theme.backgroundColor,
+        color: theme.colorScheme.surface,
       ),
       'displayName': TextStyle(
-        color: theme.textTheme.bodyText1?.color,
+        color: theme.textTheme.bodyLarge?.color,
       ),
       'position': TextStyle(
         color: changeOpacity(theme.primaryColor, 0.72),

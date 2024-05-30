@@ -3,12 +3,10 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:mattermost_flutter/components/bottom_sheet/bottom_sheet_content.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/utils/server.dart';
 import 'package:mattermost_flutter/typings/database/models/app/servers.dart';
 import 'package:gorhom_bottom_sheet/gorhom_bottom_sheet.dart';
 import 'server_item.dart';
-import 'add_server_button.dart';
 
 class ServerList extends HookWidget {
   final List<ServersModel> servers;

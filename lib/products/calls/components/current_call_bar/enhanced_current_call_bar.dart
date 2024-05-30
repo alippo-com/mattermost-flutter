@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_rx/observables.dart';
-import 'package:rxdart/rxdart.dart';
 import 'package:mattermost_flutter/types/calls/observers.dart';
 import 'package:mattermost_flutter/types/calls/state.dart';
 import 'package:mattermost_flutter/database/manager.dart';

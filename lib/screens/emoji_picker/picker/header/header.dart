@@ -2,10 +2,7 @@
 // See LICENSE.txt for license information.
 
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/components/search_bar.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
-import 'package:mattermost_flutter/hooks/emoji_category_bar.dart';
 
 import 'bottom_sheet_search.dart';
 import 'skintone_selector.dart';

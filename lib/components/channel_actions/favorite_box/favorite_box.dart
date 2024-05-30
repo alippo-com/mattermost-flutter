@@ -2,12 +2,10 @@
 // See LICENSE.txt for license information.
 
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:intl/intl.dart';
 import 'package:mattermost_flutter/actions/remote/category.dart';
 import 'package:mattermost_flutter/components/option_box.dart';
 import 'package:mattermost_flutter/context/server.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 
 class FavoriteBox extends StatelessWidget {
   final String channelId;

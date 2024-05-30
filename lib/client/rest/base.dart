@@ -50,7 +50,7 @@
 
     late ClientResponse response;
     try {
-      response = await request!(url, requestOptions);
+      response = await request(url, requestOptions);
     } catch (error) {
       throw ClientError(apiClient.baseUrl, {
         'message': 'Received invalid response from the server.',

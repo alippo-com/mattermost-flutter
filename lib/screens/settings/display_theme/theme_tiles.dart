@@ -7,7 +7,6 @@ import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 
 import 'theme_thumbnail.dart';
 

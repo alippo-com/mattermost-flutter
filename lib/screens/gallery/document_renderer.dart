@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:mattermost_flutter/components/files/file_icon.dart';
 import 'package:mattermost_flutter/constants.dart';
-import 'package:mattermost_flutter/utils/button_styles.dart';
 import 'package:mattermost_flutter/utils/file.dart';
 import 'package:mattermost_flutter/utils/gallery.dart';
 import 'package:mattermost_flutter/utils/theme.dart';

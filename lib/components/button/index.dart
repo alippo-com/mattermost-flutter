@@ -3,7 +3,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
-import 'package:mattermost_flutter/utils/button_styles.dart';
 
 class ConditionalProps {
   final String? iconName;

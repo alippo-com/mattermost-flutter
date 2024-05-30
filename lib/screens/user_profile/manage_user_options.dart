@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/components/channel_actions/manage_members_label.dart';
-import 'package:mattermost_flutter/constants/members.dart';
 import 'package:mattermost_flutter/context/theme.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 

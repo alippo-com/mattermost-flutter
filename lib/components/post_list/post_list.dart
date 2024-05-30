@@ -7,7 +7,6 @@ import 'new_message_line.dart';
 import 'post.dart';
 import 'thread_overview.dart';
 import 'more_messages.dart';
-import 'scroll_to_end_view.dart';
 import '../constants.dart';
 import '../context/server.dart';
 import '../context/theme.dart';
@@ -87,7 +86,7 @@ class _PostListState extends State<PostList> {
   void initState() {
     super.initState();
     _scrollController.addListener(_onScroll);
-    SchedulerBinding.instance?.addPostFrameCallback((_) {
+    SchedulerBinding.instance.addPostFrameCallback((_) {
       _scrollToTop();
     });
   }

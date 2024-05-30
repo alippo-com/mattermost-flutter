@@ -5,16 +5,11 @@
 import 'package:mattermost_flutter/actions/remote/channel.dart';
 import 'package:mattermost_flutter/actions/remote/post.dart';
 import 'package:mattermost_flutter/actions/remote/team.dart';
-import 'package:mattermost_flutter/actions/remote/thread.dart';
 import 'package:mattermost_flutter/context/theme.dart';
 import 'package:mattermost_flutter/database/manager.dart';
-import 'package:mattermost_flutter/managers/websocket_manager.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
 import 'package:mattermost_flutter/queries/servers/post.dart';
 import 'package:mattermost_flutter/queries/servers/preference.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
-import 'package:mattermost_flutter/queries/servers/team.dart';
-import 'package:mattermost_flutter/queries/servers/thread.dart';
 import 'package:mattermost_flutter/store/ephemeral_store.dart';
 import 'package:mattermost_flutter/utils/errors.dart';
 import 'package:mattermost_flutter/utils/notification.dart';

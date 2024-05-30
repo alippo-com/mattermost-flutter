@@ -3,7 +3,6 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:mattermost_flutter/components/threads_button.dart';
 import 'package:mattermost_flutter/constants/view.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/screens/home/channel_list/categories.dart';
 import 'package:mattermost_flutter/screens/home/channel_list/header.dart';

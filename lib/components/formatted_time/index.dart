@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 import 'package:moment/moment.dart';
 import 'package:mattermost_flutter/types.dart';
 import 'package:mattermost_flutter/i18n.dart';

@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:mattermost_flutter/constants/preferences.dart';
 import 'package:mattermost_flutter/queries/servers/preference.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 import 'package:mattermost_flutter/screens/emoji_picker/picker/header/header.dart';
 
 class EnhancedPickerHeader extends StatelessWidget {

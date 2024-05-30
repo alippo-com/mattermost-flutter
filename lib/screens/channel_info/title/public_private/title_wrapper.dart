@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:rxdart/rxdart.dart';
 import 'package:mattermost_flutter/database/database.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
 import 'package:mattermost_flutter/screens/channel_info/title/public_private/public_private.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 
 class TitleWrapper extends StatefulWidget {
   final String channelId;

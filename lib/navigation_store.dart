@@ -1,4 +1,3 @@
-import 'dart:async';
 
 class NavigationStore {
   List<String> _screensInStack = [];

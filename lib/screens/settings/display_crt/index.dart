@@ -5,10 +5,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
-import 'package:mattermost_flutter/types/screens/navigation.dart';
 display_crt.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 
 class DisplayCRTContainer extends StatelessWidget {
   @override

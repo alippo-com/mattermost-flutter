@@ -2,10 +2,7 @@
 // See LICENSE.txt for license information.
 
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/utils/url.dart';
-import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/types/theme.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 

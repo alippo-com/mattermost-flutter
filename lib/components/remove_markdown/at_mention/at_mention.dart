@@ -2,12 +2,9 @@
 // See LICENSE.txt for license information.
 
 import 'package:flutter/material.dart';
-import 'package:mattermost_flutter/actions/remote/user.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/database/models/server/group.dart';
 import 'package:mattermost_flutter/hooks/markdown.dart';
-import 'package:mattermost_flutter/utils/user.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 
 class AtMention extends StatefulWidget {
   final Database database;

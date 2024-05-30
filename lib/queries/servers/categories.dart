@@ -1,11 +1,8 @@
 // categories.dart
 
 import 'package:watermelondb/watermelondb.dart';
-import 'package:rxdart/rxdart.dart';
 import 'package:mattermost_flutter/constants/categories.dart';
 import 'package:mattermost_flutter/constants/database.dart';
-import 'package:mattermost_flutter/utils/categories.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/utils/log.dart';
 import 'package:mattermost_flutter/types/servers/category.dart';
 import 'package:mattermost_flutter/types/servers/category_channel.dart';

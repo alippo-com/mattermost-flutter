@@ -1,11 +1,9 @@
 
 import 'package:mattermost_flutter/constants/database.dart';
 import 'package:mattermost_flutter/database/operator/server_data_operator/transformers/group.dart';
-import 'package:mattermost_flutter/database/operator/utils/general.dart';
 import 'package:mattermost_flutter/queries/servers/group.dart';
 import 'package:mattermost_flutter/utils/groups.dart';
 import 'package:mattermost_flutter/utils/log.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 import 'package:mattermost_flutter/types/database/models/servers/group.dart';
 import 'package:mattermost_flutter/types/database/models/servers/group_channel.dart';
 import 'package:mattermost_flutter/types/database/models/servers/group_membership.dart';

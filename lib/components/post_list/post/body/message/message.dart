@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/typings/database/models/servers/post.dart';
 import 'package:mattermost_flutter/typings/database/models/servers/user.dart';
 import 'package:mattermost_flutter/constants/screens.dart';
-import 'package:mattermost_flutter/hooks/show_more.dart';
 import 'package:mattermost_flutter/utils/markdown.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';

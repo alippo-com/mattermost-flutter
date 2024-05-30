@@ -5,8 +5,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_platform_widgets/flutter_platform_widgets.dart';
 import 'package:mattermost_flutter/components/option_item.dart';
-import 'package:mattermost_flutter/constants/notification_level.dart';
-import 'package:mattermost_flutter/constants/screens.dart';
 import 'package:mattermost_flutter/types/channel_type.dart';
 import 'package:mattermost_flutter/utils/channel.dart';
 import 'package:mattermost_flutter/utils/tap.dart';

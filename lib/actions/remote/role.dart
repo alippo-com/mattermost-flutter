@@ -3,12 +3,9 @@
 
 import 'package:mattermost_flutter/constants/general.dart';
 import 'package:mattermost_flutter/database/database_manager.dart';
-import 'package:mattermost_flutter/managers/network_manager.dart';
-import 'package:mattermost_flutter/queries/servers/role.dart';
 import 'package:mattermost_flutter/utils/errors.dart';
 import 'package:mattermost_flutter/utils/log.dart';
 
-import 'session.dart';
 
 class RolesRequest {
   final dynamic error;

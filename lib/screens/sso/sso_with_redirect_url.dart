@@ -1,18 +1,12 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:mattermost_flutter/components/formatted_text.dart';
-import 'package:mattermost_flutter/constants/sso.dart';
-import 'package:mattermost_flutter/managers/network_manager.dart';
-import 'package:mattermost_flutter/utils/button_styles.dart';
 import 'package:mattermost_flutter/utils/errors.dart';
 import 'package:mattermost_flutter/utils/general.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/utils/url.dart';
 import 'package:mattermost_flutter/types/theme.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 class SSOWithRedirectURL extends HookWidget {
   final Function(String, String) doSSOLogin;
@@ -122,7 +116,7 @@ class SSOWithRedirectURL extends HookWidget {
                   ElevatedButton(
                     onPressed: () => init(),
                     style: ElevatedButton.styleFrom(
-                      primary: theme.primaryColor,
+                      backgroundColor: theme.primaryColor,
                       padding: EdgeInsets.all(16),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(8),

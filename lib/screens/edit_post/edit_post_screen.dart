@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/constants/post_draft.dart';
-import 'package:mattermost_flutter/queries/servers/file.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
-import 'package:mattermost_flutter/screens/edit_post/edit_post.dart';
 
 class EditPostScreen extends StatelessWidget {
   final Database database;

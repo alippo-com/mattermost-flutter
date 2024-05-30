@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'package:regexpattern/regexpattern.dart'; // Assuming use of a RegExp package for Dart
 
 class SearchPattern {

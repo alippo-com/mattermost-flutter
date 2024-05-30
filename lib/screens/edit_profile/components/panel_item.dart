@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/components/slide_up_panel_item.dart';
 import 'package:mattermost_flutter/utils/file_picker.dart';
 import 'package:mattermost_flutter/utils/intl.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 
 class PanelItem extends StatelessWidget {
   final String pickerAction;

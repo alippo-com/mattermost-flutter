@@ -10,7 +10,6 @@ import 'package:mattermost_flutter/constants/network.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/context/theme.dart';
 import 'package:mattermost_flutter/components/progress_bar.dart';
-import 'package:mattermost_flutter/managers/network_manager.dart';
 import 'package:mattermost_flutter/components/files/file_icon.dart';
 import 'package:mattermost_flutter/client/rest.dart';
 
@@ -56,7 +55,7 @@ class DocumentFile extends HookWidget {
           downloading.value = true;
           downloadTask.value = client.apiClient.download(
             client.getFileRoute(file.id!),
-            path!.replaceFirst('file://', ''),
+            path.replaceFirst('file://', ''),
             options: DownloadOptions(timeoutInterval: DOWNLOAD_TIMEOUT),
           );
           downloadTask.value?.progress?.listen((p) => progress.value = p);

@@ -1,11 +1,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:mattermost_flutter/types/calls.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
-import 'package:provider/provider.dart';
 
 const double CALL_ERROR_BAR_HEIGHT = 50.0;
 

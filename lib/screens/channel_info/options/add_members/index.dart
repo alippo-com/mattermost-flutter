@@ -2,11 +2,9 @@
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/database/with_database.dart';
 import 'package:mattermost_flutter/database/with_observables.dart';
-import 'package:rxdart/rxdart.dart';
 
 import 'package:mattermost_flutter/queries/servers/channel.dart';
 import 'package:mattermost_flutter/screens/channel_info/options/add_members/add_members.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 
 class AddMembersContainer extends StatelessWidget {
   final String channelId;

@@ -3,7 +3,6 @@
 
 import 'package:watermelondb/watermelondb.dart';
 import 'package:watermelondb/Relation.dart';
-import 'package:mattermost_flutter/types/database/models/servers/team.dart';
 
 class TeamSearchHistoryModel extends Model {
   static final table = 'TeamSearchHistory';

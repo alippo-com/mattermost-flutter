@@ -4,7 +4,6 @@
 import 'package:watermelondb/watermelondb.dart';
 import 'package:watermelondb/decorators.dart';
 import 'package:mattermost_flutter/constants/database.dart';
-import 'package:mattermost_flutter/types/database/models/servers/team.dart';
 import 'package:mattermost_flutter/types/database/models/servers/my_team.dart';
 
 const TEAM = MM_TABLES.SERVER['TEAM'];

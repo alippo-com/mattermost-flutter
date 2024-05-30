@@ -3,7 +3,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:rxdart/rxdart.dart';
-import 'package:mattermost_flutter/types/calls.dart';
 
 class CallsConfigState {
   // Define properties and constructor here

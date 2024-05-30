@@ -3,7 +3,6 @@
 import 'package:watermelondb/watermelondb.dart';
 import 'package:watermelondb/decorators.dart';
 import 'package:mattermost_flutter/constants/database.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/types/channel.dart';
 import 'package:mattermost_flutter/types/draft.dart';
 import 'package:mattermost_flutter/types/file.dart';
@@ -130,10 +129,6 @@ class PostModel extends Model implements PostModelInterface {
   }
 
   Future<bool> hasReplies() async {
-    if (this.rootId == null) {
-      return (await postsInThread.fetch()).length > 0;
-    }
-
     final root = await this.root.fetch();
     if (root.isNotEmpty) {
       return (await root[0].postsInThread.fetch()).length > 0;

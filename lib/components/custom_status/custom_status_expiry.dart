@@ -2,7 +2,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 import 'package:rx_dart/rx.dart';
 import 'package:mattermost_flutter/components/formatted_date.dart';
@@ -11,10 +10,7 @@ import 'package:mattermost_flutter/components/formatted_time.dart';
 import 'package:mattermost_flutter/helpers/api/preference.dart';
 import 'package:mattermost_flutter/queries/servers/preference.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 import 'package:mattermost_flutter/types/theme.dart';
 
 class CustomStatusExpiry extends StatelessWidget {
@@ -104,7 +100,7 @@ class CustomStatusExpiry extends StatelessWidget {
             style: styles.text.merge(textStyles),
           ),
         if (showPrefix == true) TextSpan(text: ' '),
-        if (dateComponent != null) dateComponent!,
+        if (dateComponent != null) dateComponent,
         if (useTime && dateComponent != null)
           TextSpan(
             children: [

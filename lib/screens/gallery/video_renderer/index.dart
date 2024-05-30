@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:provider/provider.dart';
 import 'package:video_player/video_player.dart';
@@ -8,7 +7,6 @@ import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/screens/gallery/footer/download_with_action.dart';
-import 'package:mattermost_flutter/screens/gallery/video_renderer/error.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/context/captions_enabled.dart';
 import 'package:mattermost_flutter/utils/gallery.dart';

@@ -3,7 +3,6 @@
 
 import 'package:mattermost_flutter/constants/database.dart';
 import 'package:mattermost_flutter/database/manager.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:mattermost_flutter/utils/emoji/helpers.dart';
 import 'package:mattermost_flutter/utils/log.dart';
 

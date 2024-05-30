@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart'; // For ActivityIndicator equivalent
-import 'package:flutter/widgets.dart';
 import 'package:mattermost_flutter/components/formatted_text.dart';
 import 'package:mattermost_flutter/context/theme.dart';
 import 'package:mattermost_flutter/utils/theme.dart';

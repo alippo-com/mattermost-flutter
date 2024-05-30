@@ -5,12 +5,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/constants/general.dart';
-import 'package:mattermost_flutter/constants/tutorial.dart';
-import 'package:mattermost_flutter/queries/app/global.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
-import 'create_direct_message.dart';
 
 class EnhancedCreateDirectMessage extends StatelessWidget {
   @override

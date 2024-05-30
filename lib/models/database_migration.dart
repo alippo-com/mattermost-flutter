@@ -1,5 +1,4 @@
 import 'package:sqflite/sqflite.dart';
-import 'package:path/path.dart';
 import 'package:mattermost_flutter/models/types.dart';
 
 class DatabaseMigration {

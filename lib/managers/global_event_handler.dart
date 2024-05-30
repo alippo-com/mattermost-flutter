@@ -1,26 +1,16 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:rxdart/rxdart.dart';
-import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/services.dart';
 
 import 'package:mattermost_flutter/actions/remote/channel.dart';
-import 'package:mattermost_flutter/constants/device.dart';
 import 'package:mattermost_flutter/constants/events.dart';
-import 'package:mattermost_flutter/constants/sso.dart';
 import 'package:mattermost_flutter/constants/supported_server.dart';
 import 'package:mattermost_flutter/database/manager.dart';
 import 'package:mattermost_flutter/i18n/i18n.dart';
 import 'package:mattermost_flutter/init/credentials.dart';
-import 'package:mattermost_flutter/managers/analytics.dart';
-import 'package:mattermost_flutter/queries/app/servers.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
-import 'package:mattermost_flutter/queries/servers/team.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/utils/deep_link.dart';
 import 'package:mattermost_flutter/utils/general.dart';
-import 'package:mattermost_flutter/utils/error_handling.dart';
 
 class GlobalEventHandler {
   JsAndNativeErrorHandler? javascriptAndNativeErrorHandler;

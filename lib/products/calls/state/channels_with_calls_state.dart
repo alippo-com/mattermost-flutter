@@ -3,7 +3,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:rxdart/rxdart.dart';
-import 'package:mattermost_flutter/types/calls.dart';
 
 class ChannelsWithCallsStateManager with ChangeNotifier {
   final Map<String, BehaviorSubject<ChannelsWithCalls>> _channelsWithCallsSubjects = {};

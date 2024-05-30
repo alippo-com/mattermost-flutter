@@ -3,11 +3,8 @@ import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
 import 'package:mattermost_flutter/components/custom_floating_text_input.dart';
 import 'package:mattermost_flutter/components/custom_formatted_text.dart';
 import 'package:mattermost_flutter/components/loading.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/i18n.dart';
-import 'package:mattermost_flutter/utils/button_styles.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/utils/url.dart';
 import 'package:mattermost_flutter/types/keyboard_aware_scroll_view.dart';
 import 'package:mattermost_flutter/types/theme.dart';
 
@@ -77,7 +74,7 @@ class _EditServerFormState extends State<EditServerForm> {
         final bool isLandscape = _dimensions.width > _dimensions.height;
         offsetY = isLandscape ? 230 : 100;
       }
-      WidgetsBinding.instance?.addPostFrameCallback((_) {
+      WidgetsBinding.instance.addPostFrameCallback((_) {
         widget.keyboardAwareRef.currentState?.scrollToPosition(0, offsetY);
       });
     }
@@ -137,14 +134,14 @@ class _EditServerFormState extends State<EditServerForm> {
                 ),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  primary: styleButtonBackground,
+                  backgroundColor: styleButtonBackground,
                   padding: EdgeInsets.all(15),
                 ),
                 onPressed: widget.buttonDisabled ? null : _onUpdate,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    if (buttonIcon != null) buttonIcon!,
+                    if (buttonIcon != null) buttonIcon,
                     Text(
                       buttonText,
                       style: styleButtonText,

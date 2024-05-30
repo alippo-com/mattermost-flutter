@@ -4,9 +4,7 @@
 
 import 'package:mattermost_flutter/constants/deep_link.dart';
 import 'package:mattermost_flutter/database/manager.dart';
-import 'package:mattermost_flutter/queries/servers/team.dart';
 import 'package:mattermost_flutter/utils/permalink.dart';
-import 'package:mattermost_flutter/types/database/models/servers/team.dart';
 
 Future<Map<String, dynamic>> showPermalink(String serverUrl, String teamName, String postId, {bool openAsPermalink = true}) async {
   try {

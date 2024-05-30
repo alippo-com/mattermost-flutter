@@ -58,7 +58,7 @@ class MarkdownTableRow extends StatelessWidget {
   Map<String, Decoration> _getStyleSheet(ThemeData theme) {
     return {
       'row': BoxDecoration(
-        color: theme.backgroundColor,
+        color: theme.colorScheme.surface,
       ),
       'rowTopBackground': BoxDecoration(
         color: changeOpacity(theme.primaryColor, 0.1),

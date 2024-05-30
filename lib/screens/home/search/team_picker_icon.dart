@@ -1,13 +1,10 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/components/team_sidebar/team_icon.dart';
 import 'package:mattermost_flutter/components/touchable_with_feedback.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 
 const MENU_DOWN_ICON_SIZE = 24.0;
 const NO_TEAMS_HEIGHT = 392.0;

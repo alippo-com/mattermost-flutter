@@ -3,7 +3,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:mattermost_flutter/types/constants.dart';
-import 'package:mattermost_flutter/database/operator/server_data_operator/transformers/channel.dart';
 import 'package:mattermost_flutter/database/operator/utils/create_test_connection.dart';
 
 void main() {

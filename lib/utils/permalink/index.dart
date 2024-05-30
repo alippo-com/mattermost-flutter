@@ -1,11 +1,8 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'package:mattermost_flutter/constants/screens.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 
 bool showingPermalink = false;

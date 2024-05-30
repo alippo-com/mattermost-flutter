@@ -4,9 +4,6 @@
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/components/channel_actions/copy_channel_link_box/copy_channel_link_box.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
-import 'package:mattermost_flutter/queries/servers/team.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
-import 'package:rxdart/rxdart.dart';
 
 class EnhancedCopyChannelLinkBox extends StatelessWidget {
   final String channelId;

@@ -3,12 +3,10 @@
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:rxdart/rxdart.dart';
 import 'package:mattermost_flutter/database/database.dart';
 import 'package:mattermost_flutter/observers/call_state_observer.dart';
 import 'package:mattermost_flutter/store/ephemeral_store.dart';
 import 'package:mattermost_flutter/queries/servers/post.dart';
-import 'package:mattermost_flutter/queries/servers/thread.dart';
 import 'thread.dart';
 
 class EnhanceProps {

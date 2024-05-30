@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mattermost_flutter/components/files_search/no_results.dart';
 import 'package:mattermost_flutter/components/formatted_text.dart';
 import 'package:mattermost_flutter/components/no_results_with_term.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
-import 'package:mattermost_flutter/hooks/files.dart';
-import 'package:mattermost_flutter/utils/files.dart';
 import 'package:mattermost_flutter/utils/gallery.dart';
 import 'package:mattermost_flutter/utils/search.dart';
 import 'package:mattermost_flutter/utils/tap.dart';
@@ -20,7 +16,7 @@ import 'package:mattermost_flutter/typings/screens/gallery.dart';
 ThemeData getStyles(ThemeData theme) {
     return ThemeData(
         textTheme: theme.textTheme.copyWith(
-            headline6: theme.textTheme.headline6.copyWith(
+            titleLarge: theme.textTheme.titleLarge.copyWith(
                 fontSize: 20,
                 fontWeight: FontWeight.w300,
                 color: theme.colorScheme.onSurface,

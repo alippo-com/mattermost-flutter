@@ -1,7 +1,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:intl/intl.dart';
 
 import 'package:mattermost_flutter/actions/remote/user.dart';
 import 'package:mattermost_flutter/components/formatted_text.dart';
@@ -10,7 +9,6 @@ import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 
 import '../options.dart';
 

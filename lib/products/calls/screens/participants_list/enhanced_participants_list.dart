@@ -2,7 +2,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:flutter/material.dart';
-import 'package:rxdart/rxdart.dart';
 import 'package:mattermost_flutter/calls/observers.dart';
 import 'package:mattermost_flutter/calls/screens/participants_list/participants_list.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';

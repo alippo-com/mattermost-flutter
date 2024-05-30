@@ -3,7 +3,6 @@
 
 import 'package:watermelondb/watermelondb.dart';
 import 'package:watermelondb/Relation.dart';
-import 'package:mattermost_flutter/types/database/models/servers/team.dart';
 
 /**
  * TeamThreadsSyncModel helps us to sync threads without creating any gaps between the threads

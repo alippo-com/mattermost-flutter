@@ -3,7 +3,6 @@
 
 import 'dart:convert';
 import 'package:mattermost_flutter/database/manager.dart';
-import 'package:mattermost_flutter/queries/servers/reaction.dart';
 
 Future<void> handleAddCustomEmoji(String serverUrl, WebSocketMessage msg) async {
   try {

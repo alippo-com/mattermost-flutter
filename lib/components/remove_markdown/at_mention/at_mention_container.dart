@@ -4,10 +4,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/database/database.dart';
-import 'package:mattermost_flutter/queries/group.dart';
 import 'package:mattermost_flutter/queries/user.dart';
 import 'package:mattermost_flutter/components/remove_markdown/at_mention/at_mention.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 
 class AtMentionContainer extends StatelessWidget {
   final String mentionName;

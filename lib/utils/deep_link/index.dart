@@ -1,30 +1,20 @@
 // Converted Dart Code
 
-import 'package:path_to_regexp/path_to_regexp.dart';
 import 'package:intl/intl.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'package:mattermost_flutter/actions/remote/channel.dart';
 import 'package:mattermost_flutter/actions/remote/permalink.dart';
-import 'package:mattermost_flutter/actions/remote/user.dart';
 import 'package:mattermost_flutter/constants/deep_linking.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/context/theme.dart';
 import 'package:mattermost_flutter/database/manager.dart';
 import 'package:mattermost_flutter/i18n.dart';
-import 'package:mattermost_flutter/managers/websocket_manager.dart';
-import 'package:mattermost_flutter/queries/app/servers.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/store/ephemeral_store.dart';
-import 'package:mattermost_flutter/store/navigation_store.dart';
 import 'package:mattermost_flutter/utils/draft.dart';
 import 'package:mattermost_flutter/utils/log.dart';
 import 'package:mattermost_flutter/utils/markdown.dart';
 import 'package:mattermost_flutter/utils/server.dart';
-import 'package:mattermost_flutter/utils/url/path.dart';
-import 'package:mattermost_flutter/utils/url.dart';
 import 'package:mattermost_flutter/types/launch.dart';
-import 'package:mattermost_flutter/types/screens/navigation.dart';
 
 const deepLinkScreens = [Screens.HOME, Screens.CHANNEL, Screens.GLOBAL_THREADS, Screens.THREAD];
 

@@ -1,14 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 import 'package:mattermost_flutter/constants/general.dart';
 import 'package:mattermost_flutter/components/formatted_markdown_text.dart';
 import 'package:mattermost_flutter/components/formatted_text.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/hooks/server.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/actions/remote/channel.dart';
 import 'package:mattermost_flutter/i18n.dart';
 
@@ -54,7 +50,7 @@ class Archived extends StatelessWidget {
       child: Container(
         padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
         decoration: BoxDecoration(
-          color: theme.backgroundColor,
+          color: theme.colorScheme.surface,
           border: Border(
             top: BorderSide(color: changeOpacity(theme.dividerColor, 0.20)),
           ),
@@ -71,7 +67,7 @@ class Archived extends StatelessWidget {
             SizedBox(height: 10),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
-                primary: theme.primaryColor,
+                backgroundColor: theme.primaryColor,
                 padding: EdgeInsets.symmetric(vertical: 5),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(4),
@@ -96,15 +92,15 @@ class Archived extends StatelessWidget {
         paddingHorizontal: 20,
         paddingVertical: 10,
         borderTopWidth: 1,
-        backgroundColor: theme.backgroundColor,
+        backgroundColor: theme.colorScheme.surface,
         borderTopColor: changeOpacity(theme.dividerColor, 0.20),
       ),
       'baseTextStyle': typography('Body', 200, 'Regular').copyWith(
-        color: theme.textTheme.bodyText1!.color,
+        color: theme.textTheme.bodyLarge!.color,
       ),
       'archivedText': TextStyle(
         textAlign: TextAlign.center,
-        color: theme.textTheme.bodyText1!.color,
+        color: theme.textTheme.bodyLarge!.color,
       ),
       'closeButtonText': TextStyle(
         marginTop: 7,

@@ -4,8 +4,6 @@ import 'package:mattermost_flutter/database/with_observables.dart';
 import 'package:rxdart/rxdart.dart';
 
 import 'package:mattermost_flutter/queries/servers/channel.dart';
-import 'package:mattermost_flutter/screens/channel_info/options/members/members.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 
 class MembersContainer extends StatelessWidget {
   final String channelId;

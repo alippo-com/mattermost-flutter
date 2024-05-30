@@ -1,8 +1,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:provider/provider.dart';
-import 'package:mattermost_flutter/actions/remote/user.dart';
 import 'package:mattermost_flutter/components/formatted_text.dart';
 import 'package:mattermost_flutter/components/floating_text_input_label.dart';
 import 'package:mattermost_flutter/constants/general.dart';
@@ -11,8 +9,6 @@ import 'package:mattermost_flutter/context/theme.dart';
 import 'package:mattermost_flutter/hooks/use_safe_area.dart';
 import 'package:mattermost_flutter/hooks/use_intl.dart';
 import 'package:mattermost_flutter/hooks/use_is_tablet.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/utils/tap.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';

@@ -4,7 +4,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
-import 'package:mattermost_flutter/components/markdown/at_mention.dart';
 import 'package:mattermost_flutter/components/markdown/markdown_link.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/log.dart';

@@ -4,7 +4,6 @@ import 'package:rxdart/rxdart.dart';
 
 import 'package:mattermost_flutter/queries/servers/channel.dart';
 import 'package:mattermost_flutter/components/create_or_edit_channel.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 
 class CreateOrEditChannelScreen extends StatelessWidget {
   final String? channelId;

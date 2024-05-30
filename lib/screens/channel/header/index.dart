@@ -2,13 +2,10 @@
 // See LICENSE.txt for license information.
 
 import 'package:flutter/material.dart';
-import 'package:rxdart/rxdart.dart';
 
 import 'package:mattermost_flutter/constants/general.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 import 'header.dart';
 
 class ChannelHeaderContainer extends StatefulWidget {

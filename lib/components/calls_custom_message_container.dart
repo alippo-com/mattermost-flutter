@@ -7,7 +7,6 @@ import 'package:rx_dart/rx_dart.dart';
 import 'package:mattermost_flutter/components/calls_custom_message.dart';
 import 'package:mattermost_flutter/observers/calls_observers.dart';
 import 'package:mattermost_flutter/state/calls_state.dart';
-import 'package:mattermost_flutter/constants/preferences.dart';
 import 'package:mattermost_flutter/helpers/api/preference.dart';
 import 'package:mattermost_flutter/queries/servers/preference.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';

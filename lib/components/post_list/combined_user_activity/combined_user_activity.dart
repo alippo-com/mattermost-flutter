@@ -115,8 +115,8 @@
     }
 
     return Container(
-      decoration: style,
-      child: GestureDetector(
+      decoration = style,
+      child = GestureDetector(
         onLongPress: onLongPress,
         child: Container(
           decoration: styles.container,

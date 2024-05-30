@@ -1,3 +1,5 @@
+//Import File class
+
 rootProject.name = 'Mattermost'
 include ':app'
 include ':reactnativenotifications'

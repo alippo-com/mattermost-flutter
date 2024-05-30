@@ -8,7 +8,6 @@ import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/context/theme.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
-import 'package:mattermost_flutter/managers/network_manager.dart';
 
 class TeamIcon extends StatefulWidget {
   final String id;

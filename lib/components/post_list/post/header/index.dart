@@ -2,15 +2,12 @@
 // See LICENSE.txt for license information.
 
 import 'package:watermelondb/watermelondb.dart';
-import 'package:rxdart/rxdart.dart';
 import 'package:mattermost_flutter/helpers/api/preference.dart';
 import 'package:mattermost_flutter/queries/servers/post.dart';
 import 'package:mattermost_flutter/queries/servers/preference.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';
 import 'package:mattermost_flutter/components/header.dart';
 
-import 'package:mattermost_flutter/types/database/database.dart';
 import 'package:mattermost_flutter/types/database/models/servers/post.dart';
 
 class HeaderInputProps {

@@ -3,7 +3,6 @@ import 'package:mattermost_flutter/types.dart'; // Assuming the types are define
 import 'package:mattermost_flutter/queries.dart'; // Assuming the queries functions are defined here
 import 'package:mattermost_flutter/components/loading_error.dart'; // Assuming the LoadingError widget is defined here
 import 'package:provider/provider.dart';
-import 'package:rxdart/rxdart.dart';
 
 class LoadTeamsErrorScreen extends StatefulWidget {
   @override

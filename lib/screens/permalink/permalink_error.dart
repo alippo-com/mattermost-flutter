@@ -5,8 +5,6 @@ import 'package:mattermost_flutter/components/join_private_channel.dart';
 import 'package:mattermost_flutter/components/join_public_channel.dart';
 import 'package:mattermost_flutter/components/message_not_viewable.dart';
 import 'package:mattermost_flutter/components/markdown.dart';
-import 'package:mattermost_flutter/constants/screens.dart';
-import 'package:mattermost_flutter/utils/button_styles.dart';
 import 'package:mattermost_flutter/utils/markdown.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';

@@ -5,18 +5,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:intl/intl.dart';
-import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 
 import 'package:mattermost_flutter/components/server_icon.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/context/theme.dart';
 import 'package:mattermost_flutter/database/subscription/servers.dart';
-import 'package:mattermost_flutter/database/subscription/unreads.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/screens/bottom_sheet.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/utils/server.dart';
 import 'package:mattermost_flutter/types/screens/servers_list.dart';
 import 'package:mattermost_flutter/types/database/models/app/servers.dart';
@@ -84,11 +79,11 @@ class Servers extends HookWidget {
       for (var server in servers) {
         final lastActiveAt = server.lastActiveAt;
         final url = server.url;
-        if (lastActiveAt != null && url != currentServerUrl && !subscriptions.containsKey(url)) {
+        if (url != currentServerUrl && !subscriptions.containsKey(url)) {
           final unreads = UnreadSubscription(mentions: 0, unread: false);
           subscriptions[url] = unreads;
           unreads.subscription = subscribeUnreadAndMentionsByServer(url, unreadsSubscription);
-        } else if ((lastActiveAt == null || url == currentServerUrl) && subscriptions.containsKey(url)) {
+        } else if ((url == currentServerUrl) && subscriptions.containsKey(url)) {
           subscriptions[url]?.subscription?.cancel();
           subscriptions.remove(url);
           updateTotal();

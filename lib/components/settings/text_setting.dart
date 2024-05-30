@@ -5,7 +5,6 @@ import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/components/formatted_text.dart';
 import 'package:mattermost_flutter/components/settings/label.dart';
-import 'package:mattermost_flutter/components/settings/footer.dart';
 
 class TextSetting extends StatelessWidget {
   final String label;

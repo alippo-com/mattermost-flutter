@@ -1,7 +1,6 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
@@ -9,15 +8,10 @@ import 'package:mattermost_flutter/components/emoji.dart';
 import 'package:mattermost_flutter/components/formatted_text.dart';
 import 'package:mattermost_flutter/utils/markdown.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/utils/url.dart';
 
-import 'at_mention.dart';
 import 'channel_mention.dart';
-import 'hashtag.dart';
-import 'markdown_block_quote.dart';
 import 'markdown_code_block.dart';
 import 'markdown_image.dart';
-import 'markdown_latex_block.dart';
 import 'markdown_latex_inline.dart';
 import 'markdown_link.dart';
 import 'markdown_list.dart';

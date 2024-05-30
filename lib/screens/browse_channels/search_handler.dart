@@ -6,8 +6,6 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/constants.dart';
-import 'package:mattermost_flutter/hooks/use_did_update.dart';
-import 'package:mattermost_flutter/screens/browse_channels/browse_channels.dart';
 import 'package:mattermost_flutter/types/channel_model.dart';
 import 'package:mattermost_flutter/types/my_channel_model.dart';
 import 'package:mattermost_flutter/utils/channel_utils.dart';

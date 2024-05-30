@@ -3,7 +3,6 @@
 
 import 'package:mattermost_flutter/actions/local/thread.dart';
 import 'package:mattermost_flutter/database/manager.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:mattermost_flutter/store/ephemeral_store.dart';
 import 'dart:convert';
 

@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:rxdart/rxdart.dart';
 
 import 'package:mattermost_flutter/types/database.dart';
 import 'package:mattermost_flutter/utils/observables.dart';
 import 'package:mattermost_flutter/queries/servers/post.dart';
-import 'package:mattermost_flutter/queries/servers/reaction.dart';
 import 'package:mattermost_flutter/screens/reactions/reactions.dart';
 
 class EnhancedReactions extends StatelessWidget {

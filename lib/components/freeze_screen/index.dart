@@ -4,7 +4,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/hooks/device.dart';
-import 'package:mattermost_flutter/hooks/freeze.dart';
 
 class FreezePlaceholder extends StatelessWidget {
   final Color backgroundColor;

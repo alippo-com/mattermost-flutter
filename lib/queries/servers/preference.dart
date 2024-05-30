@@ -5,8 +5,6 @@ import 'package:watermelondb/watermelondb.dart';
 import 'package:mattermost_flutter/constants/constants.dart';
 import 'package:mattermost_flutter/constants/database.dart';
 import 'package:mattermost_flutter/helpers/api/preference.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
-import 'package:mattermost_flutter/queries/servers/thread.dart';
 import 'package:mattermost_flutter/types/preference_type.dart';
 import 'package:mattermost_flutter/types/theme.dart';
 

@@ -1,25 +1,19 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import 'package:collection/collection.dart';
 import 'package:flutter/services.dart';
 
 import 'package:mattermost_flutter/actions/websocket.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/database/manager.dart';
 import 'package:mattermost_flutter/helpers/api/preference.dart';
-import 'package:mattermost_flutter/managers/network_manager.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
-import 'package:mattermost_flutter/queries/servers/entry.dart';
 import 'package:mattermost_flutter/queries/servers/preference.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:mattermost_flutter/store/ephemeral_store.dart';
 import 'package:mattermost_flutter/utils/channel.dart';
 import 'package:mattermost_flutter/utils/errors.dart';
 import 'package:mattermost_flutter/utils/log.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 
-import 'session.dart';
 
 import 'package:mattermost_flutter/types/database/models/servers/channel.dart';
 

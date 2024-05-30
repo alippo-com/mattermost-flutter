@@ -3,16 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:rxdart/rxdart.dart';
 
-import 'package:mattermost_flutter/constants/notification_level.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
 import 'package:mattermost_flutter/queries/servers/features.dart';
-import 'package:mattermost_flutter/queries/servers/thread.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';
 import 'package:mattermost_flutter/utils/channel.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 import 'package:mattermost_flutter/types/database.dart';
 
-import './channel_notification_preferences.dart';
 
 class EnhancedProps {
   final String channelId;

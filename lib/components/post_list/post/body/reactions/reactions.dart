@@ -3,19 +3,15 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:mattermost_flutter/constants/screens.dart';
 import 'package:mattermost_flutter/constants/emoji.dart';
 import 'package:mattermost_flutter/utils/emoji/helpers.dart';
 import 'package:mattermost_flutter/utils/tap.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/hooks/use_did_update.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/hooks/use_is_tablet.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/components/reaction.dart';
 import 'package:mattermost_flutter/actions/remote/reactions.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 
@@ -175,7 +171,7 @@ class Reactions extends HookWidget {
             theme: theme,
           );
         }).toList(),
-        if (addMoreReactions != null) addMoreReactions,
+        addMoreReactions,
       ],
     );
   }

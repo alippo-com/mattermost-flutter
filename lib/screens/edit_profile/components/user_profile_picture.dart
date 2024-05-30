@@ -2,8 +2,6 @@
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/components/profile_picture.dart';
 import 'package:mattermost_flutter/constants/profile.dart';
-import 'edit_profile_picture.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 import 'package:mattermost_flutter/types/screens/edit_profile.dart';
 
 class UserProfilePicture extends StatelessWidget {

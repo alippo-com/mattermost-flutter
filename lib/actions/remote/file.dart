@@ -2,10 +2,8 @@
 // See LICENSE.txt for license information.
 
 import 'package:mattermost_flutter/constants/network.dart';
-import 'package:mattermost_flutter/managers/network_manager.dart';
 import 'package:mattermost_flutter/utils/errors.dart';
 import 'package:mattermost_flutter/utils/log.dart';
-import 'session.dart';
 import 'package:mattermost_flutter/types/client.dart';
 import 'package:mattermost_flutter/types/client_response.dart';
 import 'package:mattermost_flutter/types/client_response_error.dart';

@@ -5,10 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:fast_image/fast_image.dart';
 import 'package:mattermost_flutter/constants/general.dart';
-import 'package:mattermost_flutter/managers/network_manager.dart';
 import 'package:mattermost_flutter/queries/system.dart';
 import 'package:mattermost_flutter/queries/user.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 import 'package:mattermost_flutter/types/database/models/user.dart';
 
 class NotificationIcon extends StatelessWidget {

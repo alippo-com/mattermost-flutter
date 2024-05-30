@@ -6,12 +6,8 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:mattermost_flutter/constants.dart';
-import 'package:mattermost_flutter/queries/servers/role.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
-import 'package:mattermost_flutter/queries/servers/team.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';
 import 'package:mattermost_flutter/screens/home/channel_list/categories_list/header/channel_list_header.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 
 class EnhancedChannelListHeader extends StatelessWidget {
   @override

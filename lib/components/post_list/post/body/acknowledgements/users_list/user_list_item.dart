@@ -5,7 +5,6 @@ import 'package:intl/intl.dart';
 import 'package:mattermost_flutter/components/formatted_relative_time.dart';
 import 'package:mattermost_flutter/components/user_item.dart';
 import 'package:mattermost_flutter/constants.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/types.dart';
 
@@ -57,7 +56,7 @@ class UserListItem extends StatelessWidget {
         borderRadius: BorderRadius.circular(4.0),
       ),
       'time': TextStyle(
-        color: changeOpacity(theme.colorScheme.onBackground, 0.64),
+        color: changeOpacity(theme.colorScheme.onSurface, 0.64),
         ...typography('Body', 75),
       ),
     };

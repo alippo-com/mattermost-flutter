@@ -2,14 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
 import 'package:mattermost_flutter/constants/view.dart' as ViewConstants;
 import 'package:mattermost_flutter/context/server.dart';
-import 'package:mattermost_flutter/hooks/autocomplete.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/hooks/header.dart';
 import 'package:mattermost_flutter/components/autocomplete.dart';
 import 'package:mattermost_flutter/components/archived.dart';
 import 'package:mattermost_flutter/components/draft_handler.dart';
 import 'package:mattermost_flutter/components/read_only.dart';
-import 'package:provider/provider.dart';
 
 const AUTOCOMPLETE_ADJUST = -5;
 

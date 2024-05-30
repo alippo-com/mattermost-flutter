@@ -3,13 +3,8 @@
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/calls/context.dart';
 import 'package:mattermost_flutter/calls/utils.dart';
-import 'package:mattermost_flutter/hooks/android_back_handler.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
-import 'package:mattermost_flutter/hooks/gallery.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/utils/gallery.dart';
 import 'footer.dart';
-import 'gallery.dart';
 import 'header.dart';
 import 'package:mattermost_flutter/types/screens/gallery.dart';
 import 'package:mattermost_flutter/types/screens/navigation.dart';
@@ -66,7 +61,7 @@ class _GalleryScreenState extends State<GalleryScreen> {
 
   void onClose() {
     freezeOtherScreens(false);
-    WidgetsBinding.instance?.addPostFrameCallback((_) {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
       galleryRef.currentState?.close();
     });
   }
@@ -78,7 +73,7 @@ class _GalleryScreenState extends State<GalleryScreen> {
       NativeModules.splitView.lockPortrait();
     }
     freezeOtherScreens(false);
-    WidgetsBinding.instance?.addPostFrameCallback((_) {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
       dismissOverlay(widget.componentId);
     });
   }

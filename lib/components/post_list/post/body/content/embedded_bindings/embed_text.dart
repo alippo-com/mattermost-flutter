@@ -3,7 +3,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 
 import 'markdown.dart'; // Assuming you have a markdown widget
 import 'show_more_button.dart'; // Assuming you have a show more button widget

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:my_flutter_app/app.dart';
 import 'package:my_flutter_app/utils/logger.dart';
 import 'package:my_flutter_app/utils/font_family.dart';

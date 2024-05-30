@@ -6,8 +6,6 @@ import 'package:mattermost_flutter/actions/remote/channel.dart';
 import 'package:mattermost_flutter/components/channel_actions/mute_box/mute_box.dart';
 import 'package:mattermost_flutter/constants/general.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
-import 'package:rxdart/rxdart.dart';
 
 class EnhancedMuteBox extends StatelessWidget {
   final String channelId;

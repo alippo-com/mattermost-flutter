@@ -2,7 +2,6 @@
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/actions/app/global.dart';
 import 'package:mattermost_flutter/constants/push_proxy.dart';
-import 'package:mattermost_flutter/queries/app/global.dart';
 import 'package:mattermost_flutter/store/ephemeral_store.dart';
 import 'security.dart';
 
@@ -33,7 +32,7 @@ Future<void> canReceiveNotifications(String serverUrl, String verification, Intl
 }
 
 Future<void> handleAlertResponse(int buttonIndex, BuildContext context, {String serverUrl}) async {
-  if (buttonIndex == 0 && serverUrl != null) {
+  if (buttonIndex == 0) {
     // User clicked "Okay" acknowledging that the push notifications are disabled on that server
     await storePushDisabledInServerAcknowledged(urlSafeBase64Encode(serverUrl));
   }

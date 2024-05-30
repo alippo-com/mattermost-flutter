@@ -1,6 +1,5 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:mattermost_flutter/constants/events.dart';
 import 'package:mattermost_flutter/screens/bottom_sheet.dart';
 import 'package:mattermost_flutter/screens/emoji_picker/picker.dart';

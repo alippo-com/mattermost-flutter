@@ -24,7 +24,7 @@ class DeviceContext extends ChangeNotifier {
           notifyListeners();
         }
       });
-    } on PlatformException catch (e) {
+    } on PlatformException {
       // Handle exception
     }
   }

@@ -4,7 +4,6 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:mattermost_flutter/types/post_metadata.dart';
 import 'package:mattermost_flutter/utils/images.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/utils/url.dart';
 import 'package:mattermost_flutter/constants.dart';
 
 class YouTube extends StatelessWidget {
@@ -60,7 +59,7 @@ class YouTube extends StatelessWidget {
           borderRadius: BorderRadius.circular(4),
           color: changeOpacity(Colors.black, 0.24),
           border: Border.all(
-            color: changeOpacity(theme.colorScheme.onBackground, 0.08),
+            color: changeOpacity(theme.colorScheme.onSurface, 0.08),
             width: 1,
           ),
           boxShadow: [
@@ -75,7 +74,7 @@ class YouTube extends StatelessWidget {
           children: [
             Positioned.fill(
               child: Image.network(
-                imgUrl!,
+                imgUrl,
                 fit: BoxFit.cover,
                 errorBuilder: (context, error, stackTrace) => Container(),
               ),

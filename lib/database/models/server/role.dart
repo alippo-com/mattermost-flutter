@@ -5,9 +5,7 @@ import 'package:watermelondb/watermelondb.dart';
 import 'package:watermelondb/decorators.dart';
 
 import 'package:mattermost_flutter/constants/database.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 
-import 'package:mattermost_flutter/types/role.dart';
 
 /** The Role model will describe the set of permissions for each role */
 class RoleModel extends Model implements RoleModelInterface {

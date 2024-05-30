@@ -4,9 +4,7 @@ import 'package:intl/intl.dart';
 import 'package:mattermost_flutter/components/option_item.dart';
 import 'package:mattermost_flutter/components/slide_up_panel_item.dart';
 import 'package:mattermost_flutter/constants/screens.dart';
-import 'package:mattermost_flutter/constants/snack_bar.dart';
 import 'package:mattermost_flutter/context/server.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/utils/snack_bar.dart';
 
 class CopyChannelLinkOption extends StatelessWidget {

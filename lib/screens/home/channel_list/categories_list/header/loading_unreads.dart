@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/scheduler.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/hooks/teams_loading.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 
 class LoadingUnreads extends StatefulWidget {

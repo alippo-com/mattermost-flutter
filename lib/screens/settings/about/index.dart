@@ -4,9 +4,7 @@
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/database.dart';
 import 'package:mattermost_flutter/observables.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:mattermost_flutter/screens/settings/about/about.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 
 class EnhancedAbout extends StatelessWidget {
   final Database database;

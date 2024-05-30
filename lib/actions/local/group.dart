@@ -20,10 +20,8 @@ Future<List<GroupModel>> searchGroupsByName(String serverUrl, String name) async
   try {
     final groups = await fetchGroupsForAutocomplete(serverUrl, name);
 
-    if (groups != null && groups is List) {
-      return groups;
-    }
-    throw groups.error;
+    return groups;
+      throw groups.error;
   } catch (e) {
     logError('searchGroupsByName - ERROR', e);
     return queryGroupsByName(database, name).fetch();
@@ -43,10 +41,8 @@ Future<List<GroupModel>> searchGroupsByNameInTeam(String serverUrl, String name,
   try {
     final groups = await fetchFilteredTeamGroups(serverUrl, name, teamId);
 
-    if (groups != null && groups is List) {
-      return groups;
-    }
-    throw groups.error;
+    return groups;
+      throw groups.error;
   } catch (e) {
     logError('searchGroupsByNameInTeam - ERROR', e);
     return queryGroupsByNameInTeam(database, name, teamId).fetch();
@@ -66,10 +62,8 @@ Future<List<GroupModel>> searchGroupsByNameInChannel(String serverUrl, String na
   try {
     final groups = await fetchFilteredChannelGroups(serverUrl, name, channelId);
 
-    if (groups != null && groups is List) {
-      return groups;
-    }
-    throw groups.error;
+    return groups;
+      throw groups.error;
   } catch (e) {
     logError('searchGroupsByNameInChannel - ERROR', e);
     return queryGroupsByNameInChannel(database, name, channelId).fetch();

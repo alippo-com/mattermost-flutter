@@ -8,7 +8,6 @@ import 'package:msgpack_dart/msgpack_dart.dart';
 import 'package:web_socket_channel/web_socket_channel.dart';
 import 'package:mattermost_flutter/constants/calls.dart';
 import 'package:mattermost_flutter/database/manager.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:mattermost_flutter/utils/log.dart';
 
 const wsMinReconnectRetryTimeMs = 1000; // 1 second
@@ -128,7 +127,7 @@ class WebSocketClient extends EventEmitter {
       'seq': seqNo++,
       'data': data,
     };
-    if (ws != null && ws!.sink != null) {
+    if (ws != null) {
       if (binary) {
         ws!.sink.add(encode(msg));
       } else {

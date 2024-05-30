@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart'; // Custom widget
-import 'package:mattermost_flutter/utils/url.dart'; // Custom utility
+// Custom utility
 import 'package:mattermost_flutter/utils/theme.dart'; // Custom utility
 
 class OptionIcon extends StatefulWidget {
@@ -43,7 +43,7 @@ class _OptionIconState extends State<OptionIcon> {
       name: iconName,
       size: 24,
       color: widget.iconColor ?? 
-              (widget.destructive ? theme.errorColor : theme.iconTheme.color?.withOpacity(0.64)),
+              (widget.destructive ? theme.colorScheme.error : theme.iconTheme.color?.withOpacity(0.64)),
     );
   }
 }

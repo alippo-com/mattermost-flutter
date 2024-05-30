@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/components/loading.dart';
 import 'package:mattermost_flutter/components/touchable_with_feedback.dart';
-import 'package:mattermost_flutter/utils/button_styles.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
 

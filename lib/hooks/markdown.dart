@@ -1,8 +1,6 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import 'package:flutter/material.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 import 'package:mattermost_flutter/types/group_model.dart';
 import 'package:mattermost_flutter/types/user_model.dart';
 

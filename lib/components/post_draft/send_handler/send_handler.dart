@@ -3,31 +3,19 @@
 // See LICENSE.txt for license information.
 
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/constants/general.dart';
-import 'package:mattermost_flutter/constants/preferences.dart';
 import 'package:mattermost_flutter/constants/calls.dart';
 import 'package:mattermost_flutter/database/manager.dart';
-import 'package:mattermost_flutter/helpers/api/preference.dart';
-import 'package:mattermost_flutter/managers/network_manager.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
-import 'package:mattermost_flutter/queries/servers/preference.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
-import 'package:mattermost_flutter/queries/servers/thread.dart';
-import 'package:mattermost_flutter/queries/servers/user.dart';
 import 'package:mattermost_flutter/utils/errors.dart';
 import 'package:mattermost_flutter/utils/log.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 import 'package:mattermost_flutter/products/calls/connection/connection.dart';
 import 'package:mattermost_flutter/products/calls/alerts.dart';
 import 'package:mattermost_flutter/products/calls/state.dart';
-import 'package:mattermost_flutter/types/calls.dart';
 import 'package:mattermost_flutter/widgets/common_post_options.dart';
 import 'package:mattermost_flutter/widgets/formatted_text.dart';
 import 'package:mattermost_flutter/widgets/option_item.dart';
 import 'package:mattermost_flutter/screens/bottom_sheet.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
 
@@ -36,9 +24,6 @@ import 'options/mark_as_unread_option.dart';
 import 'options/open_in_channel_option.dart';
 
 import 'package:mattermost_flutter/types/database/models/servers/custom_emoji.dart';
-import 'package:mattermost_flutter/types/database/models/servers/post.dart';
-import 'package:mattermost_flutter/types/database/models/servers/team.dart';
-import 'package:mattermost_flutter/types/database/models/servers/thread.dart';
 
 class SendHandler extends StatefulWidget {
   final String? testID;

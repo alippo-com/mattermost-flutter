@@ -8,7 +8,7 @@ import 'package:mattermost_flutter/types/draft_model.dart';
 import 'package:mattermost_flutter/types/file_model.dart';
 import 'package:mattermost_flutter/types/post_model.dart';
 import 'package:mattermost_flutter/types/posts_in_channel_model.dart';
-import 'package:mattermost_flutter/types/posts_in_thread_model.dart';
+import 'package:mattermost_flutter/types/posts_in_thread.dart';
 
 class PostTransformers {
   static Future<PostModel> transformPostRecord(TransformerArgs args) async {

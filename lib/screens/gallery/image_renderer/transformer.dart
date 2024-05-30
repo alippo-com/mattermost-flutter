@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/gestures.dart';
-import 'package:flutter/animation.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:animated_widgets/animated_widgets.dart';
-import 'package:vector_math/vector_math_64.dart' as vec;
 
 class ImageTransformer extends StatefulWidget {
   final bool enabled;

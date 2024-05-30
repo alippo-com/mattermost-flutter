@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/utils/url.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 opengraph_image.dart';
 
@@ -26,7 +25,7 @@ class Opengraph extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final intl = AppLocalizations.of(context)!;
-    final link = metadata?.embeds?[0]?.url ?? '';
+    final link = metadata?.embeds?[0].url ?? '';
     final openGraphData = selectOpenGraphData(link, metadata);
 
     if (!showLinkPreviews || openGraphData == null) {
@@ -76,20 +75,18 @@ class Opengraph extends StatelessWidget {
 
     final title = openGraphData.title ?? openGraphData.url ?? link;
     Widget? siteTitle;
-    if (title != null) {
-      siteTitle = GestureDetector(
-        onTap: goToLink,
-        child: Container(
-          child: Text(
-            title,
-            style: style['siteTitle']!.copyWith(marginRight: isReplyPost ? 10 : 0),
-            overflow: TextOverflow.ellipsis,
-            maxLines: 3,
-          ),
+    siteTitle = GestureDetector(
+      onTap: goToLink,
+      child: Container(
+        child: Text(
+          title,
+          style: style['siteTitle']!.copyWith(marginRight: isReplyPost ? 10 : 0),
+          overflow: TextOverflow.ellipsis,
+          maxLines: 3,
         ),
-      );
-    }
-
+      ),
+    );
+  
     Widget? siteDescription;
     if (openGraphData.description != null) {
       siteDescription = Container(
@@ -113,7 +110,7 @@ class Opengraph extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           if (siteName != null) siteName,
-          if (siteTitle != null) siteTitle,
+          siteTitle,
           if (siteDescription != null) siteDescription,
           if (hasImage)
             OpengraphImage(

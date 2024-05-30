@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/components/option_box.dart';
-import 'package:mattermost_flutter/constants/screens.dart';
 import 'package:mattermost_flutter/utils/navigation.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';

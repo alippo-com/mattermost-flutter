@@ -3,7 +3,6 @@ import 'package:mattermost_flutter/actions/remote/post.dart';
 import 'package:mattermost_flutter/components/common_post_options.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/i18n.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/types/screens/navigation.dart';
 
 class PinChannelOption extends StatelessWidget {

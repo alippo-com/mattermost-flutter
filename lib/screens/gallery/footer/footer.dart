@@ -1,6 +1,5 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:mattermost_flutter/components/actions.dart';
 import 'package:mattermost_flutter/components/avatar.dart';
@@ -8,7 +7,6 @@ import 'package:mattermost_flutter/components/copy_public_link.dart';
 import 'package:mattermost_flutter/components/details.dart';
 import 'package:mattermost_flutter/components/download_with_action.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
 
 class Footer extends HookWidget {

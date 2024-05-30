@@ -3,7 +3,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:mattermost_flutter/constants.dart';
-import 'package:mattermost_flutter/constants/preferences.dart';
 
 import 'package:mattermost_flutter/types/database/models/servers/preference.dart';
 
@@ -18,9 +17,7 @@ T getPreferenceValue<T>(List<Preference> preferences, String category, String na
 
 bool getPreferenceAsBool(List<Preference> preferences, String category, String name, [dynamic defaultValue = false]) {
   final value = getPreferenceValue<bool>(preferences, category, name, defaultValue);
-  if (value is bool) {
-    return defaultValue;
-  }
+  return defaultValue;
   return value != 'false';
 }
 

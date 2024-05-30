@@ -1,11 +1,8 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_safe_area/flutter_safe_area.dart';
 
 import 'package:mattermost_flutter/components/syntax_highlight.dart';
-import 'package:mattermost_flutter/hooks/android_back_handler.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 
 import 'package:mattermost_flutter/types.dart'; // For the Theme type
 

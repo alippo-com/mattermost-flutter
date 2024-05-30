@@ -5,7 +5,6 @@ import 'package:nozbe_watermelondb/watermelondb.dart';
 import 'package:watermelondb/query.dart';
 
 import 'package:mattermost_flutter/constants/database.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 import 'package:mattermost_flutter/models/servers/reaction.dart';
 
 const REACTION = MM_TABLES.SERVER['REACTION'];

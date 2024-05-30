@@ -4,15 +4,12 @@ import 'package:mattermost_flutter/actions/local/category.dart';
 import 'package:mattermost_flutter/constants/general.dart';
 import 'package:mattermost_flutter/constants/categories.dart';
 import 'package:mattermost_flutter/database/manager.dart';
-import 'package:mattermost_flutter/managers/network_manager.dart';
 import 'package:mattermost_flutter/queries/servers/categories.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:mattermost_flutter/utils/errors.dart';
 import 'package:mattermost_flutter/utils/log.dart';
 import 'package:mattermost_flutter/utils/snack_bar.dart';
 
-import 'session.dart';
 
 class CategoriesRequest {
   List<CategoryWithChannels>? categories;

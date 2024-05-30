@@ -2,7 +2,6 @@
 import 'package:flutter/material.dart';
 
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/hooks/emoji_category_bar.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'icon.dart'; // Assuming this is a custom widget similar to EmojiCategoryBarIcon
 

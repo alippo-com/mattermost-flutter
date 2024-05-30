@@ -10,7 +10,6 @@ import 'package:mattermost_flutter/queries/terms_of_service.dart';
 import 'package:mattermost_flutter/queries/thread.dart';
 import 'package:mattermost_flutter/queries/user.dart';
 import 'package:mattermost_flutter/state/calls.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 
 class ChannelListScreen extends StatelessWidget {
   @override

@@ -13,14 +13,10 @@ import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/navigation.dart';
 import 'package:mattermost_flutter/utils/snack_bar.dart';
 import 'package:mattermost_flutter/actions/remote/channel.dart';
-import 'package:mattermost_flutter/actions/remote/user.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/hooks/android_back_handler.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/hooks/navigation_button_pressed.dart';
-import 'package:intl/intl.dart';
 
 class ChannelAddMembers extends StatefulWidget {
   final String componentId;
@@ -200,7 +196,7 @@ Future<Map<String, dynamic>> getHeaderOptions(ThemeData theme, String displayNam
   return {
     'topBar': {
       'subtitle': {
-        'color': theme.textTheme.subtitle1?.color?.withOpacity(0.72),
+        'color': theme.textTheme.titleMedium?.color?.withOpacity(0.72),
         'text': displayName,
       },
       'leftButtons': leftButton != null ? [leftButton] : null,
@@ -212,23 +208,23 @@ Future<Map<String, dynamic>> getHeaderOptions(ThemeData theme, String displayNam
 Map<String, dynamic> getStyleFromTheme(ThemeData theme) {
   return {
     'container': BoxDecoration(
-      color: theme.backgroundColor,
+      color: theme.colorScheme.surface,
     ),
     'searchBar': EdgeInsets.symmetric(horizontal: 12.0, vertical: 12.0),
     'loadingContainer': BoxDecoration(
-      color: theme.backgroundColor,
+      color: theme.colorScheme.surface,
       height: 70.0,
       alignment: Alignment.center,
     ),
     'loadingText': TextStyle(
-      color: theme.textTheme.bodyText2?.color?.withOpacity(0.6),
+      color: theme.textTheme.bodyMedium?.color?.withOpacity(0.6),
     ),
     'noResultContainer': BoxDecoration(
-      color: theme.backgroundColor,
+      color: theme.colorScheme.surface,
       alignment: Alignment.center,
     ),
     'noResultText': TextStyle(
-      color: theme.textTheme.bodyText2?.color?.withOpacity(0.5),
+      color: theme.textTheme.bodyMedium?.color?.withOpacity(0.5),
     ),
   };
 }

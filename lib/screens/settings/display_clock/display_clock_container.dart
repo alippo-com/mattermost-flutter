@@ -6,10 +6,8 @@ import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/helpers/api/preference.dart';
 import 'package:mattermost_flutter/queries/servers/preference.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:mattermost_flutter/screens/settings/display_clock/display_clock.dart';
 import 'package:provider/provider.dart';
-import 'package:rxdart/rxdart.dart';
 
 class DisplayClockContainer extends StatelessWidget {
   @override

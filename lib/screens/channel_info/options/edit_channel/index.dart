@@ -2,7 +2,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:mattermost_flutter/components/option_item.dart';
-import 'package:mattermost_flutter/constants/screens.dart';
 import 'package:mattermost_flutter/utils/navigation.dart';
 import 'package:mattermost_flutter/utils/tap.dart';
 

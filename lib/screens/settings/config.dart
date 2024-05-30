@@ -2,7 +2,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:mattermost_flutter/intl.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
 
 import 'package:mattermost_flutter/types/screens/navigation.dart';

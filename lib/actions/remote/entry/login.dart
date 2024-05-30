@@ -1,10 +1,8 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import 'package:mattermost_flutter/actions/remote/systems.dart';
 import 'package:mattermost_flutter/database/manager.dart';
 import 'package:mattermost_flutter/init/credentials.dart';
-import 'package:mattermost_flutter/managers/websocket_manager.dart';
 
 class AfterLoginArgs {
   final String serverUrl;

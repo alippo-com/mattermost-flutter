@@ -22,7 +22,7 @@ class KeyboardTrackingController {
   void _init() {
     keyboardTrackingRef.current?.resumeTracking(trackerId);
 
-    WidgetsBinding.instance?.addPostFrameCallback((_) {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
       _registerListeners();
     });
   }

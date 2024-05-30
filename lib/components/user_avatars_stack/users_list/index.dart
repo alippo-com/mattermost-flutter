@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/components/user_item.dart';
-import 'package:mattermost_flutter/constants/screens.dart';
 import 'package:mattermost_flutter/utils/alert.dart';
 import 'package:mattermost_flutter/utils/dismiss_bottom_sheet.dart';
 import 'package:mattermost_flutter/utils/navigation.dart';

@@ -3,8 +3,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:mattermost_flutter/constants.dart';
-import 'package:mattermost_flutter/constants/snack_bar.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/types/screens/navigation.dart';
 import 'package:mattermost_flutter/types/react_intl.dart';
 

@@ -3,14 +3,12 @@ import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/types/screens/navigation.dart';
 import 'package:mattermost_flutter/utils/tap.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/components/settings/container.dart';
 import 'package:mattermost_flutter/components/settings/item.dart';
 import 'package:mattermost_flutter/actions/remote/command.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/hooks/android_back_handler.dart';
 import 'package:mattermost_flutter/hooks/navigation_button_pressed.dart';
 import 'package:mattermost_flutter/screens/settings/report_problem.dart';
 

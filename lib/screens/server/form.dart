@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/components/floating_text_input.dart';
 import 'package:mattermost_flutter/components/formatted_text.dart';
 import 'package:mattermost_flutter/components/loading.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/i18n.dart';
-import 'package:mattermost_flutter/utils/button_styles.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/types/screens/theme.dart';
 import 'package:reactive_forms/reactive_forms.dart'; // Assuming a package for form management
@@ -177,7 +174,7 @@ class _ServerFormState extends State<ServerForm> {
             ),
           ElevatedButton(
             style: ElevatedButton.styleFrom(
-              primary: styleButtonBackground,
+              backgroundColor: styleButtonBackground,
               padding: EdgeInsets.all(15.0),
               minimumSize: Size(double.infinity, 50),
               textStyle: styleButtonText,

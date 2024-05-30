@@ -1,15 +1,10 @@
 // Converted Dart code from TypeScript
 
-import 'package:mattermost_flutter/utils/calls.dart';
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/constants/calls.dart';
 import 'package:mattermost_flutter/constants/push_notification.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
-import 'package:mattermost_flutter/utils/user.dart';
-import 'package:mattermost_flutter/types/calls.dart';
 import 'package:mattermost_flutter/types/models.dart';
 import 'package:intl/intl.dart';
-import 'package:flutter_webrtc/flutter_webrtc.dart';
 
 const callsMessageRegex = r'^​.* is inviting you to a call$';
 

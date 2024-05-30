@@ -1,11 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/components/team_list.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/screens/bottom_sheet/content.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
-import 'package:mattermost_flutter/types/database/models/servers/team.dart';
 
 class BottomSheetTeamList extends StatelessWidget {
   final List<TeamModel> teams;

@@ -9,9 +9,7 @@ import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
 import 'package:mattermost_flutter/queries/servers/features.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 import 'notification_preference.dart';
-import 'package:mattermost_flutter/types/database/models/servers/channel.dart';
 
 class NotificationPreferenceContainer extends HookConsumerWidget {
   final String channelId;

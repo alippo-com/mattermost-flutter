@@ -1,16 +1,9 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-import 'package:provider/provider.dart';
-import 'package:mattermost_flutter/constants/autocomplete.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/utils/tap.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
-import 'package:mattermost_flutter/constants/device.dart';
 
 const double MAX_HEIGHT = 300;
 const int MAX_PREVIEW_COLUMNS = 5;
@@ -43,7 +36,7 @@ class _MarkdownTableState extends State<MarkdownTable> {
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance?.addPostFrameCallback((_) {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
       setMaxPreviewColumns(MediaQuery.of(context).size);
     });
   }
@@ -143,8 +136,8 @@ class _MarkdownTableState extends State<MarkdownTable> {
           decoration: BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                widget.theme.backgroundColor.withOpacity(0.0),
-                widget.theme.backgroundColor.withOpacity(0.1),
+                widget.theme.colorScheme.surface.withOpacity(0.0),
+                widget.theme.colorScheme.surface.withOpacity(0.1),
               ],
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
@@ -166,8 +159,8 @@ class _MarkdownTableState extends State<MarkdownTable> {
           decoration: BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                widget.theme.backgroundColor.withOpacity(0.0),
-                widget.theme.backgroundColor.withOpacity(0.1),
+                widget.theme.colorScheme.surface.withOpacity(0.0),
+                widget.theme.colorScheme.surface.withOpacity(0.1),
               ],
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
@@ -191,7 +184,7 @@ class _MarkdownTableState extends State<MarkdownTable> {
               border: Border.all(color: widget.theme.dividerColor),
               borderRadius: BorderRadius.circular(17),
             ),
-            child: Icon(Icons.arrow_drop_down, color: widget.theme.accentColor),
+            child: Icon(Icons.arrow_drop_down, color: widget.theme.colorScheme.secondary),
           ),
         ),
       );

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/components/channel_add_members.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/database/observables.dart';
-import 'package:mattermost_flutter/queries/app/global.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';
 import 'package:mattermost_flutter/types.dart';

@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:mattermost_flutter/components/common_post_options.dart';
-import 'package:mattermost_flutter/constants/snack_bar.dart';
 import 'package:mattermost_flutter/i18n.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/utils/snack_bar.dart';
 import 'package:mattermost_flutter/types/screens/navigation.dart';
 

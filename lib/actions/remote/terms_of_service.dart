@@ -3,12 +3,10 @@
 // See LICENSE.txt for license information.
 
 import 'package:mattermost_flutter/database/manager.dart';
-import 'package:mattermost_flutter/managers/network_manager.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';
 import 'package:mattermost_flutter/utils/errors.dart';
 import 'package:mattermost_flutter/utils/log.dart';
 
-import 'session.dart';
 
 Future<Map<String, dynamic>> fetchTermsOfService(String serverUrl) async {
   try {

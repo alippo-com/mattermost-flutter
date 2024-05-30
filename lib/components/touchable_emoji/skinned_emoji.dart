@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/components/emoji.dart';
-import 'package:mattermost_flutter/hooks/emoji_category_bar.dart';
 import 'package:mattermost_flutter/utils/emoji.dart';
 import 'package:mattermost_flutter/utils/tap.dart';
 

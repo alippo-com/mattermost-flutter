@@ -4,7 +4,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/actions/remote/preference.dart';
-import 'package:mattermost_flutter/actions/remote/user.dart';
 import 'package:mattermost_flutter/components/settings/block.dart';
 import 'package:mattermost_flutter/components/settings/container.dart';
 import 'package:mattermost_flutter/components/settings/option.dart';
@@ -12,14 +11,11 @@ import 'package:mattermost_flutter/components/settings/separator.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/hooks/android_back_handler.dart';
 import 'package:mattermost_flutter/hooks/navigate_back.dart';
 import 'package:mattermost_flutter/i18n.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/types/user_model.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 
 const emailHeaderText = {
   'id': 'notification_settings.email.send',
@@ -205,7 +201,7 @@ class _NotificationEmailState extends State<NotificationEmail> {
   Map<String, TextStyle> getStyleSheet(ThemeData theme) {
     return {
       'disabled': TextStyle(
-        color: changeOpacity(theme.textTheme.bodyText1?.color, 0.64),
+        color: changeOpacity(theme.textTheme.bodyLarge?.color, 0.64),
         ...typography('Body', 75, 'Regular'),
         marginHorizontal: 20,
       ),

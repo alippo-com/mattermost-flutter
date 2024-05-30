@@ -4,7 +4,6 @@
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/components/user_item.dart';
 import 'package:mattermost_flutter/types/user_profile.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 
 class AtMentionItem extends StatelessWidget {
   final UserProfile user;

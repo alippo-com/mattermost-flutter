@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/components/option_box.dart';
 import 'package:mattermost_flutter/components/slide_up_panel_item.dart';
-import 'package:mattermost_flutter/constants/screens.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:intl/intl.dart';
 
 class InfoBox extends StatelessWidget {

@@ -3,7 +3,6 @@
 // See LICENSE.txt for license information.
 
 import 'dart:async';
-import 'package:flutter/foundation.dart';
 
 class NativeNotification {
   Future<List<NotificationWithChannel>> getDeliveredNotifications() async {}

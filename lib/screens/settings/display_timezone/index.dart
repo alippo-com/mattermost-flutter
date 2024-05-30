@@ -5,8 +5,6 @@
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/database.dart';
 import 'package:mattermost_flutter/observables.dart';
-import 'package:mattermost_flutter/screens/settings/display_timezone/display_timezone.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 
 class EnhancedDisplayTimezone extends StatelessWidget {
   final Database database;

@@ -3,8 +3,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:nozbe_watermelondb/nozbe_watermelondb.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 import 'custom_status_suggestion.dart';
 
 class CustomStatusSuggestionWrapper extends StatelessWidget {

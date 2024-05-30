@@ -8,7 +8,6 @@ import 'package:mattermost_flutter/components/channel_item.dart';
 import 'package:mattermost_flutter/components/slash_suggestion_item.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/managers/analytics.dart';
 import 'package:mattermost_flutter/types/theme.dart';
 import 'package:mattermost_flutter/types/app_command_parser.dart';
 import 'package:mattermost_flutter/types/autocomplete_suggestion.dart';

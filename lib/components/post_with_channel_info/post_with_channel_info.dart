@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/components/post_list/post.dart';
 import 'package:mattermost_flutter/components/post_with_channel_info/channel_info.dart';
 import 'package:mattermost_flutter/types/database/models/servers/post.dart';
-import 'package:mattermost_flutter/types/global/markdown.dart';
 
 class PostWithChannelInfo extends StatelessWidget {
   final bool appsEnabled;

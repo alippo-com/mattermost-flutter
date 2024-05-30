@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter/animation.dart';
 import 'package:mattermost_flutter/types/types.dart'; // Adjust this import based on actual types location
 
 class Thumbnail extends StatelessWidget {

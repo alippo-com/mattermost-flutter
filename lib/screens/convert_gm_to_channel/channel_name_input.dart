@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/components/floating_text_input_label.dart';
 import 'package:mattermost_flutter/constants.dart';

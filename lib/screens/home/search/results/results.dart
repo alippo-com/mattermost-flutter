@@ -9,8 +9,6 @@ import 'package:mattermost_flutter/components/loading.dart';
 import 'package:mattermost_flutter/context/theme.dart';
 import 'package:mattermost_flutter/utils/search.dart';
 import 'package:mattermost_flutter/screens/home/search/results/post_results.dart';
-import 'package:mattermost_flutter/types/database/models/servers/channel.dart';
-import 'package:mattermost_flutter/types/database/models/servers/post.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 const int duration = 250;

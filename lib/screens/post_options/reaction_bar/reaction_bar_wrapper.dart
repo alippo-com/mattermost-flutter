@@ -3,10 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:rxdart/rxdart.dart';
 
-import 'package:mattermost_flutter/queries/servers/system.dart';
-import 'package:mattermost_flutter/utils/emoji/helpers.dart';
 import 'package:mattermost_flutter/screens/post_options/reaction_bar/reaction_bar.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 
 const List<String> DEFAULT_EMOJIS = [
   '+1',

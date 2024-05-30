@@ -72,7 +72,7 @@ class FileIcon extends StatelessWidget {
     final String iconName = iconNameAndColor[0];
     final String defaultIconColor = iconNameAndColor[1];
     final String color = iconColor ?? defaultIconColor;
-    final String bgColor = backgroundColor ?? theme.backgroundColor.toString();
+    final String bgColor = backgroundColor ?? theme.colorScheme.surface.toString();
 
     return Container(
       decoration: BoxDecoration(

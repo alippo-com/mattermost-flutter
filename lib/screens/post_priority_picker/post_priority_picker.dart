@@ -1,31 +1,22 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:provider/provider.dart';
 import 'package:react_intl/react_intl.dart';
 
 import 'package:mattermost_flutter/components/formatted_text.dart';
 import 'package:mattermost_flutter/components/option_item.dart';
 import 'package:mattermost_flutter/components/slide_up_panel_item.dart';
 import 'package:mattermost_flutter/constants.dart';
-import 'package:mattermost_flutter/constants/post.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/hooks/android_back_handler.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/hooks/navigation_button_pressed.dart';
 import 'package:mattermost_flutter/screens/bottom_sheet.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
 
 import 'components/picker_option.dart';
-import 'footer.dart';
 import 'utils.dart';
 
 import 'package:mattermost_flutter/types/bottom_sheet_footer_props.dart';
-import 'package:mattermost_flutter/types/screens/navigation.dart';
 
 class PostPriorityPicker extends HookWidget {
   final String componentId;

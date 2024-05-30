@@ -3,7 +3,6 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:debounce_throttle/debounce_throttle.dart'; // For debounce functionality
 import 'package:mattermost_flutter/hooks/safe_area.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/components/emoji.dart';
 import 'package:mattermost_flutter/components/touchable_with_feedback.dart';
 

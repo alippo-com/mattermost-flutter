@@ -1,13 +1,10 @@
 import 'dart:async';
 
-import 'package:collection/collection.dart';
 import 'package:mattermost_flutter/actions/local/channel.dart';
 import 'package:mattermost_flutter/actions/local/user.dart';
-import 'package:mattermost_flutter/actions/remote/role.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/database/manager.dart';
 import 'package:mattermost_flutter/helpers/api/general.dart';
-import 'package:mattermost_flutter/managers/network_manager.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
 import 'package:mattermost_flutter/queries/servers/group.dart';
 import 'package:mattermost_flutter/queries/servers/system.dart';
@@ -15,10 +12,7 @@ import 'package:mattermost_flutter/queries/servers/user.dart';
 import 'package:mattermost_flutter/utils/errors.dart';
 import 'package:mattermost_flutter/utils/log.dart';
 import 'package:mattermost_flutter/utils/timezone.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 
-import 'groups.dart';
-import 'session.dart';
 
 Future<Map<String, dynamic>> fetchMe(String serverUrl, {bool fetchOnly = false}) async {
   try {

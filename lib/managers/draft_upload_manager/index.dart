@@ -6,7 +6,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:mattermost_flutter/actions/local_draft.dart';
 import 'package:mattermost_flutter/actions/remote_file.dart';
-import 'package:mattermost_flutter/constants/files.dart';
 import 'package:mattermost_flutter/utils/errors.dart';
 import 'package:mattermost_flutter/types/client_response.dart';
 import 'package:mattermost_flutter/types/client_response_error.dart';

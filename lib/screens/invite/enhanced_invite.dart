@@ -3,7 +3,6 @@ import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/database/database.dart';
 import 'package:mattermost_flutter/queries/team.dart';
 import 'package:mattermost_flutter/queries/user.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 import 'invite.dart';
 
 class EnhancedInvite extends StatelessWidget {

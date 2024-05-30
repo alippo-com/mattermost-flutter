@@ -4,8 +4,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/constants/navigation.dart';
-import 'package:mattermost_flutter/constants/screens.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/providers/config_provider.dart';
 
 class MarkdownLink extends StatelessWidget {

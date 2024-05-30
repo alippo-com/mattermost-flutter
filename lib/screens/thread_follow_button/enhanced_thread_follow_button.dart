@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:mattermost_flutter/database/database.dart';
-import 'package:mattermost_flutter/queries/servers/thread.dart';
 import 'package:mattermost_flutter/store/ephemeral_store.dart';
-import 'thread_follow_button.dart';
 
 class EnhancedThreadFollowButton extends StatefulWidget {
   final String? threadId;

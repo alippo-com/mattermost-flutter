@@ -7,17 +7,17 @@ import '../utils/theme.dart';
 class ButtonStyles {
   static final primary = {
     'default': ButtonStyle(
-      backgroundColor: MaterialStateProperty.all(theme.buttonBg),
+      backgroundColor: WidgetStateProperty.all(theme.buttonBg),
     ),
     'hover': ButtonStyle(
-      backgroundColor: MaterialStateProperty.all(blendColors(theme.buttonBg, '#000000', 0.08)),
+      backgroundColor: WidgetStateProperty.all(blendColors(theme.buttonBg, '#000000', 0.08)),
     ),
     'active': ButtonStyle(
-      backgroundColor: MaterialStateProperty.all(blendColors(theme.buttonBg, '#000000', 0.16)),
+      backgroundColor: WidgetStateProperty.all(blendColors(theme.buttonBg, '#000000', 0.16)),
     ),
     'focus': ButtonStyle(
-      backgroundColor: MaterialStateProperty.all(theme.buttonBg),
-      side: MaterialStateProperty.all(BorderSide(
+      backgroundColor: WidgetStateProperty.all(theme.buttonBg),
+      side: WidgetStateProperty.all(BorderSide(
         color: changeOpacity('#FFFFFF', 0.32),
         width: 2,
       )),
@@ -36,7 +36,7 @@ class ButtonStyles {
     // Define styles here
     final styles = ButtonStyle(
       alignment: Alignment.center,
-      shape: MaterialStateProperty.all(RoundedRectangleBorder(
+      shape: WidgetStateProperty.all(RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(4),
       )),
     );

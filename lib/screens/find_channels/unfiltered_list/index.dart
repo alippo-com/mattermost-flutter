@@ -2,12 +2,9 @@
 // See LICENSE.txt for license information.
 
 import 'package:watermelondb/watermelondb.dart';
-import 'package:rxdart/rxdart.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
-import 'package:mattermost_flutter/queries/servers/team.dart';
 import 'package:mattermost_flutter/screens/find_channels/utils.dart';
 'unfiltered_list.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 
 const int MAX_CHANNELS = 20;
 

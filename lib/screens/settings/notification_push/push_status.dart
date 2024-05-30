@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:mattermost_flutter/types.dart'; // Assuming the types are defined here
 import 'package:mattermost_flutter/i18n.dart'; // Assuming the i18n functions are defined here
 import 'package:mattermost_flutter/components/settings/block.dart';

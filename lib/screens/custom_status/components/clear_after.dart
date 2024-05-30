@@ -4,7 +4,6 @@ import 'package:intl/intl.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/components/custom_status/custom_status_expiry.dart';
 import 'package:mattermost_flutter/components/formatted_text.dart';
-import 'package:mattermost_flutter/constants/custom_status.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 
 class ClearAfter extends StatelessWidget {
@@ -50,7 +49,7 @@ class ClearAfter extends StatelessWidget {
       onTap: onOpenClearAfterModal,
       child: Container(
         height: 48,
-        color: theme.backgroundColor,
+        color: theme.colorScheme.surface,
         child: Row(
           children: [
             Text(
@@ -72,23 +71,23 @@ class ClearAfter extends StatelessWidget {
   Map<String, TextStyle> getStyleSheet(ThemeData theme) {
     return {
       'rightIcon': TextStyle(
-        color: changeOpacity(theme.textTheme.bodyText1.color, 0.5),
+        color: changeOpacity(theme.textTheme.bodyLarge.color, 0.5),
       ),
       'expiryTimeLabel': TextStyle(
         fontSize: 17,
         paddingLeft: 16,
         textAlignVertical: TextAlignVertical.center,
-        color: theme.textTheme.bodyText1.color,
+        color: theme.textTheme.bodyLarge.color,
       ),
       'inputContainer': TextStyle(
         height: 48,
-        backgroundColor: theme.backgroundColor,
+        backgroundColor: theme.colorScheme.surface,
       ),
       'expiryTime': TextStyle(
-        color: changeOpacity(theme.textTheme.bodyText1.color, 0.5),
+        color: changeOpacity(theme.textTheme.bodyLarge.color, 0.5),
       ),
       'customStatusExpiry': TextStyle(
-        color: changeOpacity(theme.textTheme.bodyText1.color, 0.5),
+        color: changeOpacity(theme.textTheme.bodyLarge.color, 0.5),
       ),
     };
   }

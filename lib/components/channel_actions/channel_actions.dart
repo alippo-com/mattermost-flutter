@@ -6,7 +6,6 @@ import 'package:mattermost_flutter/components/channel_actions/favorite_box.dart'
 import 'package:mattermost_flutter/components/channel_actions/muted_box.dart';
 import 'package:mattermost_flutter/components/channel_actions/set_header_box.dart';
 import 'package:mattermost_flutter/context/server.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/utils/channel.dart';
 
 class ChannelActions extends StatelessWidget {

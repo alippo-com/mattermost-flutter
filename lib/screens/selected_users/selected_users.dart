@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/components/button.dart';
-import 'package:mattermost_flutter/components/selected_chip.dart';
 import 'package:mattermost_flutter/components/toast.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/types/user_profile.dart';
 
@@ -63,7 +61,7 @@ class _SelectedUsersState extends State<SelectedUsers> {
     isVisible = false;
     numberSelectedIds = widget.selectedIds.length;
 
-    WidgetsBinding.instance?.addPostFrameCallback((_) {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
       setState(() {
         isVisible = numberSelectedIds > 0;
       });
@@ -79,7 +77,7 @@ class _SelectedUsersState extends State<SelectedUsers> {
   Map<String, dynamic> getStyleFromTheme(ThemeData theme) {
     return {
       'container': {
-        'backgroundColor': theme.backgroundColor,
+        'backgroundColor': theme.colorScheme.surface,
         'borderBottomWidth': 0,
         'borderColor': changeOpacity(theme.dividerColor, 0.16),
         'borderTopLeftRadius': 12,
@@ -94,7 +92,7 @@ class _SelectedUsersState extends State<SelectedUsers> {
         'shadowRadius': 24,
       },
       'toast': {
-        'backgroundColor': theme.errorColor,
+        'backgroundColor': theme.colorScheme.error,
       },
       'usersScroll': {
         'marginTop': SCROLL_MARGIN_TOP,
@@ -106,7 +104,7 @@ class _SelectedUsersState extends State<SelectedUsers> {
         'flexWrap': WrapAlignment.start,
       },
       'message': {
-        'color': theme.backgroundColor,
+        'color': theme.colorScheme.surface,
         'fontSize': 12,
         'marginRight': 5,
         'marginTop': 10,
@@ -120,7 +118,7 @@ class _SelectedUsersState extends State<SelectedUsers> {
     return AnimatedContainer(
       duration: Duration(milliseconds: 250),
       margin: EdgeInsets.only(bottom: widget.keyboardOverlap + TABLET_MARGIN_BOTTOM),
-      color: isVisible ? theme.backgroundColor : Colors.transparent,
+      color: isVisible ? theme.colorScheme.surface : Colors.transparent,
       child: Column(
         children: [
           if (widget.showToast)

@@ -4,10 +4,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/constants/view.dart';
 import 'package:mattermost_flutter/screens/navigation/bottom_sheet.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/utils/push_proxy.dart';
 import 'package:mattermost_flutter/utils/server.dart';
 import 'package:mattermost_flutter/utils/tap.dart';

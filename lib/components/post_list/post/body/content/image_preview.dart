@@ -3,17 +3,12 @@ import 'package:mattermost_flutter/components/files/file_icon.dart';
 import 'package:mattermost_flutter/components/progressive_image.dart';
 import 'package:mattermost_flutter/context/gallery.dart';
 import 'package:mattermost_flutter/context/server.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/hooks/did_update.dart';
-import 'package:mattermost_flutter/hooks/gallery.dart';
 import 'package:mattermost_flutter/utils/file.dart';
 import 'package:mattermost_flutter/utils/gallery.dart';
 import 'package:mattermost_flutter/utils/general.dart';
 import 'package:mattermost_flutter/utils/images.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/utils/url.dart';
-import 'package:mattermost_flutter/types/database/models/servers/post.dart';
-import 'package:mattermost_flutter/types/global/markdown.dart';
 
 class ImagePreview extends StatefulWidget {
   final String? expandedLink;

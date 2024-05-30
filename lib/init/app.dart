@@ -2,17 +2,10 @@
 
 import 'package:mattermost_flutter/database/manager.dart';
 import 'package:mattermost_flutter/init/credentials.dart';
-import 'package:mattermost_flutter/init/launch.dart';
-import 'package:mattermost_flutter/init/managed_app.dart';
 import 'package:mattermost_flutter/init/push_notifications.dart';
 import 'package:mattermost_flutter/managers/global_event_handler.dart';
-import 'package:mattermost_flutter/managers/network_manager.dart';
-import 'package:mattermost_flutter/managers/session_manager.dart';
-import 'package:mattermost_flutter/managers/websocket_manager.dart';
 import 'package:mattermost_flutter/screens/index.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/store/ephemeral_store.dart';
-import 'package:mattermost_flutter/store/navigation_store.dart';
 
 bool baseAppInitialized = false;
 

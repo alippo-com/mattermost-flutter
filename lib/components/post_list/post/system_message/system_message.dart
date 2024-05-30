@@ -1,6 +1,5 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:mattermost_flutter/types/theme.dart';
 import 'package:mattermost_flutter/types/user.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
@@ -9,7 +8,6 @@ import 'package:mattermost_flutter/components/markdown/markdown.dart';
 import 'package:mattermost_flutter/components/post_list/combined_user_activity/messages.dart';
 import 'package:mattermost_flutter/i18n.dart';
 import 'package:mattermost_flutter/components/post_list/post/system_message/messages.dart';
-import 'package:mattermost_flutter/components/post_list/post/system_message/system_message.dart';
 
 class SystemMessage extends StatelessWidget {
   final UserModel? author;

@@ -6,10 +6,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:mattermost_flutter/components/search.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/hooks/android_back_handler.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 import 'package:react_intl/intl.dart';
 
 import 'timezone_row.dart';
@@ -162,7 +159,7 @@ Map<String, dynamic> getStyleSheet(ThemeData theme) {
     },
     'container': {
       'flex': 1,
-      'backgroundColor': theme.backgroundColor,
+      'backgroundColor': theme.colorScheme.surface,
     },
     'searchBarInput': {
       'color': theme.textColor,

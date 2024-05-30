@@ -2,7 +2,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/database/database.dart';
-import 'package:rxdart/rxdart.dart';
 
 class AddMembersBox extends StatelessWidget {
   final String channelId;

@@ -2,12 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/actions/app/global.dart';
 import 'package:mattermost_flutter/actions/remote/nps.dart';
-import 'package:mattermost_flutter/components/button.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/components/illustrations/review_app.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
 
@@ -106,7 +104,7 @@ class _ReviewAppState extends State<ReviewApp> with SingleTickerProviderStateMix
             child: Container(
               constraints: BoxConstraints(maxWidth: 680),
               decoration: BoxDecoration(
-                color: theme.backgroundColor,
+                color: theme.colorScheme.surface,
                 borderRadius: BorderRadius.circular(12),
                 border: Border.all(color: theme.dividerColor.withOpacity(0.16)),
               ),

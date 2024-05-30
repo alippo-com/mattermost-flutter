@@ -4,7 +4,6 @@ import 'package:mattermost_flutter/components/no_results_with_term.dart';
 import 'package:mattermost_flutter/utils/emoji_helpers.dart';
 import 'package:mattermost_flutter/utils/device.dart';
 import 'package:mattermost_flutter/components/emoji_item.dart';
-import 'package:provider/provider.dart';
 import 'package:fuse/fuse.dart'; // Assuming similar functionality exists in Dart
 
 class EmojiFiltered extends StatefulWidget {

@@ -1,13 +1,9 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import 'package:mattermost_flutter/actions/remote/session.dart';
 import 'package:mattermost_flutter/constants/general.dart';
-import 'package:mattermost_flutter/constants/emoji.dart';
 import 'package:mattermost_flutter/database/manager.dart';
 import 'package:mattermost_flutter/helpers/api/general.dart';
-import 'package:mattermost_flutter/managers/network_manager.dart';
-import 'package:mattermost_flutter/queries/servers/custom_emoji.dart';
 import 'package:mattermost_flutter/utils/errors.dart';
 import 'package:mattermost_flutter/utils/log.dart';
 

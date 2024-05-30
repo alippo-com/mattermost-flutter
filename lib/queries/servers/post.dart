@@ -1,17 +1,14 @@
 // post.dart
 
 import 'package:watermelondb/watermelondb.dart';
-import 'package:rxdart/rxdart.dart';
 
 import 'package:mattermost_flutter/constants/database.dart';
 import 'package:mattermost_flutter/types/servers/post.dart';
 import 'package:mattermost_flutter/types/servers/posts_in_channel.dart';
 import 'package:mattermost_flutter/types/servers/posts_in_thread.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 
 import 'group.dart';
 import 'preference.dart';
-import 'system.dart';
 import 'user.dart';
 
 const POST = MM_TABLES.SERVER.POST;

@@ -3,11 +3,9 @@
 // See LICENSE.txt for license information.
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_syntax_view/flutter_syntax_view.dart';
 import 'package:mattermost_flutter/types/syntax_highlight_props.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/components/syntax_highlight/renderer.dart';
 
 const Map<String, SyntaxTheme> codeTheme = {
   'github': SyntaxTheme.githubGist(),

@@ -3,8 +3,6 @@ import 'package:momentum/momentum.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/i18n.dart';
 import 'package:mattermost_flutter/init/push_notifications.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/types.dart';
 
 class NotificationUtils {

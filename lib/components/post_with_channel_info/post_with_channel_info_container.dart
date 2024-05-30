@@ -3,13 +3,10 @@
 // See LICENSE.txt for license information.
 
 import 'package:watermelon_db/watermelon_db.dart';
-import 'package:rxdart/rxdart.dart';
 
 import 'package:mattermost_flutter/queries/servers/post.dart';
-import 'package:mattermost_flutter/queries/servers/thread.dart';
 import 'package:mattermost_flutter/components/post_with_channel_info/post_with_channel_info.dart';
 
-import 'package:mattermost_flutter/types/database/database.dart';
 import 'package:mattermost_flutter/types/database/models/servers/post.dart';
 
 class OwnProps {

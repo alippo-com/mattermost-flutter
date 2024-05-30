@@ -2,7 +2,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:mattermost_flutter/components/option.dart';
-import 'package:mattermost_flutter/types/servers.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 
 class ServerOptions extends StatelessWidget {
@@ -26,7 +25,7 @@ class ServerOptions extends StatelessWidget {
   Widget build(BuildContext context) {
     final ThemeData theme = Theme.of(context);
     final bool isLoggedIn = server.lastActiveAt > 0;
-    final Color sessionColor = isLoggedIn ? const Color(0xFFF58B00) : theme.accentColor;
+    final Color sessionColor = isLoggedIn ? const Color(0xFFF58B00) : theme.colorScheme.secondary;
     final IconData sessionIcon = isLoggedIn ? Icons.logout : Icons.login;
     final String sessionText = isLoggedIn
         ? Intl.message('Log out', name: 'servers.logout', defaultMessage: 'Log out')
@@ -50,7 +49,7 @@ class ServerOptions extends StatelessWidget {
           text: Intl.message('Edit', name: 'servers.edit', defaultMessage: 'Edit'),
         ),
         Option(
-          color: theme.errorColor,
+          color: theme.colorScheme.error,
           icon: Icons.delete,
           onPress: onRemove,
           progress: progress,

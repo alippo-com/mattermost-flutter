@@ -1,6 +1,5 @@
 
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/components/files.dart';
 import 'package:mattermost_flutter/components/formatted_text.dart';
 import 'package:mattermost_flutter/components/jumbo_emoji.dart';
@@ -8,7 +7,6 @@ import 'package:mattermost_flutter/constants/screens.dart';
 import 'package:mattermost_flutter/utils/post.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/types/database/models/servers/post.dart';
-import 'package:mattermost_flutter/types/global/markdown.dart';
 
 import 'acknowledgements.dart';
 import 'add_members.dart';
@@ -79,7 +77,7 @@ class _BodyState extends State<Body> {
     final isEdited = postEdited(widget.post);
     final isFailed = isPostFailed(widget.post);
     final hasBeenDeleted = widget.post.deleteAt != null;
-    final isReplyPost = widget.post.rootId != null && (!widget.isEphemeral || !hasBeenDeleted) && widget.location != THREAD;
+    final isReplyPost = (!widget.isEphemeral || !hasBeenDeleted) && widget.location != THREAD;
     final hasContent = widget.post.metadata?.embeds?.isNotEmpty == true || (widget.appsEnabled && widget.post.props?.appBindings?.isNotEmpty == true) || widget.post.props?.attachments?.isNotEmpty == true;
 
     Widget body;

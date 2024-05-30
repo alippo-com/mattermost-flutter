@@ -4,7 +4,6 @@ import 'package:flutter/widgets.dart';
 import 'package:intl/intl.dart';
 import 'package:mattermost_flutter/components/option_box.dart';
 import 'package:mattermost_flutter/constants.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 
 class SetHeaderBox extends StatelessWidget {
   final String channelId;

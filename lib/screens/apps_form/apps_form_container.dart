@@ -8,11 +8,8 @@ import 'package:mattermost_flutter/actions/remote/apps.dart';
 import 'package:mattermost_flutter/actions/remote/command.dart';
 import 'package:mattermost_flutter/constants/apps.dart';
 import 'package:mattermost_flutter/context/server.dart';
-import 'package:mattermost_flutter/hooks/android_back_handler.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/utils/apps.dart';
 import 'package:mattermost_flutter/types/screens/navigation.dart';
-import 'apps_form_component.dart';
 
 class AppsFormContainer extends StatefulWidget {
   final AppForm? form;

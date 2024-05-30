@@ -2,7 +2,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:path_provider/path_provider.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 
 class DeviceConstants {
   static Future<String> get documentsPath async {

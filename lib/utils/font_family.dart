@@ -11,7 +11,7 @@ void setFontFamily() {
 
   // Create a custom TextTheme
   final customTextTheme = TextTheme(
-    bodyText2: defaultTextStyle,
+    bodyMedium: defaultTextStyle,
   );
 
   // Apply the custom TextTheme to the ThemeData

@@ -9,7 +9,7 @@ const int EMOJIS_PER_PAGE = 200;
 final RegExp reEmoji = RegExp(r'^:([a-z0-9_\-+]+):\B/i');
 
 // reEmoticon matches an emoticon (eg. :D) at the start of a string.
-final RegExp reEmoticon = RegExp(r'^(?:(:-?\))|(;-?\))|(:o)|(:-o)|(:-?])|(:-?d)|(x-d)|(:-?p)|(:-?[@[@])|(:-?\()|(:[''']-?\()|(:-?\/)|(:-?s)|(:-?\|)|(:-?\$)|(:-x)|(<3|&lt;3)|(<\/3|&lt;\/3)|(:[`'']-?\(|:&#x27;\(|:&#39;\())(?=\$|\s|[*_~?])/i');
+final RegExp reEmoticon = RegExp(r'^(?:(:-?\))|(;-?\))|(:o)|(:-o)|(:-?])|(:-?d)|(x-d)|(:-?p)|(:-?[@[@])|(:-?\()|(:[''']-?\()|( =-?\/)|( =-?s)|( =-?\|)|( =-?\$)|( =-x)|(<3|&lt;3)|(<\/3|&lt;\/3)|( =[`'']-?\(|:&#x27;\(|:&#39;\())(?=\$|\s|[*_~?])/i');
 
 // reMain matches some amount of plain text, starting at the beginning of the string and hopefully stopping right
 // before the next emoji by looking for any character that could start an emoji (:, ;, x, or <)

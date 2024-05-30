@@ -5,7 +5,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:mattermost_flutter/actions/local/draft.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/managers/draft_upload_manager.dart';
 import 'package:mattermost_flutter/utils/file.dart';

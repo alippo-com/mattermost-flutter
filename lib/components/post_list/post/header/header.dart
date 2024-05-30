@@ -8,9 +8,7 @@ import 'package:mattermost_flutter/i18n.dart';
 import 'package:mattermost_flutter/utils/post.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 import 'package:mattermost_flutter/types/database/models/servers/post.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 
 import 'commented_on.dart';
 import 'display_name.dart';
@@ -65,7 +63,7 @@ class Header extends StatelessWidget {
     final theme = useTheme(context);
     final style = getStyleSheet(theme);
     final pendingPostStyle = isPendingOrFailed ? style['pendingPost'] : null;
-    final isReplyPost = post.rootId != null && !isEphemeral;
+    final isReplyPost = !isEphemeral;
     final showReply = !isReplyPost && (location != THREAD) && (shouldRenderReplyButton == true && (!rootPostAuthor && commentCount > 0));
     final displayName = postUserDisplayName(post, author, teammateNameDisplay, enablePostUsernameOverride);
     final rootAuthorDisplayName = rootPostAuthor != null ? displayUsername(rootPostAuthor, currentUser?.locale, teammateNameDisplay, true) : null;

@@ -5,12 +5,10 @@ import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/components/progressive_image.dart';
 import 'package:mattermost_flutter/context/server.dart';
-import 'package:mattermost_flutter/hooks/gallery.dart';
 import 'package:mattermost_flutter/utils/gallery.dart';
 import 'package:mattermost_flutter/utils/general.dart';
 import 'package:mattermost_flutter/utils/images.dart';
 import 'package:provider/provider.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 class MarkdownTableImage extends StatefulWidget {
   final bool? disabled;

@@ -1,6 +1,5 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:mattermost_flutter/utils/theme.dart'; // Assuming you have these utility functions
 import 'package:mattermost_flutter/types/onboarding.dart'; // Assuming you have these types defined
 import 'package:provider/provider.dart'; // For theme management

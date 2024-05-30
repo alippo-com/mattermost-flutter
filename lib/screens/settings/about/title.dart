@@ -1,8 +1,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/types/database.dart';
-import 'package:mattermost_flutter/utils/url.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:mattermost_flutter/components/formatted_text.dart';
 import 'package:mattermost_flutter/context/theme.dart';
 import 'package:mattermost_flutter/i18n.dart';

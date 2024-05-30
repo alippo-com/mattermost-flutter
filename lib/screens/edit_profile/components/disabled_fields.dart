@@ -11,7 +11,7 @@ class DisabledFields extends StatelessWidget {
     final theme = Theme.of(context);
     final textStyle = TextStyle(
       fontSize: 16.0, // Assuming 'Body' style with size 75 corresponds to 16.0
-      color: theme.textTheme.bodyText1!.color!.withOpacity(0.5),
+      color: theme.textTheme.bodyLarge!.color!.withOpacity(0.5),
     );
 
     final containerPadding = isTablet ? 42.0 : 20.0;

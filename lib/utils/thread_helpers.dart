@@ -3,7 +3,6 @@
 
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/helpers/api/preference.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/types/database/models/servers/preference.dart';
 
 bool processIsCRTAllowed(String? configValue) {

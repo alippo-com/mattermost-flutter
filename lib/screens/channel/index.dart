@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:mattermost_flutter/utils/database.dart'; // Custom database utilities
-import 'package:mattermost_flutter/constants/preferences.dart'; // Constants for preferences
+// Constants for preferences
 import 'package:mattermost_flutter/context/server.dart'; // Custom server context
 import 'package:mattermost_flutter/observers/call.dart'; // Custom call state observer
 import 'package:mattermost_flutter/components/channel.dart'; // The Channel component

@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/components/button.dart';
 import 'package:mattermost_flutter/components/loading.dart';
 import 'package:mattermost_flutter/components/markdown.dart';
-import 'package:mattermost_flutter/constants/screens.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/context/theme.dart';
 import 'package:mattermost_flutter/utils/markdown.dart';
@@ -157,11 +155,11 @@ class _TermsOfServiceState extends State<TermsOfService> {
         children: [
           Text(
             'Failed to get the ToS.',
-            style: theme.textTheme.headline6,
+            style: theme.textTheme.titleLarge,
           ),
           Text(
             'It was not possible to get the Terms of Service from the Server.',
-            style: theme.textTheme.bodyText2,
+            style: theme.textTheme.bodyMedium,
           ),
           Button(
             onPress: getTerms,
@@ -224,7 +222,7 @@ class _TermsOfServiceState extends State<TermsOfService> {
                   children: [
                     Text(
                       'Terms of Service',
-                      style: theme.textTheme.headline5,
+                      style: theme.textTheme.headlineSmall,
                     ),
                     content,
                   ],

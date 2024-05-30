@@ -8,7 +8,6 @@ import 'package:mattermost_flutter/database/queries/custom_emoji.dart';
 import 'package:mattermost_flutter/database/queries/system.dart';
 import 'package:mattermost_flutter/database/queries/user.dart';
 import 'package:mattermost_flutter/utils/emoji_helpers.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 import 'results.dart';
 
 class ResultsScreen extends HookWidget {

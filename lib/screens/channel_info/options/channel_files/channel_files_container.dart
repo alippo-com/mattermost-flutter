@@ -5,7 +5,6 @@ import 'package:rxdart/rxdart.dart';
 
 import 'package:mattermost_flutter/queries/servers/channel.dart';
 import 'package:mattermost_flutter/screens/channel_info/options/channel_files/channel_files.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 
 class ChannelFilesContainer extends StatelessWidget {
   final String channelId;

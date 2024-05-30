@@ -4,11 +4,8 @@
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/actions/remote/preference.dart';
 import 'package:mattermost_flutter/components/settings/container.dart';
-import 'package:mattermost_flutter/constants/preferences.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/hooks/android_back_handler.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'custom_theme.dart';
 import 'theme_tiles.dart';
 import 'package:mattermost_flutter/types/screens/navigation.dart';
@@ -39,7 +36,7 @@ class _DisplayThemeState extends State<DisplayTheme> {
     super.initState();
     newTheme = null;
     initialTheme = theme.type!;
-    WidgetsBinding.instance!.addPostFrameCallback((_) => checkTheme());
+    WidgetsBinding.instance.addPostFrameCallback((_) => checkTheme());
     useAndroidHardwareBackHandler(widget.componentId, onAndroidBack);
   }
 

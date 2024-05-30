@@ -87,7 +87,7 @@ class TeamListItem extends StatelessWidget {
         borderRadius: BorderRadius.circular(4.0),
       ),
       'text': TextStyle(
-        color: theme.textTheme.bodyText1?.color,
+        color: theme.textTheme.bodyLarge?.color,
         marginLeft: 16.0,
         flex: 1,
         fontSize: 14.0, // Assuming 'Body' with size 200 corresponds to fontSize 14

@@ -3,13 +3,11 @@
 
 import 'package:mattermost_flutter/calls/client/rest/client_calls.dart';
 import 'package:mattermost_flutter/client/rest/plugins/client_plugins.dart';
-import 'package:mattermost_flutter/utils/mix.dart';
 
 import 'apps/client_apps.dart';
 import 'base/client_base.dart';
 import 'categories/client_categories.dart';
 import 'channels/client_channels.dart';
-import 'constants.dart';
 import 'emojis/client_emojis.dart';
 import 'files/client_files.dart';
 import 'general/client_general.dart';

@@ -2,7 +2,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:mattermost_flutter/types/user_model.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 import 'package:mattermost_flutter/components/profile_picture.dart';
 import 'package:mattermost_flutter/components/selected_chip.dart';
 

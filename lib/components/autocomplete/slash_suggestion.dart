@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/actions/remote/command.dart';
 import 'package:mattermost_flutter/context/server.dart';
-import 'package:mattermost_flutter/managers/analytics.dart';
 import 'package:mattermost_flutter/managers/integrations_manager.dart';
 import 'package:mattermost_flutter/components/app_command_parser/app_command_parser.dart';
 import 'package:mattermost_flutter/components/slash_suggestion_item.dart';

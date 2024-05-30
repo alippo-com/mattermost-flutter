@@ -2,7 +2,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/helpers/database.dart';
 import 'package:mattermost_flutter/helpers/role.dart';
@@ -14,11 +13,8 @@ import 'package:mattermost_flutter/components/threads_button.dart';
 import 'package:mattermost_flutter/components/user_item.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/navigation.dart';
-import 'package:mattermost_flutter/actions/local/thread.dart';
 import 'package:mattermost_flutter/actions/remote/channel.dart';
-import 'package:mattermost_flutter/actions/remote/user.dart';
 import 'package:mattermost_flutter/utils/channel.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 
 class FilteredList extends StatefulWidget {
   final List<ChannelModel> archivedChannels;

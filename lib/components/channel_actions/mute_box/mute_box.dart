@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/actions/remote/channel.dart';
 import 'package:mattermost_flutter/components/option_box.dart';
 import 'package:mattermost_flutter/context/server.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:intl/intl.dart';
 
 class MuteBox extends StatelessWidget {

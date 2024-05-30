@@ -10,7 +10,6 @@ import 'package:mattermost_flutter/widgets/settings.dart';
 import 'package:mattermost_flutter/widgets/user_presence.dart';
 import 'package:mattermost_flutter/widgets/your_profile.dart';
 
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 
 class AccountOptions extends StatelessWidget {
   final UserModel user;

@@ -9,7 +9,6 @@ import 'package:mattermost_flutter/components/formatted_text.dart';
 import 'package:mattermost_flutter/constants/view.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/utils/tap.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 

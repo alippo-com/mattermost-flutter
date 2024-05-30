@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mattermost_flutter/actions/remote/thread.dart';
 import 'package:mattermost_flutter/components/common_post_options.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/i18n.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/types/database/models/servers/thread.dart';
 import 'package:mattermost_flutter/types/screens/navigation.dart';
 

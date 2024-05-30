@@ -6,9 +6,7 @@ import 'package:mattermost_flutter/constants/database.dart';
 import 'package:mattermost_flutter/database/operator/app_data_operator/comparator.dart';
 import 'package:mattermost_flutter/database/operator/app_data_operator/transformers.dart';
 import 'package:mattermost_flutter/database/operator/base_data_operator.dart';
-import 'package:mattermost_flutter/database/operator/utils/general.dart';
 import 'package:mattermost_flutter/utils/log.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 
 const INFO = MM_TABLES.APP.INFO;
 const GLOBAL = MM_TABLES.APP.GLOBAL;

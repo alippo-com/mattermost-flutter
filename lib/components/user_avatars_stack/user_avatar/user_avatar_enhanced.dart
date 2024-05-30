@@ -3,7 +3,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:watermelondb/watermelondb.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 import 'package:mattermost_flutter/components/user_avatars_stack/user_avatar/user_avatar.dart';
 
 class UserAvatarEnhanced extends StatelessWidget {

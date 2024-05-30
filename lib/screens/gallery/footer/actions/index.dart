@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mattermost_flutter/screens/gallery/footer/actions/inverted_action.dart';
 import 'package:mattermost_flutter/screens/gallery/footer/actions/action.dart';
 import 'package:mattermost_flutter/types/managed_config.dart';
 import 'package:mattermost_flutter/utils/theme.dart';

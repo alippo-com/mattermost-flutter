@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mattermost_flutter/actions/remote/thread.dart';
 import 'package:mattermost_flutter/components/formatted_text.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/context/theme.dart';

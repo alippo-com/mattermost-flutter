@@ -6,12 +6,9 @@ import 'package:mattermost_flutter/components/autocomplete/autocomplete_section_
 import 'package:mattermost_flutter/components/channel_item.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/context/server.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/i18n.dart';
-import 'package:mattermost_flutter/queries/servers/user.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
 import 'package:mattermost_flutter/types/database/models/servers/channel.dart';
-import 'package:mattermost_flutter/types/database/models/servers/my_channel.dart';
 
 const SECTION_KEY_PUBLIC_CHANNELS = 'publicChannels';
 const SECTION_KEY_PRIVATE_CHANNELS = 'privateChannels';

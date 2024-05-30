@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'package:mattermost_flutter/constants/profile.dart';
-import 'package:mattermost_flutter/managers/network_manager.dart';
 import 'package:mattermost_flutter/models/user_model.dart';
 import 'package:mattermost_flutter/screens/edit_profile/components/disabled_fields.dart';
 import 'package:mattermost_flutter/screens/edit_profile/components/email_field.dart';

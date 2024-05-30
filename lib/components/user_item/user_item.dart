@@ -8,7 +8,6 @@ import 'package:mattermost_flutter/components/profile_picture.dart';
 import 'package:mattermost_flutter/components/tag.dart';
 import 'package:mattermost_flutter/utils/strings.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 
 class UserItem extends StatelessWidget {
   final Widget? footerComponent;
@@ -167,11 +166,11 @@ class UserItem extends StatelessWidget {
       ),
       'rowFullname': TextStyle(
         fontSize: 16,
-        color: theme.textTheme.bodyText1?.color,
+        color: theme.textTheme.bodyLarge?.color,
       ),
       'rowUsername': TextStyle(
         fontSize: 12,
-        color: theme.textTheme.bodyText2?.color?.withOpacity(0.64),
+        color: theme.textTheme.bodyMedium?.color?.withOpacity(0.64),
       ),
       'row': BoxDecoration(
         height: 40,

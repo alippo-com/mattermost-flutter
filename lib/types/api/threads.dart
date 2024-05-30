@@ -1,7 +1,6 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import 'package:flutter/foundation.dart';
 import 'package:mattermost_flutter/models/user_profile.dart';
 import 'package:mattermost_flutter/models/post.dart';
 

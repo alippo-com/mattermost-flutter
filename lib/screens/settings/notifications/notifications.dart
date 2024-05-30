@@ -4,13 +4,8 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:mattermost_flutter/components/settings/container.dart';
 import 'package:mattermost_flutter/components/settings/item.dart';
 import 'package:mattermost_flutter/constants/general.dart';
-import 'package:mattermost_flutter/constants/screens.dart';
-import 'package:mattermost_flutter/hooks/android_back_handler.dart';
 import 'package:mattermost_flutter/i18n.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/screens/settings/config.dart';
-import 'package:mattermost_flutter/utils/user.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 import 'package:mattermost_flutter/types/screens/navigation.dart';
 
 class Notifications extends HookWidget {

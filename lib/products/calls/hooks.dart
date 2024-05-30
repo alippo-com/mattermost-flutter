@@ -1,18 +1,13 @@
 
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 import 'package:mattermost_flutter/actions/calls.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/database/manager.dart';
-import 'package:mattermost_flutter/managers/network_manager.dart';
-import 'package:mattermost_flutter/queries/app/servers.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/utils/errors.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 import 'package:mattermost_flutter/state/calls_state.dart';
 
 class TryCallsFunction {

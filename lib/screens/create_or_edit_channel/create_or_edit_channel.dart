@@ -3,7 +3,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 import 'package:mattermost_flutter/actions/channel.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
@@ -11,11 +10,7 @@ import 'package:mattermost_flutter/constants/general.dart';
 import 'package:mattermost_flutter/constants/channel.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/hooks/android_back_handler.dart';
-import 'package:mattermost_flutter/hooks/navigation_button_pressed.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/utils/channel.dart';
-import 'channel_info_form.dart';
 import 'package:mattermost_flutter/types/database/models/servers/channel.dart';
 import 'package:mattermost_flutter/types/database/models/servers/channel_info.dart';
 import 'package:mattermost_flutter/types/screens/navigation.dart';
@@ -80,7 +75,7 @@ class _CreateOrEditChannelState extends State<CreateOrEditChannel> {
       title: widget.channel != null ? 'Save' : 'Create',
       enabled: _canSave,
       showAsAction: NavigationButtonAction.always,
-      color: Theme.of(context).textTheme.subtitle1?.color,
+      color: Theme.of(context).textTheme.titleMedium?.color,
       onPress: widget.channel != null ? _onUpdateChannel : _onCreateChannel,
     );
   }
@@ -88,7 +83,7 @@ class _CreateOrEditChannelState extends State<CreateOrEditChannel> {
   NavigationButton makeCloseButton() {
     return NavigationButton(
       id: CLOSE_BUTTON_ID,
-      icon: CompassIcon.getImageSourceSync('close', 24, Theme.of(context).textTheme.subtitle1?.color),
+      icon: CompassIcon.getImageSourceSync('close', 24, Theme.of(context).textTheme.titleMedium?.color),
       onPress: _handleClose,
     );
   }

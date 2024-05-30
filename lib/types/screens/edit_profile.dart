@@ -1,10 +1,8 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import 'package:mattermost_flutter/types/screens/navigation.dart';
 import 'package:mattermost_flutter/types/components/floating_text_input_label.dart';
 import 'package:mattermost_flutter/types/screens/edit_profile/components/field.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 import 'package:flutter/widgets.dart';
 
 class UserInfo {

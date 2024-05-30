@@ -1,7 +1,6 @@
 import 'package:watermelondb/watermelondb.dart';
 import 'package:watermelondb/decorators.dart';
 import 'package:mattermost_flutter/types/database/models/servers/thread.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 import 'package:mattermost_flutter/constants/database.dart';
 import 'package:mattermost_flutter/types/database/models/servers/thread_participant_interface.dart';
 

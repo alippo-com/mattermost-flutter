@@ -1,7 +1,7 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import 'package:mattermost_flutter/types/database/models/servers/role.dart'; // adjusted import path
+// adjusted import path
 
 /// The Role model will describe the set of permissions for each role
 class RoleModel {

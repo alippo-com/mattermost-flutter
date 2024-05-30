@@ -4,19 +4,14 @@
 import 'package:flutter/material.dart';
 
 import 'package:mattermost_flutter/actions/local/apps.dart';
-import 'package:mattermost_flutter/components/autocomplete/slash_suggestion/app_command_parser/app_command_parser.dart';
 import 'package:mattermost_flutter/constants/apps.dart';
 import 'package:mattermost_flutter/database/manager.dart';
 import 'package:mattermost_flutter/managers/apps_manager.dart';
 import 'package:mattermost_flutter/managers/integrations_manager.dart';
-import 'package:mattermost_flutter/managers/network_manager.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/utils/deep_link.dart';
 import 'package:mattermost_flutter/utils/errors.dart';
 import 'package:mattermost_flutter/utils/log.dart';
-import 'package:mattermost_flutter/utils/url.dart';
 
 import 'package:types/types.dart'; // Assuming all necessary types are defined here
 
@@ -74,7 +69,7 @@ Future<Map<String, dynamic>> executeCommand(String serverUrl, Intl intl, String 
   }
 
   if (data.containsKey('trigger_id')) { //eslint-disable-line camelcase
-    IntegrationsManager.getManager(serverUrl)?.setTriggerId(data['trigger_id']);
+    IntegrationsManager.getManager(serverUrl).setTriggerId(data['trigger_id']);
   }
 
   return {'data': data};

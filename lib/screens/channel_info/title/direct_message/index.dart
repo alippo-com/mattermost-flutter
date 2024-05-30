@@ -7,8 +7,6 @@ import 'package:mattermost_flutter/database/database.dart';
 import 'package:mattermost_flutter/queries/channel.dart';
 import 'package:mattermost_flutter/queries/system.dart';
 import 'package:mattermost_flutter/queries/user.dart';
-import 'package:mattermost_flutter/utils/user.dart';
-import 'package:rxdart/rxdart.dart';
 
 import 'direct_message.dart';
 

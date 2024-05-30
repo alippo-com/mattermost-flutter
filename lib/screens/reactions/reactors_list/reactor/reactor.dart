@@ -3,14 +3,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:mattermost_flutter/constants/screens.dart';
 import 'package:mattermost_flutter/contexts/server.dart';
 import 'package:mattermost_flutter/contexts/theme.dart';
 import 'package:mattermost_flutter/components/user_item.dart';
 import 'package:mattermost_flutter/actions/navigation.dart';
-import 'package:mattermost_flutter/actions/remote/user.dart';
 import 'package:mattermost_flutter/types/database/models/servers/reaction.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 
 class Reactor extends HookWidget {
   final String channelId;

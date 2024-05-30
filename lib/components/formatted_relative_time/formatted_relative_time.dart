@@ -4,7 +4,6 @@ import 'package:timeago/timeago.dart' as timeago;
 import 'package:timezone/data/latest.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
 import 'package:mattermost_flutter/types/user_timezone.dart';
-import 'package:mattermost_flutter/utils/datetime.dart';
 
 class FormattedRelativeTime extends StatefulWidget {
   final UserTimezone? timezone;

@@ -3,13 +3,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:mattermost_flutter/constants/preferences.dart';
-import 'package:mattermost_flutter/queries/servers/custom_emoji.dart';
 import 'package:mattermost_flutter/queries/servers/preference.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
-import 'package:mattermost_flutter/types/database/models/servers/custom_emoji.dart';
 import 'package:mattermost_flutter/components/autocomplete/emoji_suggestion/emoji_suggestion.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 import 'package:rx_dart/rx_dart.dart';
 
 class EmojiSuggestionProvider extends StatelessWidget {

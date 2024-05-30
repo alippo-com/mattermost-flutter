@@ -2,13 +2,10 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:mattermost_flutter/actions/remote/apps.dart';
 import 'package:mattermost_flutter/actions/remote/command.dart';
 import 'package:mattermost_flutter/constants/apps.dart';
 import 'package:mattermost_flutter/context/server.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/utils/apps.dart';
 import 'package:mattermost_flutter/types/app_binding.dart';
 import 'package:mattermost_flutter/types/app_call_response.dart';

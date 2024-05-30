@@ -9,8 +9,6 @@ import 'package:mattermost_flutter/actions/remote/apps.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/hooks/apps.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 import 'package:mattermost_flutter/types/database/models/servers/post.dart';
 import 'package:provider/provider.dart';
 

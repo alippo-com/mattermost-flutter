@@ -1,10 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/gestures.dart';
-import 'package:flutter/animation.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:flutter/services.dart';
-import 'package:provider/provider.dart';
-import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:some_package/some_package.dart'; // Placeholder for custom hooks & utils
 
 class PagerReusableProps {

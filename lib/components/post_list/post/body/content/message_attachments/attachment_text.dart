@@ -3,11 +3,8 @@
 // See LICENSE.txt for license information.
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:mattermost_flutter/components/markdown.dart';
 import 'package:mattermost_flutter/components/post_list/post/body/message/show_more_button.dart';
-import 'package:mattermost_flutter/hooks/show_more.dart';
-import 'package:mattermost_flutter/types/global/markdown.dart';
 import 'package:mattermost_flutter/types/theme.dart';
 
 class AttachmentText extends StatefulWidget {

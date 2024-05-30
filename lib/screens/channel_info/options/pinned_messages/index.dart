@@ -5,7 +5,6 @@ import 'package:rxdart/rxdart.dart';
 
 import 'package:mattermost_flutter/queries/servers/channel.dart';
 import 'package:mattermost_flutter/screens/channel_info/options/pinned_messages/pinned_messages.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 
 class PinnedMessagesContainer extends StatelessWidget {
   final String channelId;

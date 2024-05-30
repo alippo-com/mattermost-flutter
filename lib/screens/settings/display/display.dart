@@ -4,11 +4,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:mattermost_flutter/types/database/user_model.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/screens/settings/config.dart';
 import 'package:mattermost_flutter/utils/tap.dart';
-import 'package:mattermost_flutter/utils/user.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 const CRT_FORMAT = [

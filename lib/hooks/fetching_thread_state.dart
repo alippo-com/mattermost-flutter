@@ -3,7 +3,6 @@
 
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:mattermost_flutter/store/fetching_thread_store.dart';
 
 class FetchingThreadState extends StatefulWidget {
   final String rootId;

@@ -41,7 +41,7 @@ class _ErrorBoundaryState extends State<ErrorBoundary> {
 
 TextStyle getErrorStyle(ThemeData theme) {
   return TextStyle(
-    color: theme.errorColor,
+    color: theme.colorScheme.error,
     fontStyle: FontStyle.italic,
     // Add other styles based on your typographic settings
   );

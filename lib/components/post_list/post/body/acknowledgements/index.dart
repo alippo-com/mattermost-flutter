@@ -10,7 +10,6 @@ import 'package:rxdart/rxdart.dart';
 
 import 'package:mattermost_flutter/queries/servers/user.dart';
 import 'package:mattermost_flutter/components/post_list/post/body/acknowledgements/acknowledgements.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 
 class EnhancedAcknowledgements extends StatelessWidget {
   @override

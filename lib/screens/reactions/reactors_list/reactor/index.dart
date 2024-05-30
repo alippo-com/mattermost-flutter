@@ -3,9 +3,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/types/database/models/servers/reaction.dart';
-import 'package:mattermost_flutter/types/database/models/servers/post.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
-import 'package:mattermost_flutter/actions/remote/user.dart';
 import 'package:mattermost_flutter/actions/remote/post.dart';
 import 'package:mattermost_flutter/screens/reactions/reactors_list/reactor.dart';
 

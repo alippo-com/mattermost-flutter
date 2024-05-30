@@ -3,13 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_intl/flutter_intl.dart';
 import 'package:mattermost_flutter/components/slide_up_panel_item.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/screens/bottom_sheet/content.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/types.dart'; // For the Theme type
 
-import './browse_channels.dart';
 
 class DropdownSlideup extends StatelessWidget {
   final Function(String) onPress;

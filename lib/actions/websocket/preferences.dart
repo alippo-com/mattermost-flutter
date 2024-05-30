@@ -5,7 +5,6 @@ import 'dart:convert';
 import 'package:mattermost_flutter/actions/local/channel.dart';
 import 'package:mattermost_flutter/actions/remote/post.dart';
 import 'package:mattermost_flutter/actions/remote/preference.dart';
-import 'package:mattermost_flutter/constants/preferences.dart';
 import 'package:mattermost_flutter/database/manager.dart';
 import 'package:mattermost_flutter/queries/servers/post.dart';
 import 'package:mattermost_flutter/queries/servers/preference.dart';

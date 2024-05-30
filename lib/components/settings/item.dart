@@ -6,7 +6,6 @@ import 'package:mattermost_flutter/components/option_item.dart';
 import 'package:mattermost_flutter/context/theme.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
-import 'package:mattermost_flutter/screens/settings/config.dart';
 import 'package:mattermost_flutter/components/settings/separator.dart';
 
 typedef SettingsConfig = String;

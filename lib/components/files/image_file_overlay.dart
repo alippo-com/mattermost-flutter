@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/context/theme.dart'; // Assuming this is where the useTheme directive is imported from
-import 'package:mattermost_flutter/hooks/device.dart'; // Assuming this is where the useIsTablet directive is imported from
+// Assuming this is where the useIsTablet directive is imported from
 import 'package:mattermost_flutter/utils/theme.dart'; // Assuming this is where the makeStyleSheetFromTheme directive is imported from
 
 class ImageFileOverlay extends StatelessWidget {

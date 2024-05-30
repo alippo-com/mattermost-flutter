@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/components/channel_actions/set_header_box/set_header.dart';
 import 'package:mattermost_flutter/database/database.dart';
 import 'package:provider/provider.dart';
-import 'package:rxdart/rxdart.dart';
 
 class EnhancedSetHeaderBox extends StatelessWidget {
   final String channelId;

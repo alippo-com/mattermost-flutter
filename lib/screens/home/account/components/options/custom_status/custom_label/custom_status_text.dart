@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mattermost_flutter/components/custom_status/custom_status_text.dart';
 import 'package:mattermost_flutter/components/formatted_text.dart';
 import 'package:mattermost_flutter/types/theme.dart';
 import 'package:mattermost_flutter/utils/theme.dart';

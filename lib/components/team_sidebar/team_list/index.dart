@@ -3,9 +3,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:rxdart/rxdart.dart';
-import 'package:mattermost_flutter/constants/preferences.dart';
 import 'package:mattermost_flutter/queries/servers/preference.dart';
-import 'package:mattermost_flutter/queries/servers/team.dart';
 import 'package:mattermost_flutter/components/team_sidebar/team_list/team_list.dart';
 import 'package:watermelon_db/watermelon_db.dart';
 

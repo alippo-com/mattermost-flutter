@@ -1,11 +1,6 @@
 
-import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/actions/app/global.dart';
 import 'package:mattermost_flutter/constants/general.dart';
-import 'package:mattermost_flutter/constants/launch.dart';
-import 'package:mattermost_flutter/queries/app/global.dart';
-import 'package:mattermost_flutter/queries/app/servers.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 
 import 'package:in_app_review/in_app_review.dart';
 import 'dart:convert';

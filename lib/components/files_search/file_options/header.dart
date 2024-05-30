@@ -5,7 +5,6 @@ import 'package:mattermost_flutter/utils/file.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/types/file_info.dart';
 import 'package:mattermost_flutter/types/typography.dart';
-import 'icon.dart';
 
 const String format = 'MMM DD YYYY HH:MM A';
 

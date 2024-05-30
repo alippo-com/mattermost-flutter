@@ -3,7 +3,6 @@ import 'package:flutter/scheduler.dart';
 import 'package:flutter_reanimated/flutter_reanimated.dart';
 import 'package:mattermost_flutter/actions/app/global.dart';
 import 'package:mattermost_flutter/components/touchable_emoji.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/utils/emoji.dart';
 import 'package:mattermost_flutter/screens/emoji_picker/picker/header/skintone_selector/close_button.dart';
 import 'package:mattermost_flutter/screens/emoji_picker/picker/header/skintone_selector/skin_selector.dart';
@@ -41,7 +40,7 @@ class _SkinToneSelectorState extends State<SkinToneSelector> {
       return MapEntry(key, key == 'default' ? 'hand' : 'hand_$value');
     });
 
-    SchedulerBinding.instance?.addPostFrameCallback((_) {
+    SchedulerBinding.instance.addPostFrameCallback((_) {
       if (!widget.tutorialWatched) {
         setState(() {
           tooltipVisible = true;

@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/actions/remote/file.dart';
-import 'package:mattermost_flutter/actions/remote/user.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 

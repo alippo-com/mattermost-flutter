@@ -4,8 +4,6 @@
 import 'package:flutter/material.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:mattermost_flutter/types/database.dart';
-import 'package:mattermost_flutter/utils/url.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 
 import 'settings.dart';
 

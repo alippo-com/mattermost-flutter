@@ -5,8 +5,6 @@ import 'package:mattermost_flutter/actions/remote/permalink.dart';
 import 'package:mattermost_flutter/components/common_post_options/base_option.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/i18n.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
-import 'package:mattermost_flutter/types/screens/navigation.dart';
 
 class OpenInChannelOption extends StatelessWidget {
   final String bottomSheetId;

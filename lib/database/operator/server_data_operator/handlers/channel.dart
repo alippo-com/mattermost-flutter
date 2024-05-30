@@ -1,9 +1,5 @@
 import 'package:mattermost_flutter/constants/database.dart';
-import 'package:mattermost_flutter/database/operator/server_data_operator/transformers/channel.dart';
-import 'package:mattermost_flutter/database/operator/utils/general.dart';
-import 'package:mattermost_flutter/queries/servers/thread.dart';
 import 'package:mattermost_flutter/utils/log.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 import 'package:mattermost_flutter/types/database/models/servers/channel.dart';
 import 'package:mattermost_flutter/types/database/models/servers/channel_info.dart';
 import 'package:mattermost_flutter/types/database/models/servers/channel_membership.dart';

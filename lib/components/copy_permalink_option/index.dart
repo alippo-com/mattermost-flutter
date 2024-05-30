@@ -3,10 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/components/base_option.dart';
-import 'package:mattermost_flutter/constants/snack_bar.dart'; 
 import 'package:mattermost_flutter/context/server.dart'; 
 import 'package:mattermost_flutter/i18n.dart'; 
-import 'package:mattermost_flutter/screens/navigation.dart'; 
 import 'package:mattermost_flutter/utils/snack_bar.dart'; 
 
 class CopyPermalinkOption extends StatelessWidget {

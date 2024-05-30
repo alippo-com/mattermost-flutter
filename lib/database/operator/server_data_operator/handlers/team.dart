@@ -7,9 +7,7 @@ import 'package:mattermost_flutter/database/operator/server_data_operator/compar
 import 'package:mattermost_flutter/database/operator/server_data_operator/transformers/team.dart';
 import 'package:mattermost_flutter/database/operator/utils/general.dart';
 import 'package:mattermost_flutter/utils/log.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 import 'package:mattermost_flutter/types/database/models/servers/my_team.dart';
-import 'package:mattermost_flutter/types/database/models/servers/team.dart';
 import 'package:mattermost_flutter/types/database/models/servers/team_channel_history.dart';
 import 'package:mattermost_flutter/types/database/models/servers/team_membership.dart';
 import 'package:mattermost_flutter/types/database/models/servers/team_search_history.dart';

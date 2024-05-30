@@ -1,7 +1,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 import 'package:mattermost_flutter/widgets/custom_status.dart';
 import 'package:mattermost_flutter/widgets/label.dart';
 import 'package:mattermost_flutter/types/user_model.dart';  // Assuming UserModel is defined here

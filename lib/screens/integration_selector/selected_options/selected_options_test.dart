@@ -2,7 +2,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:mattermost_flutter/constants/preferences.dart';
 import 'package:mattermost_flutter/screens/integration_selector/selected_options.dart';
 import 'package:mattermost_flutter/test_helpers/test_helper.dart';
 import 'package:mattermost_flutter/types/database/models/servers/database.dart';

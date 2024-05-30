@@ -9,7 +9,6 @@ import 'package:mattermost_flutter/utils/calls_theme.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/components/formatted_text.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/types/calls.dart';
 import 'package:mattermost_flutter/types/typography.dart';
 
 class ReactionBar extends HookWidget {

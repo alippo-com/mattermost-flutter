@@ -2,7 +2,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:mattermost_flutter/database/manager.dart';
-import 'package:mattermost_flutter/database/operator/server_data_operator/comparators/thread.dart';
 import 'package:mattermost_flutter/database/operator/server_data_operator/transformers/thread.dart';
 import 'package:mattermost_flutter/types/server_data_operator.dart';
 import 'package:flutter_test/flutter_test.dart';

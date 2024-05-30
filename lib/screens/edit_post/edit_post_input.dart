@@ -94,6 +94,6 @@ class EditPostInputRef {
   EditPostInputRef(this.controller);
 
   void focus() {
-    controller?.focus();
+    controller.focus();
   }
 }

@@ -1,7 +1,6 @@
 // Dart (Flutter)
 import 'package:mattermost_flutter/constants/database.dart';
 import 'package:nozbe_watermelondb/watermelondb.dart';
-import 'package:mattermost_flutter/types/database/database.dart' as db_types;
 import 'package:mattermost_flutter/models/servers/channel.dart';
 import 'package:mattermost_flutter/models/servers/post.dart';
 import 'package:mattermost_flutter/models/servers/team.dart';

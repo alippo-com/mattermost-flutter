@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/components/formatted_text.dart';
-import 'package:mattermost_flutter/constants/preferences.dart';
-import 'package:mattermost_flutter/utils/button_styles.dart';
 import 'package:mattermost_flutter/utils/images.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
@@ -113,8 +109,7 @@ class _VideoErrorState extends State<VideoError> {
               ElevatedButton(
                 onPressed: widget.isDownloading ? null : () => widget.setDownloading(true),
                 style: ElevatedButton.styleFrom(
-                  primary: Preferences.themes['onyx']?.backgroundColor ?? Colors.black,
-                  onPrimary: Colors.white,
+                  foregroundColor: Colors.white, backgroundColor: Preferences.themes['onyx']?.backgroundColor ?? Colors.black,
                 ),
                 child: FormattedText(
                   defaultMessage: 'Download',

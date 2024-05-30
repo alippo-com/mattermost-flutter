@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:mattermost_flutter/components/background.dart';
 import 'package:mattermost_flutter/components/form.dart';
 import 'package:mattermost_flutter/components/header.dart';
@@ -8,7 +7,6 @@ import 'package:mattermost_flutter/utils/typography.dart';
 import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/models/servers.dart';
 import 'package:mattermost_flutter/database/database_manager.dart';
-import 'package:mattermost_flutter/hooks/android_back_handler.dart';
 import 'package:mattermost_flutter/hooks/navigation_button_pressed.dart';
 import 'package:mattermost_flutter/utils/navigation.dart';
 import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';

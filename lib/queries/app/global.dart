@@ -3,7 +3,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:watermelondb/watermelondb.dart';
-import 'package:rxdart/rxdart.dart';
 import 'package:mattermost_flutter/constants/database.dart';
 import 'package:mattermost_flutter/database/manager.dart';
 import 'package:mattermost_flutter/types/database/models/app/global.dart';

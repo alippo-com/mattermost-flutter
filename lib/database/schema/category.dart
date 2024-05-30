@@ -2,7 +2,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:sqflite/sqflite.dart' as sqflite;
-import 'package:path/path.dart';
 import 'package:mattermost_flutter/types/constants.dart';
 
 final String tableCategory = MM_TABLES['SERVER']['CATEGORY'];

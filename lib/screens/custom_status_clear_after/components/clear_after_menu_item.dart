@@ -1,13 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:mattermost_flutter/constants/custom_status.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/components/custom_status/custom_status_expiry.dart';
 import 'package:mattermost_flutter/components/custom_status/custom_status_text.dart';
-import 'package:mattermost_flutter/screens/custom_status_clear_after/components/date_time_selector.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 
 class ClearAfterMenuItem extends StatelessWidget {
   final UserModel? currentUser;

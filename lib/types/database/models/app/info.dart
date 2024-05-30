@@ -3,7 +3,7 @@
 
 import 'package:watermelondb/watermelondb.dart'; // Assuming an equivalent WatermelonDB package for Dart
 import 'package:mattermost_flutter/constants/database.dart';
-import 'package:mattermost_flutter/types/database/models/app/info.dart'; // Adjust this import based on the actual structure
+// Adjust this import based on the actual structure
 
 class InfoModel extends DatabaseModel implements InfoModelInterface {
   static const String tableName = MM_TABLES.APP.INFO;

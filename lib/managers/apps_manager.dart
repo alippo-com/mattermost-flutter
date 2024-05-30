@@ -2,11 +2,9 @@ import 'dart:async';
 import 'package:rxdart/rxdart.dart';
 import 'package:mattermost_flutter/database/manager.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:mattermost_flutter/utils/apps.dart';
 import 'package:mattermost_flutter/utils/errors.dart';
 import 'package:mattermost_flutter/utils/log.dart';
-import 'network_manager.dart';
 
 final emptyBindings = <AppBinding>[];
 

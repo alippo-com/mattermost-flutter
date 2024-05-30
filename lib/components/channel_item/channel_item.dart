@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:mattermost_flutter/components/badge.dart';
 import 'package:mattermost_flutter/components/channel_icon.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
@@ -8,7 +7,6 @@ import 'package:mattermost_flutter/theme.dart';
 import 'package:mattermost_flutter/utils/channel.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 
 import 'channel_body.dart';
 

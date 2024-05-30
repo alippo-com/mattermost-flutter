@@ -2,7 +2,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:mattermost_flutter/database/manager.dart';
-import 'package:mattermost_flutter/queries/servers/file.dart';
 import 'package:mattermost_flutter/utils/log.dart';
 import 'package:mattermost_flutter/types/file_info.dart';
 

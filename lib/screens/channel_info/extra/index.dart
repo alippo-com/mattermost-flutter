@@ -11,10 +11,9 @@ import 'package:mattermost_flutter/components/option_item.dart';
 import 'package:mattermost_flutter/constants/apps.dart';
 import 'package:mattermost_flutter/hooks/apps.dart';
 import 'package:mattermost_flutter/managers/apps_manager.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:mattermost_flutter/utils/tap.dart';
 
-import 'package:mattermost_flutter/types/database/database.dart'; // Assuming this is where the types are located
+// Assuming this is where the types are located
 
 class ChannelInfoAppBindings extends HookConsumerWidget {
   final String channelId;

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/components/common_post_options/base_option.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/i18n.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/types/database/models/servers/post.dart';
 import 'package:mattermost_flutter/types/screens/navigation.dart';
 
@@ -44,14 +43,14 @@ class _DeletePostOptionState extends State<DeletePostOption> {
           actions: <Widget>[
             TextButton(
               child: Text(intl.formatMessage(id: 'mobile.post.cancel', defaultMessage: 'Cancel')),
-              style: TextButton.styleFrom(primary: Colors.grey),
+              style: TextButton.styleFrom(foregroundColor: Colors.grey),
               onPressed: () {
                 Navigator.of(context).pop();
               },
             ),
             TextButton(
               child: Text(intl.formatMessage(id: 'post_info.del', defaultMessage: 'Delete')),
-              style: TextButton.styleFrom(primary: Colors.red),
+              style: TextButton.styleFrom(foregroundColor: Colors.red),
               onPressed: () async {
                 await dismissBottomSheet(widget.bottomSheetId);
                 deletePost(serverUrl, widget.combinedPost ?? widget.post);

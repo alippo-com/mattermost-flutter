@@ -1,14 +1,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/components/common_post_options/base_option.dart';
-import 'package:mattermost_flutter/constants/screens.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/i18n.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/types/database/models/servers/post.dart';
 import 'package:mattermost_flutter/types/screens/navigation.dart';
 import 'package:mattermost_flutter/actions/remote/post.dart';
-import 'package:mattermost_flutter/actions/remote/thread.dart';
 
 class MarkAsUnreadOption extends StatefulWidget {
   final AvailableScreens bottomSheetId;

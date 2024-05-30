@@ -1,10 +1,9 @@
 
 import 'package:flutter/material.dart';
-import 'package:mattermost_flutter/types/calls.dart'; // Assuming a corresponding file exists
+// Assuming a corresponding file exists
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/components/formatted_text.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 
 class Captions extends StatefulWidget {
   final Map<String, LiveCaptionMobile> captionsDict;

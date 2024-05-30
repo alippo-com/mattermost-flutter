@@ -1,6 +1,5 @@
 
 import 'package:flutter/material.dart';
-import 'package:mattermost_flutter/actions/remote/thread.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/components/formatted_text.dart';
 import 'package:mattermost_flutter/components/user_avatars_stack.dart';
@@ -150,7 +149,7 @@ class Footer extends StatelessWidget {
     }
 
     final participantsList = useMemo(() {
-      if (participants != null && participants.isNotEmpty) {
+      if (participants.isNotEmpty) {
         final orderedParticipantsList = List<UserModel>.from(participants).reversed.toList();
         return orderedParticipantsList;
       }
@@ -173,7 +172,7 @@ class Footer extends StatelessWidget {
         children: [
           if (userAvatarsStack != null) userAvatarsStack,
           if (repliesComponent != null) repliesComponent,
-          if (followButton != null) followButton,
+          followButton,
         ],
       );
     );

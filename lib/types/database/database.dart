@@ -10,7 +10,6 @@ import 'package:nozbe/watermelondb/watermelondb.dart';
 import 'package:nozbe/watermelondb/model.dart';
 import 'package:nozbe/watermelondb/query_description.dart';
 import 'package:nozbe/watermelondb/types.dart';
-import 'package:mattermost_flutter/types/database/models/servers/system.dart';
 
 class WithDatabaseArgs {
   final Database database;

@@ -3,8 +3,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/database/database.dart';
-import 'package:mattermost_flutter/queries/servers/custom_emoji.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:mattermost_flutter/screens/emoji_picker/picker/picker.dart';
 
 class EmojiPickerContainer extends StatelessWidget {

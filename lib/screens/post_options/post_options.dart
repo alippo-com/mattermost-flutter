@@ -1,6 +1,5 @@
 // Converted code for post_options.tsx to post_options.dart
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:mattermost_flutter/components/common_post_options/copy_permalink_option.dart';
 import 'package:mattermost_flutter/components/common_post_options/follow_thread_option.dart';
 import 'package:mattermost_flutter/components/common_post_options/reply_option.dart';
@@ -8,20 +7,15 @@ import 'package:mattermost_flutter/components/common_post_options/save_option.da
 import 'package:mattermost_flutter/screens/bottom_sheet.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/constants/reaction_picker.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/hooks/navigation_button_pressed.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/utils/post.dart';
 import 'package:mattermost_flutter/types/database/models/servers/post.dart';
 import 'package:mattermost_flutter/types/database/models/servers/thread.dart';
 import 'package:mattermost_flutter/types/screens/navigation.dart';
-import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/components/option_item.dart';
 import 'package:mattermost_flutter/screens/post_options/options/app_bindings_post_option.dart';
 import 'package:mattermost_flutter/screens/post_options/options/copy_text_option.dart';
 import 'package:mattermost_flutter/screens/post_options/options/delete_post_option.dart';
-import 'package:mattermost_flutter/screens/post_options/options/edit_option.dart';
 import 'package:mattermost_flutter/screens/post_options/options/mark_unread_option.dart';
 import 'package:mattermost_flutter/screens/post_options/options/pin_channel_option.dart';
 import 'package:mattermost_flutter/screens/post_options/reaction_bar.dart';
@@ -78,10 +72,10 @@ class PostOptions extends StatelessWidget {
 
     final canCopyPermalink =
         !isSystemPost && managedConfig.copyAndPasteProtection != 'true';
-    final canCopyText = canCopyPermalink && post.message != null;
+    final canCopyText = canCopyPermalink;
 
     final shouldRenderFollow =
-        !(sourceScreen != Screens.CHANNEL || thread == null);
+        !(sourceScreen != Screens.CHANNEL);
     final shouldShowBindings = bindings.isNotEmpty && !isSystemPost;
 
     final snapPoints = useMemo(() {
@@ -161,10 +155,10 @@ class PostOptions extends StatelessWidget {
                 isSaved: isSaved,
                 postId: post.id,
               ),
-            if (canCopyText && post.message != null)
+            if (canCopyText)
               CopyTextOption(
                 bottomSheetId: Screens.POST_OPTIONS,
-                postMessage: post.message!,
+                postMessage: post.message,
                 sourceScreen: sourceScreen,
               ),
             if (canPin)

@@ -2,7 +2,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:mattermost_flutter/types/theme.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:provider/provider.dart';

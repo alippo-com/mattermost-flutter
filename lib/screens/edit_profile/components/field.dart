@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/components/floating_text_input_label.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 
 class Field extends StatelessWidget {

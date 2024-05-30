@@ -4,8 +4,6 @@
 import 'package:watermelondb/watermelondb.dart';
 import 'package:watermelondb/decorators.dart';
 import 'package:mattermost_flutter/constants/database.dart';
-import 'package:mattermost_flutter/types/database/models/servers/team.dart';
-import 'package:mattermost_flutter/types/database/models/servers/team_threads_sync.dart';
 
 const TEAM = MM_TABLES.SERVER['TEAM'];
 const TEAM_THREADS_SYNC = MM_TABLES.SERVER['TEAM_THREADS_SYNC'];

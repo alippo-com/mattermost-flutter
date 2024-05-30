@@ -1,9 +1,7 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import 'package:rxdart/rxdart.dart';
 import 'package:mattermost_flutter/constants/versions.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 './system.dart';
 
 import 'package:watermelondb/watermelondb.dart';

@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:intl/intl.dart';
 import 'package:mattermost_flutter/components/custom_status/clear_button.dart';
 import 'package:mattermost_flutter/components/custom_status/custom_status_text.dart';
 import 'package:mattermost_flutter/components/emoji.dart';
-import 'package:mattermost_flutter/constants/custom_status.dart';
 import 'package:mattermost_flutter/utils/tap.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 
@@ -65,7 +63,7 @@ class CustomStatusSuggestion extends StatelessWidget {
     return GestureDetector(
       onTap: handleClick,
       child: Container(
-        color: theme.backgroundColor,
+        color: theme.colorScheme.surface,
         child: Row(
           children: [
             if (emoji != null)
@@ -103,7 +101,7 @@ class CustomStatusSuggestion extends StatelessWidget {
             ),
             if (separator)
               Container(
-                color: changeOpacity(theme.textTheme.bodyText1!.color!, 0.2),
+                color: changeOpacity(theme.textTheme.bodyLarge!.color!, 0.2),
                 height: 1,
                 margin: EdgeInsets.only(right: 16),
               ),
@@ -117,10 +115,10 @@ class CustomStatusSuggestion extends StatelessWidget {
   Map<String, TextStyle> getStyleSheet(ThemeData theme) {
     return {
       'customStatusText': TextStyle(
-        color: theme.textTheme.bodyText1!.color,
+        color: theme.textTheme.bodyLarge!.color,
       ),
       'customStatusDuration': TextStyle(
-        color: changeOpacity(theme.textTheme.bodyText1!.color!, 0.6),
+        color: changeOpacity(theme.textTheme.bodyLarge!.color!, 0.6),
         fontSize: 15,
       ),
     };

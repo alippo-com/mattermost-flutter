@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:rx_dart/rx_dart.dart';
 import 'package:mattermost_flutter/database/database.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:mattermost_flutter/components/announcement_banner/announcement_banner.dart';
 
 class EnhancedAnnouncementBanner extends StatelessWidget {

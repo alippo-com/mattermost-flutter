@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Assuming localization is handled similarly
-import 'package:mattermost_flutter/types/calls.dart'; // Assuming necessary types and actions are defined here
+// Assuming necessary types and actions are defined here
 import 'package:mattermost_flutter/components/option_box.dart'; // Assuming this component exists
 import 'package:mattermost_flutter/utils/tap.dart'; // Assuming a utility for preventing double-tap exists
 

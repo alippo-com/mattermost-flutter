@@ -105,7 +105,7 @@ class _TypingState extends State<Typing> with SingleTickerProviderStateMixin {
           defaultMessage: '{user} is typing...',
           values: {'user': nextTyping[0]},
           style: TextStyle(
-            color: changeOpacity(theme.textTheme.bodyText1!.color!, 0.7),
+            color: changeOpacity(theme.textTheme.bodyLarge!.color!, 0.7),
             paddingHorizontal: 10,
             ...typography('Body', 75),
           ),
@@ -119,7 +119,7 @@ class _TypingState extends State<Typing> with SingleTickerProviderStateMixin {
           defaultMessage: '{users} and {last} are typing...',
           values: {'users': nextTyping.join(', '), 'last': last},
           style: TextStyle(
-            color: changeOpacity(theme.textTheme.bodyText1!.color!, 0.7),
+            color: changeOpacity(theme.textTheme.bodyLarge!.color!, 0.7),
             paddingHorizontal: 10,
             ...typography('Body', 75),
           ),

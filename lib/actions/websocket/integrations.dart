@@ -3,7 +3,6 @@
 
 import 'dart:convert';
 import 'package:mattermost_flutter/managers/integrations_manager.dart';
-import 'package:mattermost_flutter/queries/app/servers.dart';
 
 Future<void> handleOpenDialogEvent(String serverUrl, WebSocketMessage msg) async {
   final data = msg.data?.dialog;

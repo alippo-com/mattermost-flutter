@@ -4,7 +4,6 @@
 
 import 'package:watermelondb/watermelondb.dart';
 import 'package:watermelondb/Relation.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 
 /**
  * The Preference model holds information about the user's preference in the app.

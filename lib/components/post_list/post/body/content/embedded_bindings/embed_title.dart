@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mattermost_flutter/types/database/models/servers/post.dart';
 import 'package:mattermost_flutter/components/markdown.dart';
 
 class EmbedTitleProps {
@@ -59,7 +58,7 @@ class EmbedTitle extends StatelessWidget {
         lineHeight: 20,
       ),
       'link': TextStyle(
-        color: theme.accentColor,
+        color: theme.colorScheme.secondary,
       ),
     };
   }

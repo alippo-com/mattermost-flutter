@@ -1,12 +1,8 @@
 import 'package:mattermost_flutter/constants/database.dart';
 import 'package:mattermost_flutter/database/operator/server_data_operator/comparators.dart';
-import 'package:mattermost_flutter/database/operator/server_data_operator/comparators/user.dart';
-import 'package:mattermost_flutter/database/operator/server_data_operator/transformers/user.dart';
-import 'package:mattermost_flutter/database/operator/utils/general.dart';
 import 'package:mattermost_flutter/helpers/api/preference.dart';
 import 'package:mattermost_flutter/utils/log.dart';
 import 'package:mattermost_flutter/types/database/models/servers/preference.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 
 const PREFERENCE = MM_TABLES.SERVER.PREFERENCE;
 const USER = MM_TABLES.SERVER.USER;

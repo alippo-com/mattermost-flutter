@@ -1,11 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:mattermost_flutter/constants/view.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:reanimated/reanimated.dart';
-import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/types.dart';
 import 'package:mattermost_flutter/i18n.dart';
 

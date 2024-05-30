@@ -5,7 +5,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:mattermost_flutter/types/calls/caption.dart';
-import 'package:flutter/gestures.dart';
 import 'package:flutter_reanimated/flutter_reanimated.dart';
 
 class GalleryManagerSharedValues {

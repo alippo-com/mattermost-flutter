@@ -1,5 +1,4 @@
 import 'package:nozbe_watermelondb/database.dart';
-import 'package:rxdart/rxdart.dart';
 
 import 'package:mattermost_flutter/constants/database.dart';
 import 'package:mattermost_flutter/types/models/servers/channel.dart';

@@ -7,7 +7,6 @@ import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/calls/components/channel_info_start/channel_info_start_button.dart';
 import 'package:mattermost_flutter/calls/observers.dart';
 import 'package:mattermost_flutter/calls/state.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 
 class ChannelInfoStart extends StatelessWidget {
   final String serverUrl;

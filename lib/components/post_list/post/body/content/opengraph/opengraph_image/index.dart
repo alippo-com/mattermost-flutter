@@ -4,17 +4,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:mattermost_flutter/constants/view.dart';
 import 'package:mattermost_flutter/context/gallery.dart';
-import 'package:mattermost_flutter/hooks/gallery.dart';
 import 'package:mattermost_flutter/utils/file.dart';
 import 'package:mattermost_flutter/utils/gallery.dart';
 import 'package:mattermost_flutter/utils/general.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/utils/images.dart';
 import 'package:mattermost_flutter/utils/opengraph.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/utils/url.dart';
 
 import 'package:mattermost_flutter/types/screens/gallery.dart';
 

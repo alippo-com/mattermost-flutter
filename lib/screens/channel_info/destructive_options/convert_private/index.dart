@@ -2,11 +2,8 @@
 // See LICENSE.txt for license information.
 
 import 'package:flutter/material.dart';
-import 'package:rxdart/rxdart.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
-import 'package:mattermost_flutter/queries/servers/role.dart';
-import 'package:mattermost_flutter/queries/servers/user.dart';
 import 'package:mattermost_flutter/widgets/convert_private.dart';
 import 'package:mattermost_flutter/utils/intl.dart';
 import 'package:mattermost_flutter/utils/alert.dart';

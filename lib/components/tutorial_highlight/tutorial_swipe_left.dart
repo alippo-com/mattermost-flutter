@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
-import 'swipe_left_hand.dart';
 
 class TutorialSwipeLeft extends StatelessWidget {
   final BoxDecoration? containerStyle;

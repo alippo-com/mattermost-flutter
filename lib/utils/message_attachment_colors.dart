@@ -7,9 +7,9 @@ Map<String, Color> getStatusColors(ThemeData theme) {
   return {
     'good': const Color(0xFF00c100),
     'warning': const Color(0xFFdede01),
-    'danger': theme.errorColor,
+    'danger': theme.colorScheme.error,
     'default': theme.primaryColor,
     'primary': theme.buttonColor,
-    'success': theme.accentColor,
+    'success': theme.colorScheme.secondary,
   };
 }

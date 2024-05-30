@@ -2,7 +2,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:debounce_throttle/debounce_throttle.dart';
-import 'package:mattermost_flutter/actions/remote/user.dart';
 import 'package:mattermost_flutter/actions/local/group.dart';
 import 'package:mattermost_flutter/components/autocomplete/at_mention_group.dart';
 import 'package:mattermost_flutter/components/autocomplete/at_mention_item.dart';
@@ -10,11 +9,9 @@ import 'package:mattermost_flutter/components/autocomplete/autocomplete_section_
 import 'package:mattermost_flutter/components/autocomplete/special_mention_item.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/context/server.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/i18n.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';
 import 'package:mattermost_flutter/types/database/models/servers/group.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 
 const SECTION_KEY_TEAM_MEMBERS = 'teamMembers';
 const SECTION_KEY_IN_CHANNEL = 'inChannel';

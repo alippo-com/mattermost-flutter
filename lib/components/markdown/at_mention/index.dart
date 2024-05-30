@@ -1,12 +1,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/database/database.dart';
-import 'package:mattermost_flutter/queries/group.dart';
 import 'package:mattermost_flutter/queries/system.dart';
 import 'package:mattermost_flutter/queries/user.dart';
-import 'package:mattermost_flutter/components/markdown/at_mention.dart';
 import 'package:provider/provider.dart';
-import 'package:rxdart/rxdart.dart';
 
 class AtMentionProvider extends StatelessWidget {
   final String mentionName;

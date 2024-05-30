@@ -5,12 +5,9 @@ import 'package:mattermost_flutter/components/markdown/error_boundary.dart';
 import 'package:mattermost_flutter/components/slide_up_panel_item.dart';
 import 'package:mattermost_flutter/components/touchable_with_feedback.dart';
 import 'package:mattermost_flutter/constants.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/utils/markdown.dart';
 import 'package:mattermost_flutter/utils/tap.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/typography.dart';
 import 'package:clipboard/clipboard.dart';
 import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
@@ -169,18 +166,17 @@ class LatexCodeBlock extends HookWidget {
 
     return ThemeData(
       textTheme: theme.textTheme.copyWith(
-        bodyText1: theme.textTheme.bodyText1.copyWith(
+        bodyLarge: theme.textTheme.bodyLarge.copyWith(
           color: changeOpacity(theme.centerChannelColor, 0.4),
           fontSize: 14,
           fontWeight: FontWeight.w400,
           marginTop: 2,
         ),
       ),
-      primaryColor: theme.primaryColor,
-      accentColor: theme.accentColor,
+      primaryColor: theme.primaryColor, colorScheme: ColorScheme.fromSwatch().copyWith(secondary: theme.colorScheme.secondary),
     ).copyWith(
       primaryTextTheme: theme.textTheme.copyWith(
-        bodyText1: theme.textTheme.bodyText1.copyWith(
+        bodyLarge: theme.textTheme.bodyLarge.copyWith(
           color: theme.errorTextColor,
           fontSize: 14,
           fontWeight: FontWeight.w400,

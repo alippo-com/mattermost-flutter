@@ -4,13 +4,9 @@ import 'package:mattermost_flutter/constants/database.dart';
 import 'package:mattermost_flutter/constants/push_proxy.dart';
 import 'package:mattermost_flutter/database/manager.dart';
 import 'package:mattermost_flutter/i18n.dart';
-import 'package:mattermost_flutter/managers/network_manager.dart';
-import 'package:mattermost_flutter/queries/app/global.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:mattermost_flutter/utils/errors.dart';
 import 'package:mattermost_flutter/utils/log.dart';
 
-import 'session.dart';
 
 Future<String?> getDeviceIdForPing(String serverUrl, bool checkDeviceId) async {
   if (!checkDeviceId) {

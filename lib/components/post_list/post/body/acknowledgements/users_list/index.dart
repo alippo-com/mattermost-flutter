@@ -1,8 +1,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
-import 'package:mattermost_flutter/queries/servers/user.dart';
 import 'package:mattermost_flutter/components/post_list/post/body/acknowledgements/users_list/users_list.dart';
 
 class UsersListProvider extends StatelessWidget {

@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mattermost_flutter/managers/apps_manager.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:rxdart/rxdart.dart';
 
 class WithDatabaseArgs {

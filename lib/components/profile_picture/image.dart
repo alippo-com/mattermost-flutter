@@ -7,9 +7,7 @@ import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/constants/profile.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/managers/network_manager.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 
 class Image extends HookWidget {
   final UserModel? author;

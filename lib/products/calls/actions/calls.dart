@@ -2,24 +2,14 @@
 // See LICENSE.txt for license information.
 
 import 'dart:async';
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:incall_manager/incall_manager.dart';
 
 import 'package:mattermost_flutter/constants/general.dart';
-import 'package:mattermost_flutter/constants/preferences.dart';
 import 'package:mattermost_flutter/constants/calls.dart';
 import 'package:mattermost_flutter/database/manager.dart';
-import 'package:mattermost_flutter/helpers/api/preference.dart';
-import 'package:mattermost_flutter/managers/network_manager.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
-import 'package:mattermost_flutter/queries/servers/preference.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
-import 'package:mattermost_flutter/queries/servers/thread.dart';
-import 'package:mattermost_flutter/queries/servers/user.dart';
 import 'package:mattermost_flutter/utils/errors.dart';
 import 'package:mattermost_flutter/utils/log.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 import 'package:mattermost_flutter/products/calls/connection/connection.dart';
 import 'package:mattermost_flutter/products/calls/alerts.dart';
 import 'package:mattermost_flutter/products/calls/state.dart';

@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/animation.dart';
-import 'package:flutter/gestures.dart';
-import 'package:flutter/physics.dart';
 
 // Define required custom classes and utilities
 class BackdropProps {

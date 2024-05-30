@@ -4,7 +4,7 @@
 
 import 'package:watermelondb/watermelondb.dart'; // Assuming an equivalent WatermelonDB package for Dart
 import 'package:mattermost_flutter/constants/database.dart';
-import 'package:mattermost_flutter/types/database/models/servers/config.dart'; // Adjust this import based on the actual structure
+// Adjust this import based on the actual structure
 
 abstract class ConfigModelInterface {
   String get value;

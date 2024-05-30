@@ -5,10 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
-import 'package:mattermost_flutter/queries/servers/thread.dart';
-import 'package:mattermost_flutter/components/post_list/more_messages/more_messages.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
-import 'package:mattermost_flutter/types/database/models/servers/thread.dart';
 
 class EnhancedMoreMessages extends StatelessWidget {
   final String channelId;

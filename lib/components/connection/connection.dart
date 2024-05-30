@@ -1,7 +1,6 @@
 
 import 'dart:async';
 import 'dart:convert';
-import 'dart:typed_data';
 
 import 'package:flutter/services.dart';
 import 'package:flutter_webrtc/flutter_webrtc.dart';
@@ -103,10 +102,8 @@ class Connection {
         foregroundServiceStop();
       }
 
-      if (closeCb != null) {
-        closeCb(err);
-      }
-    }
+      closeCb(err);
+        }
 
     onCallEnd = EventChannel('WebsocketEvents.CALLS_CALL_END').receiveBroadcastStream().listen((event) {
       if (event['channelId'] == channelId) {

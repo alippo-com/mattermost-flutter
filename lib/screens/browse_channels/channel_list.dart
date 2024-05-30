@@ -9,7 +9,6 @@ import 'package:mattermost_flutter/components/formatted_text.dart';
 import 'package:mattermost_flutter/components/loading.dart';
 import 'package:mattermost_flutter/components/no_results_with_term.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
 

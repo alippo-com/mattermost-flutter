@@ -14,7 +14,6 @@ import 'package:mattermost_flutter/queries/system.dart';
 import 'package:mattermost_flutter/queries/team.dart';
 import 'package:mattermost_flutter/queries/user.dart';
 
-import 'archive.dart';
 
 class ArchiveScreen extends StatelessWidget {
   final String channelId;

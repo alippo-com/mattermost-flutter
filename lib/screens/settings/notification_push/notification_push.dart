@@ -6,13 +6,9 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:mattermost_flutter/components/settings/container.dart';
 import 'package:mattermost_flutter/components/settings/separator.dart';
 import 'package:mattermost_flutter/context/server.dart';
-import 'package:mattermost_flutter/hooks/android_back_handler.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 import './push_send.dart';
 import './push_status.dart';
 import './push_thread.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 import 'package:mattermost_flutter/types/screens/navigation.dart';
 
 class NotificationPush extends HookWidget {

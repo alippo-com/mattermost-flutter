@@ -6,10 +6,8 @@ import 'package:deepmerge/deepmerge.dart';
 import 'package:flutter/material.dart';
 import 'package:tinycolor2/tinycolor2.dart';
 
-import 'package:mattermost_flutter/constants/preferences.dart';
 import 'package:mattermost_flutter/constants/screens.dart';
 import 'package:mattermost_flutter/store/ephemeral_store.dart';
-import 'package:mattermost_flutter/store/navigation_store.dart';
 import 'package:mattermost_flutter/utils/navigation.dart';
 import 'package:mattermost_flutter/types/global/styles.dart';
 
@@ -234,7 +232,7 @@ void updateThemeIfNeeded(Theme theme, [bool force = false]) {
   final storedTheme = EphemeralStore.theme;
   if (storedTheme != theme || force) {
     EphemeralStore.theme = theme;
-    WidgetsBinding.instance!.addPostFrameCallback((_) {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
       setNavigationStackStyles(theme);
     });
   }

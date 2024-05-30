@@ -7,11 +7,9 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/components/touchable_with_feedback.dart';
-import 'package:mattermost_flutter/constants/screens.dart';
 import 'package:mattermost_flutter/context/theme.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 
 class AddTeamItem extends HookConsumerWidget {
   @override

@@ -1,10 +1,8 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_safe_area/flutter_safe_area.dart';
 import 'package:mattermost_flutter/constants/view.dart';
 import 'package:mattermost_flutter/context/server.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/calls/components/current_call_bar.dart';
 import 'package:mattermost_flutter/calls/components/incoming_calls_container.dart';
 import 'package:mattermost_flutter/calls/components/join_call_banner.dart';

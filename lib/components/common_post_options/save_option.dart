@@ -3,7 +3,6 @@ import 'package:mattermost_flutter/actions/preference.dart';
 import 'package:mattermost_flutter/components/common_post_options/base_option.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/i18n.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/types.dart';
 
 class SaveOption extends StatelessWidget {

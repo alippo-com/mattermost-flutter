@@ -1,7 +1,6 @@
 // mattermost_flutter
 // See LICENSE.txt for license information.
 
-import 'package:flutter/material.dart';
 
 /// Filters posts in ordered array. Returns a Map of filtered posts.
 Map<String, dynamic> filterPostsInOrderedArray(

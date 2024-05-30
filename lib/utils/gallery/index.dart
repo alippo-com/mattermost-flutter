@@ -9,8 +9,6 @@ import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/utils/file.dart';
 import 'package:mattermost_flutter/utils/general.dart';
 import 'package:mattermost_flutter/utils/log.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
-import 'package:permission_handler/permission_handler.dart';
 
 double clamp(double value, double lowerBound, double upperBound) {
   return value.clamp(lowerBound, upperBound);

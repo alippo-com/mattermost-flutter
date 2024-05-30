@@ -1,7 +1,6 @@
 // Dart Code: ./mattermost_flutter/lib/utils/images/index.dart
 
 import 'package:flutter/material.dart';
-import 'package:mattermost_flutter/constants/image.dart';
 import 'package:mattermost_flutter/types/post_image.dart';
 
 Map<String, double> calculateDimensions(double? height, double? width, {double viewPortWidth = 0, double viewPortHeight = 0}) {

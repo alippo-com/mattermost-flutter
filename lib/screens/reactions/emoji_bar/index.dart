@@ -3,7 +3,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/utils/device.dart'; // Custom hook to check if the device is a tablet
-import 'package:mattermost_flutter/screens/reactions/emoji_bar/item.dart';
 import 'package:mattermost_flutter/types/database/models/servers/reaction.dart'; // Import for ReactionModel
 
 class EmojiBar extends StatefulWidget {
@@ -31,7 +30,7 @@ class _EmojiBarState extends State<EmojiBar> {
   void initState() {
     super.initState();
     isTablet = useIsTablet();
-    WidgetsBinding.instance?.addPostFrameCallback((_) => scrollToItem(widget.emojiSelected));
+    WidgetsBinding.instance.addPostFrameCallback((_) => scrollToItem(widget.emojiSelected));
   }
 
   void scrollToIndex(int index, {bool animated = false}) {

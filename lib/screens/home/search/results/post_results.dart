@@ -1,6 +1,5 @@
 
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 import 'package:mattermost_flutter/components/formatted_text.dart';
 import 'package:mattermost_flutter/components/no_results_with_term.dart';
 import 'package:mattermost_flutter/components/post_list/date_separator.dart';

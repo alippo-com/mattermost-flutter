@@ -10,9 +10,6 @@ import 'package:mattermost_flutter/components/team_sidebar.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
-import 'package:mattermost_flutter/store/navigation_store.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
 import 'package:mattermost_flutter/utils/reviews.dart';
 import 'package:mattermost_flutter/utils/sentry.dart';
 import 'package:provider/provider.dart';
@@ -70,7 +67,7 @@ class _ChannelListScreenState extends State<ChannelListScreen> {
       resetToTeams(context);
     }
 
-    WidgetsBinding.instance?.addPostFrameCallback((_) {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
       if (widget.showToS && !NavigationStore().isToSOpen) {
         openToS(context);
       }
@@ -129,7 +126,7 @@ class _ChannelListScreenState extends State<ChannelListScreen> {
         right: true,
         child: Column(
           children: [
-            Container(height: insets.top, color: theme.backgroundColor),
+            Container(height: insets.top, color: theme.colorScheme.surface),
             ConnectionBanner(),
             if (widget.isLicensed) AnnouncementBanner(),
             Expanded(

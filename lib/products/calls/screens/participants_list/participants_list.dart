@@ -1,20 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:bottom_sheet/bottom_sheet.dart';
 
 import 'package:mattermost_flutter/hooks.dart';
 import 'package:mattermost_flutter/products/calls/screens/participants_list/participant.dart';
 import 'package:mattermost_flutter/products/calls/screens/participants_list/pill.dart';
-import 'package:mattermost_flutter/utils.dart';
 import 'package:mattermost_flutter/components/formatted_text.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/theme.dart';
 import 'package:mattermost_flutter/device.dart';
 import 'package:mattermost_flutter/helpers.dart';
-import 'package:mattermost_flutter/typography.dart';
 
-import 'package:mattermost_flutter/types/calls.dart';
 
 const double rowHeight = 48;
 const double headerHeight = 62;

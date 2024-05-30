@@ -4,7 +4,6 @@
 import 'package:watermelondb/watermelondb.dart';
 import 'package:watermelondb/Relation.dart';
 import 'package:mattermost_flutter/types/database/models/servers/channel.dart';
-import 'package:mattermost_flutter/types/database/models/servers/my_channel_settings.dart';
 
 /**
  * PostsInChannel model helps us to combine adjacent posts together without leaving

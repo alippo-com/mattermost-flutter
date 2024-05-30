@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:fast_image/fast_image.dart';
-import 'package:collection/collection.dart';
 
 import 'package:mattermost_flutter/context/server.dart';
-import 'package:mattermost_flutter/managers/network_manager.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 
 class Group extends StatelessWidget {
   final ThemeData theme;

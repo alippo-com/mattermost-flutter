@@ -4,11 +4,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:watermelondb/watermelondb.dart';
-import 'package:rxdart/rxdart.dart';
 import 'package:mattermost_flutter/queries/servers/post.dart';
 import 'package:mattermost_flutter/queries/servers/preference.dart';
 import 'package:mattermost_flutter/components/thread_overview/thread_overview.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 
 class EnhancedThreadOverview extends StatefulWidget {
   final Database database;

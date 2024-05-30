@@ -2,11 +2,9 @@
 // See LICENSE.txt for license information.
 
 import 'package:watermelondb/watermelondb.dart';
-import 'package:flutter/foundation.dart';
 import 'dart:io' show Platform;
 
 import 'package:mattermost_flutter/constants/database.dart';
-import 'package:mattermost_flutter/utils/mattermost_managed.dart';
 import 'package:mattermost_flutter/database/manager/index.dart';
 
 import 'package:mattermost_flutter/types/database/models/app/servers.dart';

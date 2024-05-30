@@ -5,7 +5,6 @@ import 'package:mattermost_flutter/actions/local/channel.dart';
 import 'package:mattermost_flutter/actions/local/systems.dart';
 import 'package:mattermost_flutter/constants/database.dart';
 import 'package:mattermost_flutter/database/manager.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 
 Future<void> handleLicenseChangedEvent(String serverUrl, WebSocketMessage msg) async {
   try {

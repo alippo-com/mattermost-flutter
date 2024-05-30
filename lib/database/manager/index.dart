@@ -2,8 +2,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:sqflite/sqflite.dart';
-import 'package:flutter/services.dart';
-import 'package:path/path.dart';
 import 'dart:async';
 import 'dart:io';
 import 'package:mattermost_flutter/models/app_models.dart';

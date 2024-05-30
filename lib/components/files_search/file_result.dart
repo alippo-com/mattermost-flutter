@@ -1,7 +1,5 @@
 
 import 'package:flutter/material.dart';
-import 'package:mattermost_flutter/components/files/file.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/utils/images.dart';
 import 'package:mattermost_flutter/components/files_search/file_options/tablet_options.dart';
 import 'package:mattermost_flutter/types.dart'; // Assuming GalleryAction is defined here

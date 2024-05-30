@@ -8,15 +8,9 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:mattermost_flutter/components/channel_info/channel_info.dart';
 import 'package:mattermost_flutter/hooks/observe.dart';
 import 'package:mattermost_flutter/utils/channel.dart';
-import 'package:mattermost_flutter/utils/helpers.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 import 'package:mattermost_flutter/queries/servers/channel.dart';
-import 'package:mattermost_flutter/queries/servers/role.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
-import 'package:mattermost_flutter/queries/servers/thread.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';
 import 'package:mattermost_flutter/context/server.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 
 class ChannelInfoProvider extends HookWidget {
   final String serverUrl;

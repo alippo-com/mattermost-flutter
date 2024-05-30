@@ -4,7 +4,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/database/database.dart';
-import 'package:mattermost_flutter/queries/servers/thread.dart';
 import 'footer.dart';
 import 'package:mattermost_flutter/types.dart';
 

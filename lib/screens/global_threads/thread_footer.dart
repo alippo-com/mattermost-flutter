@@ -8,7 +8,6 @@ import 'package:mattermost_flutter/context/theme.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
 import 'package:mattermost_flutter/types/database/models/servers/thread.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 
 class ThreadFooter extends StatelessWidget {
   final UserModel? author;
@@ -34,7 +33,7 @@ class ThreadFooter extends StatelessWidget {
     final style = _getStyleSheet(theme);
 
     Widget? repliesComponent;
-    if (thread.unreadReplies != null && thread.unreadReplies! > 0) {
+    if (thread.unreadReplies > 0) {
       repliesComponent = FormattedText(
         id: 'threads.newReplies',
         defaultMessage: '{count} new {count, plural, one {reply} other {replies}}',
@@ -42,7 +41,7 @@ class ThreadFooter extends StatelessWidget {
         testID: '$testID.unread_replies',
         values: {'count': thread.unreadReplies},
       );
-    } else if (thread.replyCount != null && thread.replyCount! > 0) {
+    } else if (thread.replyCount > 0) {
       repliesComponent = FormattedText(
         id: 'threads.replies',
         defaultMessage: '{count} {count, plural, one {reply} other {replies}}',

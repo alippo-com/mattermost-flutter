@@ -2,7 +2,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:mattermost_flutter/types/database/models/servers/post.dart';
-import 'package:flutter/material.dart';
 
 class ViewableItemsChanged {
   final List<ViewToken> viewableItems;

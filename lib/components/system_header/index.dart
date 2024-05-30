@@ -5,7 +5,6 @@ import 'package:mattermost_flutter/types/theme.dart';
 import 'package:mattermost_flutter/types/user.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
-import 'package:mattermost_flutter/utils/user.dart';
 import 'package:mattermost_flutter/components/formatted_text.dart';
 import 'package:mattermost_flutter/components/formatted_time.dart';
 import 'package:rxdart/rxdart.dart';

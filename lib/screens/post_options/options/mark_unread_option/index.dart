@@ -4,8 +4,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:watermelondb/watermelondb.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
-import 'package:mattermost_flutter/queries/servers/thread.dart';
 import 'package:mattermost_flutter/components/mark_unread_option.dart';
 import 'package:mattermost_flutter/types/database.dart';
 

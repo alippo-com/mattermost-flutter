@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_platform_widgets/flutter_platform_widgets.dart';
 import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
-import 'package:mattermost_flutter/hooks/emoji_category_bar.dart';
 import 'package:mattermost_flutter/components/emoji_category_bar.dart';
 
 class PickerFooter extends StatelessWidget {

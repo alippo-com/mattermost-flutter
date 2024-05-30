@@ -9,16 +9,12 @@ import 'package:mattermost_flutter/components/settings/block.dart';
 import 'package:mattermost_flutter/components/settings/container.dart';
 import 'package:mattermost_flutter/components/settings/option.dart';
 import 'package:mattermost_flutter/components/settings/separator.dart';
-import 'package:mattermost_flutter/constants/preferences.dart';
 import 'package:mattermost_flutter/context/server.dart';
-import 'package:mattermost_flutter/hooks/android_back_handler.dart';
 import 'package:mattermost_flutter/hooks/navigate_back.dart';
 import 'package:mattermost_flutter/i18n/i18n.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/store/ephemeral_store.dart';
 import 'package:mattermost_flutter/actions/remote/preference.dart';
 import 'package:mattermost_flutter/types/screens/navigation.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 
 class DisplayCRT extends HookWidget {
   final AvailableScreens componentId;

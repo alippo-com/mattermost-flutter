@@ -3,16 +3,13 @@ import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/utils/markdown.dart';
 import 'package:mattermost_flutter/utils/message_attachment_colors.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/utils/url.dart';
 import 'package:mattermost_flutter/components/post_list/post/body/content/message_attachments/attachment_actions.dart';
 import 'package:mattermost_flutter/components/post_list/post/body/content/message_attachments/attachment_author.dart';
-import 'package:mattermost_flutter/components/post_list/post/body/content/message_attachments/attachment_fields.dart';
 import 'package:mattermost_flutter/components/post_list/post/body/content/message_attachments/attachment_footer.dart';
 import 'package:mattermost_flutter/components/post_list/post/body/content/message_attachments/attachment_image.dart';
 import 'package:mattermost_flutter/components/post_list/post/body/content/message_attachments/attachment_pretext.dart';
 import 'package:mattermost_flutter/components/post_list/post/body/content/message_attachments/attachment_text.dart';
 import 'package:mattermost_flutter/components/post_list/post/body/content/message_attachments/attachment_thumbnail.dart';
-import 'package:mattermost_flutter/components/post_list/post/body/content/message_attachments/attachment_title.dart';
 
 class MessageAttachment extends StatelessWidget {
   final MessageAttachmentModel attachment;

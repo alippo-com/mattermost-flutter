@@ -2,15 +2,11 @@
 
 import 'package:mattermost_flutter/actions/local/reactions.dart';
 import 'package:mattermost_flutter/database/manager.dart';
-import 'package:mattermost_flutter/managers/network_manager.dart';
 import 'package:mattermost_flutter/queries/servers/post.dart';
-import 'package:mattermost_flutter/queries/servers/reaction.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:mattermost_flutter/utils/emoji/helpers.dart';
 import 'package:mattermost_flutter/utils/errors.dart';
 import 'package:mattermost_flutter/utils/log.dart';
 
-import 'session.dart';
 
 Future<bool> getIsReactionAlreadyAddedToPost(String serverUrl, String postId, String emojiName) async {
   try {
@@ -63,10 +59,8 @@ Future<dynamic> addReaction(String serverUrl, String postId, String emojiName) a
       models.addAll(reactions);
 
       final recent = await addRecentReaction(serverUrl, [emojiName], true);
-      if (recent is List) {
-        models.addAll(recent);
-      }
-
+      models.addAll(recent);
+    
       await databaseOperator.operator.batchRecords(models, 'addReaction');
 
       return {'reaction': reaction};

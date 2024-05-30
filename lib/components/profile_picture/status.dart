@@ -2,7 +2,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/types/database.dart';
 import 'package:mattermost_flutter/components/user_status.dart';
 import 'package:mattermost_flutter/utils/theme.dart';

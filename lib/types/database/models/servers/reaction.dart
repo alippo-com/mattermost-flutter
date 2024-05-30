@@ -4,7 +4,6 @@
 import 'package:watermelondb/watermelondb.dart';
 import 'package:watermelondb/decorators.dart';
 import 'package:mattermost_flutter/types/database/models/servers/post.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 
 /**
  * The Reaction Model is used to present the reactions a user had on a particular post

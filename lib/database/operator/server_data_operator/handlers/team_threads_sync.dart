@@ -4,7 +4,6 @@
 import 'package:nozbe_watermelondb/watermelondb.dart';
 import 'package:mattermost_flutter/constants/database.dart';
 import 'package:mattermost_flutter/database/operator/server_data_operator/transformers/thread.dart';
-import 'package:mattermost_flutter/database/operator/utils/general.dart';
 import 'package:mattermost_flutter/utils/log.dart';
 
 import 'server_data_operator_base.dart';

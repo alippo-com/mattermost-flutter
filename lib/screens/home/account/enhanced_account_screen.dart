@@ -2,7 +2,6 @@
 // See LICENSE.txt for license information.
 
 import 'package:flutter_watermelondb/flutter_watermelondb.dart';
-import 'package:rxdart/rxdart.dart';
 
 import 'types/system.dart';
 import 'types/user.dart';

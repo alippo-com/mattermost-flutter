@@ -6,7 +6,6 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/i18n.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/components/plus_menu_item.dart';
 import 'package:mattermost_flutter/components/plus_menu_separator.dart';
 import 'package:mattermost_flutter/context/theme.dart';

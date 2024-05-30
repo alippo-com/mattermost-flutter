@@ -3,7 +3,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:mattermost_flutter/store/navigation_store.dart';
 import 'package:mattermost_flutter/types/screens/navigation.dart';
 
 class AndroidHardwareBackHandler extends StatefulWidget {

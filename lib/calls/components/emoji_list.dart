@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:provider/provider.dart';
-import 'package:mattermost_flutter/types/calls.dart'; // Assuming a corresponding file exists
+// Assuming a corresponding file exists
 import 'package:mattermost_flutter/calls/components/emoji_pill.dart';
 import 'package:mattermost_flutter/calls/utils.dart';
 import 'package:mattermost_flutter/context/theme.dart';

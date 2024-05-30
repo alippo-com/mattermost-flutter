@@ -111,7 +111,7 @@ class _LastUsersState extends State<LastUsers> {
   Map<String, TextStyle> getStyleSheet(ThemeData theme) {
     return {
       'baseText': TextStyle(
-        color: theme.textTheme.bodyText1!.color!.withOpacity(0.6),
+        color: theme.textTheme.bodyLarge!.color!.withOpacity(0.6),
         fontSize: 16,
         height: 1.25,
       ),

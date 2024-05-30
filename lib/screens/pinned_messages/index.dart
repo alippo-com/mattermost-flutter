@@ -3,15 +3,12 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/components/loading.dart';
 import 'package:mattermost_flutter/components/date_separator.dart';
 import 'package:mattermost_flutter/components/post.dart';
-import 'package:mattermost_flutter/constants/screens.dart';
 import 'package:mattermost_flutter/constants/events.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/hooks/android_back_handler.dart';
 import 'package:mattermost_flutter/utils/post_list.dart';
 import 'package:mattermost_flutter/components/empty_state.dart';
 

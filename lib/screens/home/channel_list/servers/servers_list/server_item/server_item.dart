@@ -1,7 +1,6 @@
 // Converted from server_item.tsx
 
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/components/loading.dart';
@@ -10,16 +9,11 @@ import 'package:mattermost_flutter/components/tutorial_highlight.dart';
 import 'package:mattermost_flutter/components/tutorial_highlight/swipe_left.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/database/manager.dart';
-import 'package:mattermost_flutter/database/subscription/unreads.dart';
-import 'package:mattermost_flutter/hooks/device.dart';
-import 'package:mattermost_flutter/managers/websocket_manager.dart';
 import 'package:mattermost_flutter/navigation.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/utils/push_proxy.dart';
 import 'package:mattermost_flutter/utils/server.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
-import 'package:mattermost_flutter/utils/url.dart';
 import 'package:mattermost_flutter/typings/database/models/app/servers.dart';
 import 'package:mattermost_flutter/screens/home/channel_list/servers/servers_list/server_item/options.dart';
 import 'package:mattermost_flutter/screens/home/channel_list/servers/servers_list/server_item/websocket.dart';

@@ -1,7 +1,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/managers/apps_manager.dart';
-import 'package:rxdart/rxdart.dart';
 
 class OwnProps {
   final String? serverUrl;

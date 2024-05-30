@@ -2,15 +2,9 @@
 import 'package:flutter/material.dart';
 import 'package:fast_image/fast_image.dart';
 import 'package:provider/provider.dart';
-import 'package:rxdart/rxdart.dart';
 import 'package:mattermost_flutter/types/emoji.dart';
 import 'package:mattermost_flutter/types/database.dart';
-import 'package:mattermost_flutter/types/servers.dart';
-import 'package:mattermost_flutter/actions/remote/custom_emoji.dart';
 import 'package:mattermost_flutter/context/server.dart';
-import 'package:mattermost_flutter/managers/network_manager.dart';
-import 'package:mattermost_flutter/queries/servers/custom_emoji.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
 import 'package:mattermost_flutter/utils/emoji.dart';
 import 'package:mattermost_flutter/utils/emoji_helpers.dart';
 import 'dart:io'; // Add this import
@@ -38,17 +32,13 @@ class Emoji extends StatelessWidget {
       }
     } else {
       final customEmoji = props.customEmojis.firstWhere((ce) => ce.name == name, orElse: () => null);
-      if (customEmoji != null) {
-        try {
-          final client = NetworkManager.getClient(serverUrl);
-          imageUrl = client.getCustomEmojiImageUrl(customEmoji.id);
-        } catch (_) {
-          // do nothing
-        }
-      } else if (name.isNotEmpty && (name.length > 1 || !isUnicodeEmoji(name))) {
-        fetchCustomEmojiInBatch(serverUrl, name);
+      try {
+        final client = NetworkManager.getClient(serverUrl);
+        imageUrl = client.getCustomEmojiImageUrl(customEmoji.id);
+      } catch (_) {
+        // do nothing
       }
-    }
+        }
 
     double? size = props.size;
     double? fontSize = size;
@@ -74,7 +64,7 @@ class Emoji extends StatelessWidget {
       final code = codeArray.fold<String>('', (acc, c) => acc + String.fromCharCode(int.parse(c, radix: 16)));
       return Text(
         code,
-        style: props.commonStyle?.merge(props.textStyle)?.copyWith(fontSize: size, color: Colors.black),
+        style: props.commonStyle?.merge(props.textStyle).copyWith(fontSize: size, color: Colors.black),
         key: Key(props.testID ?? ''),
       );
     }

@@ -2,7 +2,6 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import 'package:flutter/widgets.dart';
 
 // Dart Class Definitions for Global Calls State
 class GlobalCallsState {

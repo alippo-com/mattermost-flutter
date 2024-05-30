@@ -6,7 +6,7 @@ import 'package:mattermost_flutter/components/compass_icon.dart'; // Custom icon
 import 'package:mattermost_flutter/components/formatted_text.dart'; // Custom formatted text component
 import 'package:mattermost_flutter/context/server.dart'; // Custom server context
 import 'package:mattermost_flutter/context/theme.dart'; // Custom theme context
-import 'package:mattermost_flutter/actions/remote/thread.dart'; // Custom action to update threads
+// Custom action to update threads
 
 class Header extends HookWidget {
   final Function(String) setTab;

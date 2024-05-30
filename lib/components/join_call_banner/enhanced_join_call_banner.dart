@@ -10,7 +10,6 @@ import 'package:mattermost_flutter/observers/calls.dart';
 import 'package:mattermost_flutter/state/calls.dart';
 import 'package:mattermost_flutter/utils/calls.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 
 class EnhancedJoinCallBanner extends StatelessWidget {
   final String serverUrl;

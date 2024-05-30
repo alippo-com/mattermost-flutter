@@ -4,11 +4,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bottom_sheet/flutter_bottom_sheet.dart';
-import 'package:provider/provider.dart';
 
-import 'package:mattermost_flutter/hooks/device.dart';
 import 'package:mattermost_flutter/components/post_list/post/body/acknowledgements/users_list/user_list_item.dart';
-import 'package:mattermost_flutter/types/database/models/servers/user.dart';
 import 'package:mattermost_flutter/types/database/models/user_timezone.dart';
 
 class UsersList extends StatelessWidget {

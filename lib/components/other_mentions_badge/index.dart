@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/components/badge.dart';
-import 'package:mattermost_flutter/constants/screens.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/database/subscription/servers.dart';
-import 'package:mattermost_flutter/database/subscription/unreads.dart';
 import 'package:mattermost_flutter/types/database/models/app/servers.dart';
 import 'package:mattermost_flutter/types/database/models/servers/my_channel.dart';
 import 'package:mattermost_flutter/types/database/subscriptions.dart';
@@ -67,7 +65,7 @@ class _OtherMentionsBadgeState extends State<OtherMentionsBadge> {
 
     for (var server in servers) {
       final serverUrl = server.url;
-      if (server.lastActiveAt != null && !subscriptions.containsKey(serverUrl)) {
+      if (!subscriptions.containsKey(serverUrl)) {
         final unreads = UnreadSubscription(mentions: 0, unread: false);
         subscriptions[serverUrl] = unreads;
         unreads.subscription = subscribeMentionsByServer(serverUrl, (myChannels, threadMentionCount) => _unreadsSubscription(serverUrl, myChannels, threadMentionCount));

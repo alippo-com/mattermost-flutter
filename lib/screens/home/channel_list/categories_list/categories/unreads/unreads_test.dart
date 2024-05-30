@@ -6,7 +6,6 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/types/test/test_helper.dart';
 import 'package:mattermost_flutter/screens/home/channel_list/categories_list/categories/unreads/unreads.dart';
-import 'package:mattermost_flutter/types/database/database.dart';
 
 void main() {
   group('components/channel_list/categories/body', () {

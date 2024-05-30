@@ -1,15 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'package:mattermost_flutter/types/database/models/servers/team.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/actions/remote/team.dart';
 import 'package:mattermost_flutter/components/custom_status_emoji.dart';
 import 'package:mattermost_flutter/components/formatted_text.dart';
 import 'package:mattermost_flutter/constants.dart';
 import 'package:mattermost_flutter/utils/tap.dart';
-import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/context/theme.dart';
 
 class HeaderDisplayName extends StatelessWidget {
@@ -119,7 +114,7 @@ class HeaderDisplayName extends StatelessWidget {
   Map<String, dynamic> _getStyleSheet(ThemeData theme) {
     return {
       'displayName': {
-        'color': theme.textTheme.bodyText1!.color,
+        'color': theme.textTheme.bodyLarge!.color,
         'flexGrow': 1,
         'marginRight': 5,
         ...typography('Body', 200, 'SemiBold'),
@@ -142,7 +137,7 @@ class HeaderDisplayName extends StatelessWidget {
         'maxWidth': '70%',
       },
       'customStatusEmoji': {
-        'color': theme.textTheme.bodyText1!.color,
+        'color': theme.textTheme.bodyLarge!.color,
         'marginRight': 4,
       },
     };

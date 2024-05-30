@@ -7,7 +7,6 @@ import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/components/emoji.dart';
 import 'package:mattermost_flutter/components/profile_picture.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
-import 'package:mattermost_flutter/types/calls.dart';
 import 'package:mattermost_flutter/types/emoji_data.dart';
 import 'package:mattermost_flutter/models/servers/user.dart';
 

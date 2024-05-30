@@ -3,8 +3,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/database/database.dart'; // Assuming this is the correct import path
-import 'package:mattermost_flutter/queries/servers/system.dart';
-import 'package:mattermost_flutter/queries/servers/thread.dart';
 import 'package:mattermost_flutter/components/threads_button.dart';
 
 class EnhancedThreadsButton extends StatelessWidget {

@@ -2,11 +2,8 @@
 // See LICENSE.txt for license information.
 
 import 'package:flutter/material.dart';
-import 'package:mattermost_flutter/constants/preferences.dart';
 import 'package:mattermost_flutter/helpers/api/preference.dart';
 import 'package:mattermost_flutter/queries/servers/preference.dart';
-import 'package:mattermost_flutter/queries/servers/system.dart';
-import 'package:mattermost_flutter/queries/servers/thread.dart';
 import 'package:mattermost_flutter/queries/servers/user.dart';
 import 'package:provider/provider.dart';
 

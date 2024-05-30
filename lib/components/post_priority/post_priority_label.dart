@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
-import 'package:mattermost_flutter/constants/post.dart';
 import 'package:mattermost_flutter/utils/typography.dart';
 import 'package:intl/intl.dart';
 

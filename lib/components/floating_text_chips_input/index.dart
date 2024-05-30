@@ -1,6 +1,5 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 import 'selected_chip.dart';
 
@@ -96,7 +95,7 @@ class _FloatingTextChipsInputState extends State<FloatingTextChipsInput> with Si
   @override
   Widget build(BuildContext context) {
     final theme = widget.theme;
-    final inputTextStyle = widget.textInputStyle ?? TextStyle(color: theme.textTheme.bodyText1?.color);
+    final inputTextStyle = widget.textInputStyle ?? TextStyle(color: theme.textTheme.bodyLarge?.color);
 
     return GestureDetector(
       onTap: widget.onPress,
@@ -110,7 +109,7 @@ class _FloatingTextChipsInputState extends State<FloatingTextChipsInput> with Si
                 focusNode: _focusNode,
                 decoration: InputDecoration(
                   labelText: widget.label,
-                  labelStyle: widget.labelTextStyle ?? TextStyle(color: theme.textTheme.caption?.color),
+                  labelStyle: widget.labelTextStyle ?? TextStyle(color: theme.textTheme.bodySmall?.color),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(4.0),
                     borderSide: BorderSide(color: _focused ? theme.primaryColor : theme.dividerColor),
@@ -153,11 +152,11 @@ class _FloatingTextChipsInputState extends State<FloatingTextChipsInput> with Si
                 if (widget.showErrorIcon)
                   Icon(
                     Icons.error_outline,
-                    color: theme.errorColor,
+                    color: theme.colorScheme.error,
                   ),
                 Text(
                   widget.error!,
-                  style: TextStyle(color: theme.errorColor),
+                  style: TextStyle(color: theme.colorScheme.error),
                 ),
               ],
             ),

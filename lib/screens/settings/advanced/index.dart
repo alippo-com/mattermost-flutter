@@ -4,11 +4,8 @@
 import 'package:flutter/material.dart';
 import 'package:mattermost_flutter/components/settings/container.dart';
 import 'package:mattermost_flutter/components/settings/option.dart';
-import 'package:mattermost_flutter/components/settings/separator.dart';
 import 'package:mattermost_flutter/context/server.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/hooks/android_back_handler.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/utils/file.dart';
 import 'package:mattermost_flutter/utils/tap.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
@@ -114,7 +111,7 @@ class _AdvancedSettingsState extends State<AdvancedSettings> {
 Map<String, dynamic> getStyleSheet(ThemeData theme) {
   return {
     'itemStyle': {
-      'backgroundColor': theme.backgroundColor,
+      'backgroundColor': theme.colorScheme.surface,
       'paddingHorizontal': 20.0,
     },
   };

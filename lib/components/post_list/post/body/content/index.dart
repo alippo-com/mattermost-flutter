@@ -3,7 +3,6 @@
 
 import 'package:flutter/material.dart';
 
-import 'package:mattermost_flutter/utils/url.dart';
 'import 'embedded_bindings.dart';
 'import 'image_preview.dart';
 'import 'message_attachments.dart';
@@ -27,17 +26,13 @@ import 'package:mattermost_flutter/utils/url.dart';
     required this.location,
     required this.post,
     required this.theme,
-  }) : super(key: key);
+  }) : super(key = key);
 
   @override
   Widget build(BuildContext context) {
     String? type = post.metadata?.embeds?.first.type;
     if (type == null && post.props?.appBindings?.isNotEmpty == true) {
       type = 'app_bindings';
-    }
-
-    if (type == null) {
-      return Container();
     }
 
     switch (type) {

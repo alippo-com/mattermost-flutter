@@ -4,7 +4,6 @@ import 'package:mattermost_flutter/components/channel_actions/copy_channel_link_
 import 'package:mattermost_flutter/components/channel_actions/info_box.dart';
 import 'package:mattermost_flutter/components/channel_actions/leave_channel_label.dart';
 import 'package:mattermost_flutter/context/theme.dart';
-import 'package:mattermost_flutter/screens/navigation.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 
 class ChannelQuickAction extends StatelessWidget {

@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 import 'package:mattermost_flutter/components/option_item.dart';
 import 'package:mattermost_flutter/constants/events.dart';
-import 'package:mattermost_flutter/constants/members.dart';
 import 'package:mattermost_flutter/utils/alert.dart';
 import 'package:mattermost_flutter/utils/dismiss_bottom_sheet.dart';
 import 'package:mattermost_flutter/utils/snack_bar.dart';

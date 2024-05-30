@@ -20,10 +20,6 @@
 /// @return {object}
 
 Map<String, String> keyMirror(Map<String, dynamic> obj) {
-  if(obj == null || obj is! Map) {
-    throw ArgumentError('keyMirror(...): Argument must be a map.');
-  }
-
   Map<String, String> ret = {};
   obj.forEach((key, value) {
     ret[key] = key;

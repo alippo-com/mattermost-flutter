@@ -3,7 +3,6 @@ import 'package:mattermost_flutter/constants/screens.dart';
 import 'package:mattermost_flutter/utils/tap.dart';
 import 'package:mattermost_flutter/utils/theme.dart';
 import 'package:mattermost_flutter/types/models/servers/post.dart';
-import 'package:mattermost_flutter/actions/remote/thread.dart';
 import 'package:mattermost_flutter/components/compass_icon.dart';
 import 'package:mattermost_flutter/context/server.dart';
 
