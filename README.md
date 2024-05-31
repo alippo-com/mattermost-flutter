@@ -28,7 +28,7 @@ We are looking for passionate Flutter developers to join us on this journey. Her
 
 ## Application Form
 
-Interested in contributing? Please fill out our [Contributor Application Form](link-to-form) to tell us more about your skills and experience.
+Interested in contributing? Please fill out our [Contributor Application Form](https://forms.gle/rd7KPsUztfTbsEJx8) to tell us more about your skills and experience.
 
 ## Getting Started
 
